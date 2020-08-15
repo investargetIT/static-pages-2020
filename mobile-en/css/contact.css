@@ -1,0 +1,59 @@
+.contact_content {
+  padding: 0.724rem;
+}
+.contact_content .contact_bg {
+  position: relative;
+  margin-bottom: 3.14rem;
+}
+.contact_content .contact_bg img {
+  width: 18.6rem;
+  height: 13.43rem;
+}
+.contact_content .contact_bg div {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: PingFangSC-Regular;
+  font-size: 1.25rem;
+  color: #ffffff;
+  letter-spacing: 0.26px;
+  text-align: center;
+  line-height: 1.932rem;
+}
+.contact_content .address_item {
+  padding-left: 1.739rem;
+}
+.contact_content .address_item h2 {
+  font-family: PingFangSC-Regular;
+  font-size: 1rem;
+  color: #13356c;
+  letter-spacing: 0;
+  text-align: justify;
+  margin-bottom: 1.062rem;
+}
+.contact_content .address_item .address {
+  font-family: PingFangSC-Light;
+  font-size: 0.676rem;
+  color: #747474;
+  letter-spacing: 0.29px;
+  line-height: 1.159rem;
+  margin-bottom: 2.319rem;
+}
+.contact_content .address_item .phone {
+  font-family: DIN-Bold;
+  font-size: 1.062rem;
+  color: #747474;
+  letter-spacing: -0.12px;
+  line-height: 1.159rem;
+  margin-bottom: 2.319rem;
+}
+.contact_content .address_item .Email {
+  font-family: PingFangSC-Regular;
+  font-size: 0.636rem;
+  color: #747474;
+  letter-spacing: 0.13px;
+  line-height: 1.4rem;
+  margin-bottom: 3.574rem;
+}

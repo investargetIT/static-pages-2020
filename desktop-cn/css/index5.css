@@ -1,0 +1,72 @@
+.lxw {
+    padding: 0 50px;
+}
+
+.lxw img {
+    width: 100%;
+    height: 320px;
+}
+
+.city {
+    color: #0B3666;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.shows {
+    display: inline-block;
+    border-bottom: 5px solid #339BD2;
+}
+
+.hiddens {
+    border-bottom: 5px solid transparent;
+}
+
+.lxText {
+    margin: 50px 0 20px 0;
+    color: #242526;
+}
+
+.sts {
+    width: 270px;
+    margin: 0 66px;
+    min-height: 186px;
+    position: relative;
+    float: none;
+}
+
+.str {
+    position: absolute;
+    bottom: 20px;
+    vertical-align: middle;
+}
+
+.str img {
+    vertical-align: middle;
+}
+.gsj{
+    min-width: 1200px;
+    margin: auto;
+}
+body{
+    background-color: #fff;
+}
+.text-center1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.strimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gsj51{
+    width: 1200px;
+    margin: auto;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;     
+}

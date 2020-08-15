@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <style>
+        .row01 {
+            width: 1200px;
+            margin: auto !important;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 头部 -->
+        <div class="head">
+            <div class="row row01">
+                <div class="text-right">
+                    <img class="logoHead" src="../img/Navbar logo.png" alt="">
+                </div>
+                <div class="col-lg-offset-1" style=" flex: 0.7;text-align: right;">
+                    <ul class="list-inline headText">
+                        <li><a href="../pages/index.html">主页</a></li>
+                        <li><a href="../pages/index2.html">精品投行</a></li>
+                        <li><a href="../pages/index3.html">产业投资</a></li>
+                        <li><a href="../pages/index4.html">产业发展</a></li>
+                        <li><a href="../pages/index5.html">联系我们</a></li>
+                        <li>
+                            <a href="./logoin.html"><img class="loginImg" src="../img/Button sign in.png" alt=""></a>
+                        </li>
+                        <li class="textT"><span class="textCh">中文</span><span class="textLine">|</span><span
+                                class="textEnglish">EN</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <img src="../img/singin pic.png" alt="">
+            <div class="modal dg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <div class="modal-title text-center" style="color: #666666 ; font-size: 30px;"
+                                id="myModalLabel">用户名登陆</div>
+                            <div class="text-center" style="color: #666666 ;">登录访问您的账号!</div>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="form-group text-center" ">
+                                <input type=" text " class=" form-control " id=" name " placeholder=" 请输入用户名 / 手机号码 ">
+                                <input type=" text " class=" form-control " id=" name " placeholder=" 请输入登陆密码 ">
+                            </div>
+                            <div class=" text-right " style=" color: #0B3666;cursor: pointer; font-size: 14px; ">忘记密码</div>
+                            <button class=" btn btn-lg " style=" width: 100%;margin: 10px 0;font-size: 16px; color:
+                                white; background: #13356C; ">登录</button>
+                            <div class=" text-center " style=" margin: 15px 0; ">还不是会员? <span style=" color:
+                                #0B3666;cursor: pointer; ">立即注册</span></div>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+        </div>
+    </div>
+
+    <script src=" ../js/jquery-1.9.1.js "></script>
+    <script src=" ../js/bootstrap.js "></script>
+
+</body>
+
+</html>

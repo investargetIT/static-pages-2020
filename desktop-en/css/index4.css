@@ -1,0 +1,283 @@
+.smCase {
+    font-size: 18px;
+    color: #242526;
+    letter-spacing: 0.72px;
+    line-height: 28px;
+    margin: 15px 0;
+}
+
+.smCases {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #0B3666;
+}
+
+.gsj {
+    /* min-height: 900px; */
+}
+
+.sjz {
+    padding: 50px 0 30px 0;
+}
+
+
+/*横向时间轴*/
+
+.time-horizontal {
+    list-style-type: none;
+    border-top: 5px solid #D8D8D8;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.time-horizontal li {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 20%;
+    padding-top: 10px;
+    font-size: 30px;
+    color: #AAAAAA;
+    cursor: pointer;
+}
+
+.cir {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background: #0B3666;
+    border: 4px solid rgba(51, 155, 210, 0.40);
+    position: absolute;
+    top: -20px;
+    left: 50%;
+	margin-left: -18px;
+}
+
+.time-horizontal li b:before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 50%;
+	margin-left: -10px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #D8D8D8;
+    border-radius: 10px;
+    background: #D8D8D8;
+}
+
+.swiper-slide {
+    background: #F7F7F7;
+}
+
+.page4Img {
+    min-height: 450px;
+    margin: 0 auto;
+}
+
+.page4C {
+	width: 345px;
+	height: 340px;
+    position: relative;
+    cursor: pointer;
+	margin: 0 10px;
+    /* min-height: 490px; */
+}
+
+.page4C:hover .pageShow {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.page4TT {
+    font-size: 28px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 44%;
+    left: 30%;
+}
+
+.pageShow {
+    width: 100%;
+    height: 100%;
+    background: #13356C;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* padding: 40px 40px 10px; */
+    opacity: 0;
+}
+
+.page4TT1 {
+    font-size: 28px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    margin: 54px 0 10px 0;
+}
+
+.pageShowText {
+    color: white;
+}
+
+.pageShowImg {
+    margin: 17px 0;
+}
+
+.lbt .col-lg-12 {
+    padding: 0;
+}
+
+.pageLeft {
+    width: 543px;
+	height: auto;
+    /* vertical-align: middle; */
+    display: inline-block;
+    position: relative;
+}
+.pagelimg1{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 175px;
+	    top: 93px;
+}
+.pagelimg2{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 20px;
+	    bottom: 9px;
+}
+.pagelimg3{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 175px;
+	    bottom: 10px;
+}
+.pageRight {
+    width: 524px;
+    display: inline-block;
+    vertical-align: top;
+	position: absolute;
+	top: 0;
+	left: 540px;
+	padding-top: 20px;
+}
+.pageRightTitle{
+	font-size: 18px;
+	line-height: 28px;
+	color: #242526; 
+	margin-top: 23px;
+}
+.noneBr {
+    border-bottom: 1px solid #979797;
+    color: #339BD2;
+    font-size: 18px;
+    padding: 20px 0;
+	width: 110px;
+	text-align: center;
+}
+
+.pRt {
+    line-height: 25px;
+    margin: 30px 0;
+	padding: 0;
+}
+.pRt .name{
+	font-size: 16px;
+	font-weight: 600;
+}
+.pRt .nameText{
+	font-size: 16px;
+	
+}
+.xian{
+	    height: 1px;
+	    width: 275px;
+	    position: absolute;
+	    left: -165px;
+	    bottom: 29px;
+	    z-index: 999;
+	    background-color: #979797;
+}
+.xian2{
+	    height: 1px;
+	    width: 123px;
+	    position: absolute;
+	    left: 424px;
+	    top: 229px;
+	    z-index: 999;
+	    background-color: #979797;
+	    transform: rotate(-24deg);
+	    -ms-transform: rotate(-24deg);
+	    -webkit-transform: rotate(-24deg);
+	
+}
+.pRt2 {
+    background: white;
+        padding: 20px 0px 20px 31px;
+    color: #242526;
+}
+
+.pg3Case {
+    min-height: 400px;
+}
+
+.pageLImg {
+    position: absolute;
+    top: 130px;
+    right: 240px;
+}
+
+.pageLImg img {
+    width: 160px;
+}
+
+.ig {
+	width: 60px;
+    position: absolute;
+        top: 217px;
+        right: 111px;
+}
+
+.igs {
+	width: 38px;
+    position: absolute;
+       bottom: 43px;
+       right: 166px;
+}
+
+.ft {
+    position: relative;
+    min-height: 700px;
+}
+
+.ft1 {
+    min-height: 700px;
+    position: absolute;
+}
+.pageCase{
+	margin: 0 15px;
+}
+.sew {
+    /* margin: 53px 0; */
+}
+.col-5{
+	width: 41.66666667%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.gsj51{
+    width: 1200px;
+    margin: auto;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;     
+}
+.pageR {
+    font-size: 13px;
+    font-weight: 300;
+}

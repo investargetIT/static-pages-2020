@@ -1,0 +1,47 @@
+    .row {
+        margin: 0;
+    }
+    
+    .content {
+        position: relative;
+    }
+    
+    .content img {
+        width: 100%;
+    }
+    
+    .dg {
+        display: block;
+        position: absolute;
+        top: 15%;
+    }
+    
+    .modal-header {
+        border-bottom: none;
+    }
+    
+    .modal-footer {
+        border-top: none;
+    }
+    
+    .form-group {
+        margin-bottom: 0;
+    }
+    
+    .form-control {
+        display: inline-block;
+        margin: 10px 0;
+        background: #F0F0F0;
+        padding: 5px 20px;
+    }
+    
+    @media (min-width: 768px) {
+        .modal-dialog {
+            width: 500px;
+        }
+    }
+    
+    .modal-body {
+        width: 60%;
+        margin: 0 auto;
+    }

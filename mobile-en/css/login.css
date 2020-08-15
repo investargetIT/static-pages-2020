@@ -1,0 +1,154 @@
+.login_content .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.773rem;
+  height: 2.415rem;
+  position: relative;
+}
+.login_content .header .goback {
+  width: 2.415rem;
+  height: 2.415rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.login_content .con {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4.25rem;
+}
+.login_content .con .tit {
+  font-family: PingFangSC-Regular;
+  font-size: 18px;
+  color: #160000;
+  letter-spacing: 0.56px;
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 0.724rem;
+}
+.login_content .con .username {
+  width: 15.266rem;
+  height: 2.415rem;
+  margin-bottom: 1.159rem;
+}
+.login_content .con .username input {
+  background: #f0f0f0;
+  border-radius: 6px;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  color: #9c9c9c;
+  line-height: inherit;
+  text-align: left;
+  border: 0;
+  resize: none;
+  padding-left: 7.7%;
+  font-size: 0.68rem;
+}
+.login_content .con .password {
+  width: 15.266rem;
+  height: 2.415rem;
+}
+.login_content .con .password input {
+  background: #f0f0f0;
+  border-radius: 6px;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  color: #9c9c9c;
+  line-height: inherit;
+  text-align: left;
+  border: 0;
+  resize: none;
+  padding-left: 7.7%;
+  font-size: 0.68rem;
+}
+.login_content .con .forget_password {
+  margin: 0.676rem 0 2.077rem 0;
+  width: 15.266rem;
+  font-family: PingFangSC-Regular;
+  font-size: 0.676rem;
+  color: #0b3666;
+  letter-spacing: 0;
+  text-align: right;
+}
+.login_content .con .login_btn {
+  width: 15.266rem;
+  height: 2.415rem;
+  border-radius: 6px;
+  background: #13356c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.773rem;
+  color: #fff;
+  letter-spacing: 2.29px;
+}
+.login_content .con .register {
+  font-family: PingFangSC-Regular;
+  font-size: 0.676rem;
+  color: #a0a0a0;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 0.82rem;
+  margin-bottom: 2.415rem;
+}
+.login_content .con .register a {
+  color: #00182a;
+}
+.login_content .con .ewm {
+  width: 15.266rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.login_content .con .ewm .WeChat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login_content .con .ewm .WeChat span {
+  font-family: PingFangSC-Semibold;
+  font-size: 16px;
+  color: #747474;
+  text-align: center;
+  line-height: 26px;
+  font-weight: bold;
+}
+.login_content .con .ewm .WeChat img {
+  width: 4.44rem;
+  height: 4.44rem;
+}
+.login_content .con .ewm .download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login_content .con .ewm .download span {
+  font-family: PingFangSC-Semibold;
+  font-size: 16px;
+  color: #747474;
+  text-align: center;
+  line-height: 26px;
+  font-weight: bold;
+}
+.login_content .con .ewm .download img {
+  width: 4.44rem;
+  height: 4.44rem;
+}
+footer {
+  display: none;
+}

@@ -1,0 +1,91 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-ss img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slides img {
+    width: 100%;
+    height: auto;
+}
+
+.next,
+.prev {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+	margin-top: -20px;
+    z-index: 2;
+}
+
+.next img,
+.prev img {
+    width: 100%;
+}
+
+.next {
+    left: 160px;
+}
+
+.prev {
+    right: 160px;
+}
+
+.swiperText {
+    font-size: 44px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    /* left: 33%; */
+    width: 100%;
+}
+
+.cir {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: white;
+    margin: 0 20px;
+    vertical-align: middle;
+}
