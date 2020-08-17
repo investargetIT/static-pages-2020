@@ -41,10 +41,10 @@ $(function() {
         { 
             id: 1,
             type:1,
-            name:'运去哪', 
+            name:'YUNQUNA', 
             def: 'logo/科技logo1.png', 
             act: 'logo/科技logo1-w.png', 
-            txt: '国内领先的一站式国际物流服务平台', 
+            txt: 'The Largest Digital One-stop Cross-border Logistics Service Provider in China', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465320&idx=1&sn=b5ed5688c3266d71e1eb93b7761f9a4c&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
         },
         { 
@@ -53,7 +53,7 @@ $(function() {
             name:'Udesk', 
             def: 'logo/科技logo2.png', 
             act: 'logo/科技logo2-w.png', 
-            txt: '国内领先的全场景智能客服系统提供商', 
+            txt: 'Leading Solution Provider of All-scenario Intelligent Customer Service System Provider in China', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465128&idx=1&sn=e9c9a27c840e139f8d21567bfff25d72&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
         },
         { 
@@ -73,7 +73,7 @@ $(function() {
             name:'Holovis', 
             def: 'logo/科技logo4.png', 
             act: 'logo/科技logo4-w.png', 
-            txt: '英国虚拟沉浸技术解决方案提供商', 
+            txt: 'UK Immersive Virtual Reality Solution Provider', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=26
             52464496&idx=1&sn=2d631f6fd028f
             8f0c1f9e4ff387e0cca&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
