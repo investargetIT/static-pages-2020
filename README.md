@@ -1,2 +1,5 @@
 ### Problems:
-1. No translation for 金融科技 in **Coverage-Consumption Upgrade** on homepage of mobile English version
+
+#### 缺少英语翻译的内容：
+1. 移动版首页->聚焦领域->消费升级->金融科技
+2. 移动版精品投行->交易案例->KeneXa
