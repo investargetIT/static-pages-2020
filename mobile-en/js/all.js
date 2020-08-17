@@ -179,20 +179,20 @@ $(function() {
         { 
             id: 15, 
             type:4,
-            name:'快准车服', 
+            name:'KZ Mall', 
             def: 'logo/工业logo3.png', 
             act: 'logo/工业logo3-w.png', 
-            txt: '中国汽车后市场行业领先的汽配供应链平台', 
+            txt: 'Leading Auto Parts Supply Chain Platform in China', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465410&idx=1&sn=1ca21f27bb673a5e5a929e05f0d8562f&chksm=f3dd16dac4aa9fccb57
             e4cf9443ae6b1eba6290c1c851f97c534265a92a03fbf17a1417e1eee&token=1271111519&lang=zh_CN#rd`
         },
         { 
             id: 16, 
             type:4,
-            name:'听伴', 
+            name:'Tingban', 
             def: 'logo/工业logo4.png', 
             act: 'logo/工业logo4-w.png', 
-            txt: '智能车载音频服务商', 
+            txt: 'Intelligent Car Audio Service Provider in China', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465597&idx=1&s
             n=1dd69d0b3e5724254b8101255e4ce903&chksm=f3dd1665c4aa9f733ff621562c5a20a303743cedf607930a4c0f8697502d8c54c3656fbf8b02&token=1914594675&lang=zh_CN#rd`
         },
