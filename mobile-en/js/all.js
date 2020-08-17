@@ -91,29 +91,29 @@ $(function() {
         { 
             id: 6, 
             type:2,
-            name:'锦葵医疗', 
+            name:'Mallow Medical', 
             def: 'logo/健康logo2.png', 
             act: 'logo/健康logo2-w.png', 
-            txt: '致力于先天性心脏病治疗装置的研制与开发', 
+            txt: 'Committed to the Research and Development of Congenital Heart Disease Treatment Devices', 
             url: `#`
         },
         { 
             id: 7, 
             type:2,
-            name:'医准智能', 
+            name:'Yizhun AI', 
             def: 'logo/健康logo3.png', 
             act: 'logo/健康logo3-w.png', 
-            txt: '人工智能辅助医疗影像诊断服务商', 
+            txt: 'AI-assisted Medical Imaging Diagnosis Service Provider', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465183&idx=1&sn=b958aa1be8615dd34d0f7e74
             4a027adb&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 8, 
             type:2,
-            name:'诺灵生物', 
+            name:'Norling Bio', 
             def: 'logo/健康logo4.png', 
             act: 'logo/健康logo4-w.png', 
-            txt: '专注于新一代抗体偶联技术的药物研发公司', 
+            txt: 'A Drug Research and Development Company focusing on a Next-generation of Antibody Coupling Technology', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465178&idx=1&sn=38d6d4676df
             4642c778249778a2b1581&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
