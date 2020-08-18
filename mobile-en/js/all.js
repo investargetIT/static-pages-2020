@@ -297,12 +297,12 @@ $(function() {
         { 
             id: 25, 
             type:6,
-            name:'SK集团', 
+            name:'SK Group', 
             def: 'logo/战略logo1.png', 
             act: 'logo/战略logo1-w.png', 
-            txt: '韩国第三大跨国企业', 
+            txt: 'South Korea\'s Third Largest Multinational Conglomerate', 
             url: ``,
-            intro:`多维海拓促成SK集团与碧桂园合资设立汽车综合体基金`
+            intro:`InvesTarget promoted the establishment of a joint venture between SK Group and Country Garden for an automobile complex fund`
         } ,
         { 
             id: 26, 
@@ -310,29 +310,29 @@ $(function() {
             name:'AsiaPak Investments', 
             def: 'logo/战略logo2.png', 
             act: 'logo/战略logo2-w.png', 
-            txt: '巴基斯坦知名跨境投资机构', 
+            txt: 'Pakistan\'s Well-known Cross-border Investment Institution', 
             url: ``,
-            intro:`多维海拓担任独家战略与财务顾问`
+            intro:`InvesTarget acted as exclusive strategic and financial advisor`
         } ,
         { 
             id: 27, 
             type:6,
-            name:'可隆集团', 
+            name:'Kolon Group', 
             def: 'logo/战略logo3.png', 
             act: 'logo/战略logo3-w.png', 
-            txt: '韩国领先的综合性集团', 
+            txt: 'Korea\'s leading comprehensive group', 
             url: ``,
-            intro:`多维海拓担任KOLON亚洲投资财务顾问`
+            intro:`nvesTarget acted as KOLON’s financial advisor on investments in Asia`
         } ,
         { 
             id: 28, 
             type:6,
-            name:'LHL医疗集团', 
+            name:'LHL Medical Group', 
             def: 'logo/战略logo4.png', 
             act: 'logo/战略logo4-w.png', 
-            txt: '挪威最大综合医疗机构', 
+            txt: 'Norway\'s largest comprehensive medical institution', 
             url: ``,
-            intro:`多维海拓担任中、美两大医疗市场的独家战略和财务顾问`
+            intro:`InvesTarget acted as the exclusive strategic and financial advisor for the two major medical markets in China and the United States`
         } ,
         { 
             id: 29, 
@@ -340,19 +340,19 @@ $(function() {
             name:' Daelim Industries', 
             def: 'logo/战略logo5.png', 
             act: 'logo/战略logo5-w.png', 
-            txt: '韩国建筑业巨头', 
+            txt: 'Construction Giant in South Korea', 
             url: ``,
-            intro:`多维海拓担任战略与财务顾问`
+            intro:`InvesTarget acted as strategic and financial advisor`
         } ,
         { 
             id: 30, 
             type:6,
-            name:'奥凯发集团', 
+            name:'Okayfa Group', 
             def: 'logo/战略logo6.png', 
             act: 'logo/战略logo6-w.png', 
-            txt: '中国领先山茶油品牌', 
+            txt: 'Leading Camellia Oil Brand in China', 
             url: ``,
-            intro:`多维海拓担任海外IPO顾问`
+            intro:`InvesTarget acted as financial advisor for capital markets`
         } 
     ] 
 
