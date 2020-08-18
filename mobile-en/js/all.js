@@ -81,10 +81,10 @@ $(function() {
         { 
             id: 5, 
             type:2,
-            name:'柯润玺医疗', 
+            name:'Kerunxi Medical', 
             def: 'logo/健康logo1.png', 
             act: 'logo/健康logo1-w.png', 
-            txt: '华东最大的骨科医疗器械经销商之一', 
+            txt: 'Leading Orthopedic Medical Equipment Distributor in East China', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504978482
             &idx=1&sn=ae12e27af5c511278c6c865e125ae209&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
         },
@@ -199,10 +199,10 @@ $(function() {
         { 
             id: 17, 
             type:5,
-            name:'晨光文具', 
+            name:'M&G (603899.SH)', 
             def: 'logo/兼收logo1.png', 
             act: 'logo/兼收logo1-w.png', 
-            txt: '国际上享誉盛名的一级文具品牌。', 
+            txt: 'Largest Stationery Brand in China', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504981519&idx=1&sn=9ff246e5b5f533528a81b970
             7aa018dc&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
         },
@@ -212,26 +212,26 @@ $(function() {
             name:'Babycare', 
             def: 'logo/兼收logo2.png', 
             act: 'logo/兼收logo2-w.png', 
-            txt: '中国领先的跨境母婴电商品牌', 
+            txt: 'Leading Cross-border Maternity & Baby E-commerce Brand in China', 
             url: `#`
         },
         { 
             id: 19, 
             type:5,
-            name:'江南布衣', 
+            name:'JNBY (3306.HK)', 
             def: 'logo/兼收logo3.png', 
             act: 'logo/兼收logo3-w.png', 
-            txt: '中国本土最成功的的设计师品牌', 
+            txt: 'Leading Clothing Designer Brand in China', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ
             ==&mid=504981504&idx=1&sn=e1fba607e56a12e61e5f951497a1a61b&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 20, 
             type:5,
-            name:'华讯网络', 
+            name:'ECCOM', 
             def: 'logo/兼收logo4.png', 
             act: 'logo/兼收logo4-w.png', 
-            txt: '中国新一代IT基础架构解决方案。', 
+            txt: 'Next-gen IT Infrastructure Solutions Provider in China', 
             url: `https://mp.weixin.qq.com/s?__biz=M
             zIyMjIxODkzNQ==&tempkey=MTAzMV8yeS9PTEduU1JPRVczWFJCaDZKNU5TaVgxSTlnRlMweUVXdUFOQVZ0MmlPSEcxYTJpZjNnWUZWUGZVTGUzbEQzR1RRcnliTmFxcTlGTWpyUy1oOHROV2NXekFjaTdHWWpEZk10RGx2Skc4bXJNdFhxT0E2V2NNMENoSE1QVExCUzM3VlJkVEVJT1FiTTNkNGJTNGp0VDM3TnJDdmRfUkNyX1dlejlRfn4%3D&chksm=73dd2fe244aaa6f43038782
             6d19d006ab8f4f25903284638ade4930681a477f6730f068dd07f#rd`
@@ -239,30 +239,30 @@ $(function() {
         { 
             id: 21, 
             type:5,
-            name:'柯润玺医疗', 
+            name:'Kerunxi Medical', 
             def: 'logo/兼收logo5.png', 
             act: 'logo/兼收logo5-w.png', 
-            txt: '华东最大的骨科医疗器械经销商之一', 
+            txt: 'Leading Orthopedic Medical Equipment Distributor in East China', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504978482&idx=1&sn=ae12e27af5c511278c6c865e125ae209&scene=1
             9&token=664976924&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 22, 
             type:5,
-            name:'索尔思光电', 
+            name:'Source Photonics', 
             def: 'logo/兼收logo6.png', 
             act: 'logo/兼收logo6-w.png', 
-            txt: '全球领先、提供创新且可靠的光通信技术的供应商', 
+            txt: 'Global Leading Supplier of Innovative and Reliable Optical Communication Technologies', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504975241&idx=1&sn=b8b296b2e81c79ea0c6e33d489
             ea614a&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 23, 
             type:5,
-            name:'小小运动馆', 
+            name:'The Little Gym', 
             def: 'logo/兼收logo7.png', 
             act: 'logo/兼收logo7-w.png', 
-            txt: '国内早教三大品牌之一，儿童运动型教育品牌', 
+            txt: 'Top 3 Early-education Brand focused on Sports Education for Children', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465303&idx=1&sn=2b4959457837f8e17b01c30a20025e48&scene
             =19&token=664976924&lang=zh_CN#wechat_redirect`
         },
@@ -272,16 +272,16 @@ $(function() {
             name:'AHAVA', 
             def: 'logo/兼收logo8.png', 
             act: 'logo/兼收logo8-w.png', 
-            txt: '以色列独特而珍贵的国宝级护肤品牌', 
+            txt: 'Unique and Precious National Treasure-level Skin Care Brand in Israel', 
             url: `#`
         },
         { 
             id: 24, 
             type:5,
-            name:'格兰特', 
+            name:'Grant Water', 
             def: 'logo/兼收logo9.png', 
             act: 'logo/兼收logo9-w.png', 
-            txt: '专注于水净化、污水处理及污水再生领域的高新技术企业', 
+            txt: 'Leading Industrial Wastewater Treatment Solution Provider and Membrane Manufacturer in China', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504977627&idx=1&sn=a53b0a7d93ed03c1b6469e31
             ac89e5a2&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
         },
@@ -291,7 +291,7 @@ $(function() {
             name:'Peleg Design', 
             def: 'logo/兼收logo10.png', 
             act: 'logo/兼收logo10-w.png', 
-            txt: '以色列知名的高端礼品与居家用品设计公司', 
+            txt: 'A Well-known High-end Gift and Homeware Design Company in Israel', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504981682&idx=1&sn=7b8795efda2f88fcc3d73f709ab86c2e&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
         }, 
         { 
