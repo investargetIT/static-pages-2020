@@ -361,132 +361,99 @@ $(function() {
     let assess = [ 
         {
             id:1,
-            name:'周诗豪',
-            title:'运去哪 创始人',
-            content:`感谢多维海拓一直伴随和支持着运去哪，帮助运去哪思考及策划未来，并凭
-            借他们在全球市场的交易经验和资源网络，快速促成我们与Coatue和红杉资本的合作。他们具有丰富的交易经验，始终在适当的节点给予
-            我们帮助和建议。我们期待未来与多维海拓的更多合作。 `
+            name:'Shihao Zhou',
+            title:'YunQuNa-Founder & CEO',
+            content:`We appreciate InvesTarget’s long-standing support and help in thinking and planning the future. With their transaction experience and network in the global market, we are able to quickly promote our cooperation with Coatue and Sequoia Capital. They have rich deal experience and always give us help and advice at the right node. We look forward to more cooperation with InvesTarget in the future. `
         },
         {
             id:2,
-            name:'于浩然',
-            title:'UDESK 创始人',
-            content:`非常感谢多维海拓团队在交易中展现出的卓越能力，他们对市场
-            的深刻理解、对项目的卓越洞察力以及丰富的资本运作经验和资源，成功协助
-            我们找到了顶级的投资方。他们的专业素养为交易的快速进行保驾护航，我们对此感到
-            非常满意。`
+            name:'Haoran Yu',
+            title:'UDESK-Founder & CEO',
+            content:`InvesTarget’s excellent ability proved in the transaction process is much appreciated. Their deep understanding of the market, excellent insight into the project and rich capital market experience and resources have successfully helped us find the top investors. We are very satisfied with their professional services and hence the guarantee on the rapid transaction.`
         },
         {
             id:3,
-            name:'薛兴华',
-            title:'云账房 创始人',
-            content:`我们与多维海拓的合作顺利且愉快。多维海拓在项目上展现
-            了非常专业的价值挖掘和精准的机构匹配能力，为项目的平稳推进保驾护航。
-            我们欣赏并且信任多维海拓的服务，在架构设计和交易谈判中显示出非常高的专业度，
-            这也是云账房选择和他们展开合作的原因。 `
+            name:'Xinghua Xue',
+            title:'YunZhangFang-Founder & CEO',
+            content:`Our cooperation with InvesTarget is smooth and pleasant. InvesTarget has demonstrated a very professional value mining and precise investor matching ability in the project, which guarantees the smooth closing of the deal. We appreciate and trust the services of InvesTarget, because they show a very high degree of professionalism in transaction structuring and negotiations, which is also the reason why we choose to cooperate with them.`
         },
         {
             id:4,
-            name:'汤文婷',
-            title:'晨光文具 战略投资部',
-            content:`在晨光的海外收购进程中，多维海拓无疑扮演了非常重要的角色，
-            他们一站式的服务能力使机构内部印象深刻。团队在海外战略的设计、标的的筛选、
-            交易谈判以及并购整合等阶段都很成熟的方法论，可以说，多维海拓在海外并购方
-            面的丰富经验，是晨光出海战略的有力推手。`
+            name:'Wenting Tang',
+            title:'M&G-Strategic Investment Department',
+            content:`In the process of M&G's overseas M&A activities, InvesTarget has undoubtedly played a very important role, and their one-stop service ability has impressed our C-suite and management. The team has mature methodologies in the design of overseas strategy, target selection, transaction negotiation and post-merger integration. It can be said that the rich experience of InvesTarget in overseas merger and acquisition is the powerful driving force of M&G's overseas expansion strategies.`
         },
         {
             id:5,
-            name:'胡巍',
-            title:'小小运动馆 CEO',
-            content:`非常欣赏多维海拓在整个交易过程中给我们提供的服务，
-            包括整体交易结构的谈判、中国区利益的锁定、未来利益的分配等等。
-            他们不仅高效地将我们与资本方连接起来，并且在交易的关键议题上起到了辅导和平
-            衡的作用。我们非常感谢多维海拓的服务！`
+            name:'Wei Hu',
+            title:'The Little Gym-CEO',
+            content:`Really appreciate the services provided by InvesTarget in the whole transaction process, including the negotiation of the overall transaction structure, the locking of interests in China, the distribution of future interests, etc. They not only effectively connect us with the capital side, but also provide guidance and balance on key issues of the transaction. Thank you very much for your service!`
         },
         {
             id:6,
-            name:'黄跃中',
-            title:'触漫 创始人',
-            content:`非常感谢多维海拓在资本运作、战略定位和产品服务上为触漫提供的赋能支持
-            ，他们过硬的专业素养及认真负责的态度助力触漫战胜了资本寒冬，在触漫遇到困难和挫
-            折时，多维海拓也一直陪伴和支持着我们，这种人情味也让我们感受到了寒冬中的温暖。`
+            name:'Yuezhong Huang',
+            title:'Dreampix-Founder & CEO',
+            content:`Really appreciate the empowering support provided to touch man in capital operation, strategic positioning and product service. Their excellent professional quality and serious and responsible attitude helped touch man overcome the cold winter of capital. When touch man encountered difficulties and setbacks, InvesTarget has also been accompanying and supporting us, which makes us feel the warmth of the cold winter.`
         },
         {
             id:7,
-            name:'顾浩沁',
-            title:'Holovis 中国区总监',
-            content:`多维海拓拥有对关键领域的深入理解、丰富的行业实操经验、提供企业战略发展的专业能力。多维海拓为我们起草和定稿的一个独特
-            且极具吸引力的股权投资故事成功并获得了路劲集团投资。我们对多维海拓非常有信心，并期待着与他们有更深入的合作。`
+            name:'Haoqin Gu',
+            title:'Holovis-Director of China',
+            content:`InvesTarget has in-depth understanding of key areas, rich industry practical experience, and professional ability to provide corporate strategic development advisory. A unique and highly attractive equity investment story drafted and finalized for us by InvesTarget was successfully recognized by RK Properties. We are very confident in InvesTarget and look forward to further cooperation with them.`
         },
         {
             id:8,
-            name:'宋世民',
-            title:'华讯网络 战略发展部',
-            content:`多维海拓拥有专业的投行、咨询服务能力，为我们提供战略服务、标的筛选、项
-            目执行、投后管理等服务。多维海拓借助丰富的全球标的资源，为我们搜索定位美国IT、基
-            础设施领域的优质企业，对于我们将技术和服务扎根于美国市场、资本的全球配置提供了很好的建议。`
+            name:'Shimin Song',
+            title:'ECCOM Strategic Development Department',
+            content:`InvesTarget has professional investment banking and consulting service capabilities, providing us with strategic services, target screening, project execution, post-investment management and other services. With the help of rich global target resources, InvesTarget provides us with good suggestions for searching and locating high-quality companies in the US IT and infrastructure fields, and for us to root our technology and services in the US market and the global allocation of capital.`
         },
         {
             id:9,
-            name:'王鹏飞',
-            title:'老虎基金 中国区董事总经理',
-            content:`多维海拓具有极其敏锐的商业洞察力和高效专业的项目执行力。在多维海拓的协助下，我们
-            接触到了极具潜力的项目，并且得以与其快速达成合作。他们是国内少数具备全球化视野的财务顾问，
-            我对多维海拓所提供的专业服务感到非常满意。`
+            name:'Pengfei Wang',
+            title:'Tiger Global-Managing Director',
+            content:`InvesTarget has in-depth business insight, efficient and professional project execution capabilities. With the assistance of InvesTarget, we were able to approach projects with great potential and were able to quickly cooperate with them. They are one of the few financial advisors with a global perspective in China. I am very satisfied with the professional services provided by InvesTarget.`
         },
         {
             id:10,
-            name:'徐全利',
-            title:'红杉宽带跨境数字产业基金 合伙人',
-            content:`多维海拓对全球科技领域有着非常深入的研究和简介，在高新技术领域的交易能力令人称赞，
-            尤其是在项目挖掘和精准推荐方面。他们具有全球视野，能够洞悉投资人的需求，有力地
-            促成了红杉与优秀项目的牵手，我们一直与多维海拓保持持续密切的沟通，共同投出优秀的中国企业家！`
+            name:'Quanli Xu',
+            title:'Sequoia CBC Cross-border Digital Industry Fund-Partner',
+            content:`InvesTarget has a very in-depth research and introduction to the global science and technology field, and its trading capabilities in the high-tech field are praiseworthy, especially in terms of project mining and accurate recommendation. They have a global perspective, can understand the needs of investors, and have effectively contributed to Sequoia and excellent projects. We have always maintained close and continuous communication with InvesTarget to jointly invest in outstanding Chinese entrepreneurs!`
         },
         {
             id:11,
-            name:'王启贤',
-            title:'凯雷投资 董事总经理',
-            content:`多维海拓同时拥有卓越的交易能力和专业的服务精神，是国内为数不多同时兼具资本运
-            作和战略咨询经验的财务顾问，也是少有的能够提供全方面服务的团队。多维海拓在产业方面的洞识、
-            在交易方面的全球视野都非常难能可贵，我们在行业见解和资本运作上有很多交流期待有更多的合作机会。`
+            name:'Qixian Wang',
+            title:'The Carlyle Group-Managing Director',
+            content:`With excellent transaction experience and professional  spirit, InvesTarget is one of the few domestic financial advisors with capital markets and strategic consulting experience, and also a rare team that can provide all-round services. Their insight in industry and global vision in identifying opportunities are very valuable. We have a lot of exchanges in industry views and the markets, and we look forward to more cooperation opportunities.`
         },
         {
             id:12,
-            name:'蒋恺',
-            title:'Coatue Management 中国区董事总经理',
-            content:`我们已与多维海拓达成多次合作。多维海拓团队具有高效的执行能力和丰富的经验，促成了
-            多轮交易的顺利进行，并且为我们提供了很好的投资建议。我们将继续在中国市场下注，期待未来与多
-            维海拓更多、更深入的合作。`
+            name:'Kai Jiang',
+            title:'Coatue Management-Managing Director',
+            content:`We have achieved many times of cooperation with InvesTarget. InvesTarget team has efficient execution ability and rich experience, which facilitates the smooth progress of multiple rounds of transactions, and provides us with good investment suggestions. We will continue to place our bets in the Chinese market and look forward to more and more in-depth cooperation with InvesTarget in the future.`
         },
         {
             id:13,
-            name:'张晶',
-            title:'春华资本 合伙人',
-            content:`多维海拓熟谙产业和资本市场运作，他们在产业研究、项目筛选等方面都有自己独到的
-            理解和分析，给我们留下了深刻的印象。我们将会与多维海拓保持接触和交流，并且期待未来有和多维
-            海拓合作的机会。`
+            name:'Jing Zhang',
+            title:'Primavera Capital-Partner',
+            content:`InvesTarget has the expertise in the operation of industrial developments and capital markets. They have their own unique understanding and insights in industrial research, project selection and other aspects, leaving us a deep impression. We will keep in touch with and exchange with InvesTarget and look forward to cooperation opportunities with InvesTarget in the future.`
         },
         {
             id:14,
-            name:'陈利伟',
-            title:'东方富海 合伙人',
-            content:`与多维海拓的接触和交流非常愉快。多维海拓的执行团队积累了丰富的实践经验，并且
-            拥有出色的交易成绩，对项目和市场的把握都有独到之处。我们信任多维海拓的专业服务水平，并期待
-            与他们有更进一步的合作。`
+            name:'Liwei Chen',
+            title:'OFC-Partner',
+            content:`We had a very pleasant contact and exchange with InvesTarget. The executive team of multi-dimensional InvesTarget has accumulated rich practical experience, and has outstanding trading achievements, with unique grasp of the project and market. We believe in the professional service level of InvesTarget and look forward to further cooperation with them.`
         },
         {
             id:15,
-            name:'朱斌',
-            title:'高盛集团 董事总经理',
-            content:`多维海拓在促成双方达成交易中发挥了全面的作用。由多维海拓的工作，我们在既定的时
-            间内，准确的说是3个月内，完成了所有事项。我对多维海拓提供的专业而富有洞察力的服务非常满意。`
+            name:'Bin Zhu',
+            title:'Goldman Sachs-Managing Director',
+            content:`InvesTarget has played an all-round role in facilitating the two sides to reach a deal. From the work of InvesTarget, we have completed all matters within the established time, or exactly within three months. I am very satisfied with the professional and insightful service provided by InvesTarget.`
         },
         {
             id:16,
-            name:'王浩泽',
-            title:'AA投资 合伙人',
-            content:`多维海拓具有领先的投行服务能力，在多个维度都表现出了专业素养。他们在资本运作和战略咨
-            询方面的专长，更是在项目执行之余促进了企业的长远发展。多维海拓和我们一样，都有与企业相伴成长的情怀。`
+            name:'Haoze Wang',
+            title:'AA Investment-Partner',
+            content:`InvesTarget has the leading investment banking service ability, and has demonstrated professional quality in many dimensions. Their expertise in capital operation and strategic consulting, in addition to the implementation of the project, has promoted the long-term development of the enterprise. Like us, InvesTarget has the feelings of accompanying the growth of enterprises`
         }
     ]
  
@@ -631,7 +598,7 @@ $(function() {
                 $('.assess_content .Temp-assess ul').append(li_temp)
             }
         }
-        $(this).text('没有咯！')
+        $(this).text('The end')
         $(this).addClass('disable');
     })
     // 评论内容展开与隐藏
