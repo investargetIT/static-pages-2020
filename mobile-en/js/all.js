@@ -473,31 +473,31 @@ $(function() {
                         <span class="lg Cn active"><a href="#">中</a></span>
                     </div>
                     <ul class="list_">  
-                        <li><a href="index.html">首页</a></li>
+                        <li><a href="index.html">MAIN PAGE</a></li>
                         <li>
-                            <div class="fx">精品投行<i>+</i></div>
+                            <div class="fx">Boutique Investment Banking<i>+</i></div>
                             <div class="hover_box">
                                 <div class="getHeight">
-                                    <span><a href="股权融资.html">股权融资</a></span>
-                                    <span><a href="2_2.html">兼收并购</a></span>
+                                    <span><a href="股权融资.html">CAPITAL-RAISING ADVISORY</a></span>
+                                    <span><a href="2_2.html">Merger & Acquisitions</a></span>
                                     <span><a href="2_3.html">核心团队</a></span>
                                 </div>
                             </div>
                         </li>
-                        <li><a href="3.html">产业投资</a></li>
+                        <li><a href="3.html">Industrial Investment</a></li>
                         <li>
-                            <div class="fx">产业发展<i>+</i></div>
+                            <div class="fx">Industrial Development<i>+</i></div>
                             <div class="hover_box">
                                 <div class="getHeight">
-                                    <span><a href="4_1.html">简介历程</a></span>
+                                    <span><a href="4_1.html">Introduction & Development History</a></span>
                                     <span><a href="4_2.html">产业综合体</a></span> 
                                 </div>
                             </div>
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="login.html" class="login_">登 入</a>
-                        <a href="contact.html" class="about_us">关于我们 ></a>
+                        <a href="login.html" class="login_">Login</a>
+                        <a href="contact.html" class="about_us">Contact us ></a>
                     </div>
                 </div>
             </div>
