@@ -480,7 +480,7 @@ $(function() {
                                 <div class="getHeight">
                                     <span><a href="股权融资.html">CAPITAL-RAISING ADVISORY</a></span>
                                     <span><a href="2_2.html">Merger & Acquisitions</a></span>
-                                    <span><a href="2_3.html">核心团队</a></span>
+                                    <span><a href="2_3.html">Leadership</a></span>
                                 </div>
                             </div>
                         </li>
@@ -490,7 +490,7 @@ $(function() {
                             <div class="hover_box">
                                 <div class="getHeight">
                                     <span><a href="4_1.html">Introduction & Development History</a></span>
-                                    <span><a href="4_2.html">产业综合体</a></span> 
+                                    <span><a href="4_2.html">Industrial Complex</a></span> 
                                 </div>
                             </div>
                         </li> 
@@ -524,8 +524,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备13002172号-3</p>
+                <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
+                <p>Shanghai ICP: No. 13002172-3</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
