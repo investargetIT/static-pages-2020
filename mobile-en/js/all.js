@@ -508,7 +508,7 @@ $(function() {
     $('#layout').append(`<footer>
             <div class="fhead_">
                 <div class="f-l"> 
-                    <i>联系我们</i>
+                    <i>Contact us</i>
                     <b>021-5258 0136</b>
                     <em>career@investarget.com</em>
                 </div>
