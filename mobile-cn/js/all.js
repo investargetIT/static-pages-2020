@@ -512,7 +512,7 @@ $(function() {
                             <div class="hover_box">
                                 <div class="getHeight">
                                     <span><a href="股权融资.html">股权融资</a></span>
-                                    <span><a href="2_2.html">兼收并购</a></span>
+                                    <span><a href="2_2.html">兼并收购</a></span>
                                     <span><a href="2_3.html">核心团队</a></span>
                                 </div>
                             </div>
