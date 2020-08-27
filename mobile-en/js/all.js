@@ -486,7 +486,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="login.html" class="login_">Login</a>
+                        <a href="http://mtest.investarget.com/login" class="login_">Login</a>
                         <a href="contact.html" class="about_us">Contact us ></a>
                     </div>
                 </div>
