@@ -79,16 +79,6 @@ $(function() {
             8f0c1f9e4ff387e0cca&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
-            id: 5, 
-            type:2,
-            name:'Kerunxi Medical', 
-            def: 'logo/健康logo1.png', 
-            act: 'logo/健康logo1-w.png', 
-            txt: 'Leading Orthopedic Medical Equipment Distributor in East China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504978482
-            &idx=1&sn=ae12e27af5c511278c6c865e125ae209&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
-        },
-        { 
             id: 6, 
             type:2,
             name:'Mallow Medical', 
