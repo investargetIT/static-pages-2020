@@ -59,10 +59,10 @@ $(function() {
         { 
             id: 3, 
             type:1,
-            name:'KeneXa', 
+            name:'Kenexa', 
             def: 'logo/科技logo3.png', 
             act: 'logo/科技logo3-w.png', 
-            txt: '全球领先的权威整体人力资源解决方案服务供应商', 
+            txt: 'Leading Comprehensive Human Capital Management Solution Provider', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==
             &mid=2652464496&idx=1&sn=2d631f6fd028f8f0c1f9e4ff3
             87e0cca&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
@@ -151,19 +151,19 @@ $(function() {
         { 
             id: 13, 
             type:4,
-            name:'小鹏汽车', 
+            name:'Xpeng Motors', 
             def: 'logo/工业logo1.png', 
             act: 'logo/工业logo1-w.png', 
-            txt: '专注于互联网电动汽车的研发', 
+            txt: 'Focused on development of smart electric vehicles', 
             url: `#`
         },
         { 
             id: 14, 
             type:4,
-            name:'纵目科技', 
+            name:'ZongmuTech', 
             def: 'logo/工业logo2.png', 
             act: 'logo/工业logo2-w.png', 
-            txt: '中国领先的自动驾驶和高级驾驶辅助系统技术及产品供应商', 
+            txt: 'Leading Autonomous Driving and ADAS Solution Provider in China', 
             url: `#`
         },
         { 
