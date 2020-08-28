@@ -45,3 +45,9 @@
 .textEnglish {
     cursor: pointer;
 }
+
+.login-link {
+    padding: 5px 30px;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
