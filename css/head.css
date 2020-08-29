@@ -26,6 +26,9 @@
     text-decoration: none;
     color: black;
 }
+.headText li a.lang {
+    color: #747474;
+}
 
 .loginImg {
     width: 96px;
