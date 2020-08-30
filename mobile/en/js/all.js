@@ -505,11 +505,11 @@ $(function() {
                 <div class="f-r">
                     <div class="code_box">
                         <img src="images/微信二维码.png" alt="">
-                        <p>微信公众号</p>
+                        <p>WeChat Official Account</p>
                     </div>
                     <div class="code_box">
                         <img src="images/客户端二维码.png" alt="">
-                        <p>客户端下载</p>
+                        <p>APP Download</p>
                     </div>
                 </div> 
             </div>
