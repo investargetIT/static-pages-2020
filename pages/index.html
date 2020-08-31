@@ -10,6 +10,14 @@
 		<link rel="stylesheet" href="../css/head.css">
 		<link rel="stylesheet" href="../css/swipers.css">
 		<link rel="stylesheet" href="../css/index.css">
+		<script>
+			var ua = window.navigator.userAgent;
+			var isIphone = ua.indexOf("iPhone") > -1
+			var isAndroid = ua.indexOf("Android") > -1
+			if (isIphone || isAndroid) {
+				window.location.href = "/mobile/"
+			}
+		</script>
 	</head>
 	<style>
 		.pageCaseBox .pageCase {
