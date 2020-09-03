@@ -552,6 +552,77 @@ $(function() {
             </div>
             <div class="to_top"></div>
         </footer>`)
+
+        $('#layout1').prepend(`
+        <nav>
+            <div class="head_box">
+                <div class="logo_box">
+                    <a href="#"><img src="images/导航logo.png" class="m-logo" alt=""></a>
+                </div>
+                <div class="nav_box"></div> 
+                <div class="act_list"> 
+                    <div class="change_box">
+                        <span class="lg En"><a href="/mobile/en/股权融资.html">En</a></span>
+                        <span class="lg Cn active"><a href="/mobile/股权融资.html">中</a></span>
+                    </div>
+                    <ul class="list_">  
+                        <li><a href="index.html">首页</a></li>
+                        <li>
+                            <div class="fx">精品投行<i>+</i></div>
+                            <div class="hover_box">
+                                <div class="getHeight">
+                                    <span><a href="股权融资.html">股权融资</a></span>
+                                    <span><a href="2_2.html">兼并收购</a></span>
+                                    <span><a href="2_3.html">核心团队</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="3.html">产业投资</a></li>
+                        <li>
+                            <div class="fx">产业发展<i>+</i></div>
+                            <div class="hover_box">
+                                <div class="getHeight">
+                                    <span><a href="4_1.html">简介历程</a></span>
+                                    <span><a href="4_2.html">产业综合体</a></span> 
+                                </div>
+                            </div>
+                        </li> 
+                    </ul>
+                    <div class="link_box"> 
+                        <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
+                        <a href="contact.html" class="about_us">关于我们 ></a>
+                    </div>
+                </div>
+            </div>
+        </nav>  `)
+
+    // 打印底部
+    // 
+    $('#layout1').append(`<footer>
+            <div class="fhead_">
+                <div class="f-l"> 
+                    <i>联系我们</i>
+                    <b>021-5258 0136</b>
+                    <em>career@investarget.com</em>
+                </div>
+                <div class="f-r">
+                    <div class="code_box">
+                        <img src="images/微信二维码.png" alt="">
+                        <p>微信公众号</p>
+                    </div>
+                    <div class="code_box">
+                        <img src="images/客户端二维码.png" alt="">
+                        <p>客户端下载</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="fend_">
+                <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
+                <p>互联网ICP备案：沪ICP备13002172号-3</p>
+            </div>
+            <div class="to_top"></div>
+        </footer>`)
+    
     const inx = new inxf();
     inx.Totop(); 
     // 移动端列表展开与关闭 
