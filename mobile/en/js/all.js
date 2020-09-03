@@ -940,6 +940,76 @@ $(function() {
             <div class="to_top"></div>
         </footer>`)
 
+        $('#layout7').prepend(`
+        <nav>
+            <div class="head_box">
+                <div class="logo_box">
+                    <a href="#"><img src="images/导航logo.png" class="m-logo" alt=""></a>
+                </div>
+                <div class="nav_box"></div> 
+                <div class="act_list"> 
+                    <div class="change_box">
+                        <span class="lg En active"><a href="/mobile/en/contact.html">En</a></span>
+                        <span class="lg Cn"><a href="/mobile/contact.html">中</a></span>
+                    </div>
+                    <ul class="list_">  
+                        <li><a href="index.html">MAIN PAGE</a></li>
+                        <li>
+                            <div class="fx">Boutique Investment Banking<i>+</i></div>
+                            <div class="hover_box">
+                                <div class="getHeight">
+                                    <span><a href="股权融资.html">CAPITAL-RAISING ADVISORY</a></span>
+                                    <span><a href="2_2.html">Merger & Acquisitions</a></span>
+                                    <span><a href="2_3.html">Leadership</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="3.html">Industrial Investment</a></li>
+                        <li>
+                            <div class="fx">Industrial Development<i>+</i></div>
+                            <div class="hover_box">
+                                <div class="getHeight">
+                                    <span><a href="4_1.html">Introduction & Development History</a></span>
+                                    <span><a href="4_2.html">Industrial Complex</a></span> 
+                                </div>
+                            </div>
+                        </li> 
+                    </ul>
+                    <div class="link_box"> 
+                        <a href="http://mtest.investarget.com/login" class="login_">Login</a>
+                        <a href="contact.html" class="about_us">Contact us ></a>
+                    </div>
+                </div>
+            </div>
+        </nav>  `)
+
+    // 打印底部
+    // 
+    $('#layout7').append(`<footer>
+            <div class="fhead_">
+                <div class="f-l"> 
+                    <i>Contact us</i>
+                    <b>021-5258 0136</b>
+                    <em>career@investarget.com</em>
+                </div>
+                <div class="f-r">
+                    <div class="code_box">
+                        <img src="images/微信二维码.png" alt="">
+                        <p>WeChat Official Account</p>
+                    </div>
+                    <div class="code_box">
+                        <img src="images/客户端二维码.png" alt="">
+                        <p>APP Download</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="fend_">
+                <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
+                <p>Shanghai ICP: No. 13002172-3</p>
+            </div>
+            <div class="to_top"></div>
+        </footer>`)
+
     const inx = new inxf();
     inx.Totop(); 
     // 移动端列表展开与关闭 
