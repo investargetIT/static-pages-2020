@@ -459,8 +459,8 @@ $(function() {
                 <div class="nav_box"></div> 
                 <div class="act_list"> 
                     <div class="change_box">
-                        <span class="lg En active"><a href="/mobile/en/">En</a></span>
-                        <span class="lg Cn"><a href="/mobile/">中</a></span>
+                        <span class="lg En active"><a href="/mobile/en/index.html">En</a></span>
+                        <span class="lg Cn"><a href="/mobile/index.html">中</a></span>
                     </div>
                     <ul class="list_">  
                         <li><a href="index.html">MAIN PAGE</a></li>
