@@ -514,8 +514,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 15056238-3</p>
+                <p>copyright©2020 Investarget</p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -584,8 +584,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 15056238-3</p>
+                <p>copyright©2020 Investarget</p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -654,8 +654,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 15056238-3</p>
+                <p>copyright©2020 Investarget</p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -724,8 +724,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 15056238-3</p>
+                <p>copyright©2020 Investarget</p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -794,8 +794,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 15056238-3</p>
+                <p>copyright©2020 Investarget</p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -864,8 +864,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 15056238-3</p>
+                <p>copyright©2020 Investarget</p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -934,8 +934,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 15056238-3</p>
+                <p>copyright©2020 Investarget</p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -1004,8 +1004,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 15056238-3</p>
+                <p>copyright©2020 Investarget</p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
