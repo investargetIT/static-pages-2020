@@ -515,7 +515,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 13002172-3</p>
+                <p>Shanghai ICP: No. 15056238-3</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -585,7 +585,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 13002172-3</p>
+                <p>Shanghai ICP: No. 15056238-3</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -655,7 +655,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 13002172-3</p>
+                <p>Shanghai ICP: No. 15056238-3</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -725,7 +725,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 13002172-3</p>
+                <p>Shanghai ICP: No. 15056238-3</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -795,7 +795,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 13002172-3</p>
+                <p>Shanghai ICP: No. 15056238-3</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -865,7 +865,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 13002172-3</p>
+                <p>Shanghai ICP: No. 15056238-3</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -935,7 +935,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 13002172-3</p>
+                <p>Shanghai ICP: No. 15056238-3</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -1005,7 +1005,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>© 2020 Shanghai Yingtai Information Technology Co., Ltd. All rights reserved.</p>
-                <p>Shanghai ICP: No. 13002172-3</p>
+                <p>Shanghai ICP: No. 15056238-3</p>
             </div>
             <div class="to_top"></div>
         </footer>`)

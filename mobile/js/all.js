@@ -548,7 +548,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备13002172号-3</p>
+                <p>互联网ICP备案：沪ICP备15056238号-1</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -618,7 +618,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备13002172号-3</p>
+                <p>互联网ICP备案：沪ICP备15056238号-1</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -688,7 +688,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备13002172号-3</p>
+                <p>互联网ICP备案：沪ICP备15056238号-1</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -758,7 +758,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备13002172号-3</p>
+                <p>互联网ICP备案：沪ICP备15056238号-1</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -828,7 +828,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备13002172号-3</p>
+                <p>互联网ICP备案：沪ICP备15056238号-1</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -898,7 +898,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备13002172号-3</p>
+                <p>互联网ICP备案：沪ICP备15056238号-1</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -968,7 +968,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备13002172号-3</p>
+                <p>互联网ICP备案：沪ICP备15056238号-1</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -1038,7 +1038,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备13002172号-3</p>
+                <p>互联网ICP备案：沪ICP备15056238号-1</p>
             </div>
             <div class="to_top"></div>
         </footer>`)
