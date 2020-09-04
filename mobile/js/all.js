@@ -547,8 +547,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备15056238号-1</p>
+                <p>copyright©2020 Investarget </p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -617,8 +617,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备15056238号-1</p>
+                <p>copyright©2020 Investarget </p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -687,8 +687,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备15056238号-1</p>
+                <p>copyright©2020 Investarget </p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -757,8 +757,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备15056238号-1</p>
+                <p>copyright©2020 Investarget </p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -827,8 +827,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备15056238号-1</p>
+                <p>copyright©2020 Investarget </p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -897,8 +897,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备15056238号-1</p>
+                <p>copyright©2020 Investarget </p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -967,8 +967,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备15056238号-1</p>
+                <p>copyright©2020 Investarget </p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -1037,8 +1037,8 @@ $(function() {
                 </div> 
             </div>
             <div class="fend_">
-                <p>多维海拓隶属于上海盈钛信息科技有限公司 </p>
-                <p>互联网ICP备案：沪ICP备15056238号-1</p>
+                <p>copyright©2020 Investarget </p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
