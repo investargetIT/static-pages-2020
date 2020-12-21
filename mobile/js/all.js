@@ -230,6 +230,43 @@ $(function() {
             ced799ecdb8aa7e1019c2f3e0a25fcd9&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
+            id: 40, 
+            type:4,
+            name:'希迪智驾', 
+            def: 'logo/xidi.png', 
+            act: 'logo/工业logo1-w.png', 
+            txt: '以人工智能技术为导向打造下一代的物流系统', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466242&idx=1&sn=391ee14f3861a93b76a82aed729859d1&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
+        },
+        { 
+            id: 41, 
+            type:4,
+            name:'GoFun科技', 
+            def: 'logo/gofun.png', 
+            act: 'logo/工业logo1-w.png', 
+            txt: '首汽集团针对移动出行推出的一款共享汽车产品', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466381&idx=1&sn=ae8ee70f1ea58b5b9eeb63fa798f4ad4&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
+        },
+        { 
+            id: 15, 
+            type:4,
+            name:'快准车服', 
+            def: 'logo/工业logo3.png', 
+            act: 'logo/工业logo3-w.png', 
+            txt: '中国汽车后市场行业领先的汽配供应链平台', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465410&idx=1&sn=1ca21f27bb673a5e5a929e05f0d8562f&chksm=f3dd16dac4aa9fccb57
+            e4cf9443ae6b1eba6290c1c851f97c534265a92a03fbf17a1417e1eee&token=1271111519&lang=zh_CN#rd`
+        },
+        { 
+            id: 42, 
+            type:4,
+            name:'箱信', 
+            def: 'logo/股权融资工业logo4.png', 
+            act: 'logo/工业logo3-w.png', 
+            txt: '专注于港口集装箱物流的陆运服务的集装箱物流经纪平台', 
+            url: `#`
+        },
+        { 
             id: 13, 
             type:4,
             name:'小鹏汽车', 
@@ -246,16 +283,6 @@ $(function() {
             act: 'logo/工业logo2-w.png', 
             txt: '中国领先的自动驾驶和高级驾驶辅助系统技术及产品供应商', 
             url: `#`
-        },
-        { 
-            id: 15, 
-            type:4,
-            name:'快准车服', 
-            def: 'logo/工业logo3.png', 
-            act: 'logo/工业logo3-w.png', 
-            txt: '中国汽车后市场行业领先的汽配供应链平台', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465410&idx=1&sn=1ca21f27bb673a5e5a929e05f0d8562f&chksm=f3dd16dac4aa9fccb57
-            e4cf9443ae6b1eba6290c1c851f97c534265a92a03fbf17a1417e1eee&token=1271111519&lang=zh_CN#rd`
         },
         { 
             id: 16, 
