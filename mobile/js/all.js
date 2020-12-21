@@ -39,10 +39,64 @@ $(function() {
     // type:6  -> 战略顾问 
     let list = [
         { 
+            id: 31,
+            type: 1,
+            name: '竹间智能', 
+            def: 'logo/emotibit.png', 
+            act: 'logo/科技logo1-w.png', 
+            txt: '多模态情感识别技术研发商', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466453&idx=1&sn=570b8755ca8a8d7b15dbe368a403ac95&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+        },
+        { 
+            id: 32,
+            type: 1,
+            name: '固安捷中国', 
+            def: 'logo/guanjie.png', 
+            act: 'logo/科技logo1-w.png', 
+            txt: '全球最大工业品分销商W.W.Grainger的中国运营子公司', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466316&idx=1&sn=088eeb58de4bb895e0642cc943d0bd39&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+        },
+        { 
+            id: 33,
+            type: 1,
+            name: '慧策集团', 
+            def: 'logo/cehui.png', 
+            act: 'logo/科技logo1-w.png', 
+            txt: '一体化智能零售服务商', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml94bDM1azMyRnA5UWVvZkExMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzTTBEbmlwSVdKcDFyemVFd3VvTVpYZE5GOERRRjFaQ3ozbTg5aHZmTU9LUnV3bF9NZmhTOThYZGNuUzRPRk9aX1IwNEo3QmxXMjQ5cXpCNUJTa3hyRVRoMXJyOXp6dWZTY2d3eldTb2NvVjZnfn4%3D&chksm=73dd12be44aa9ba8cafa2fd2f387721254e324ba8f4eea43d8274170ada05b8377dc5b7aca23#rd' 
+        },
+        { 
+            id: 34,
+            type: 1,
+            name: '肯耐珂萨', 
+            def: 'logo/kennai.png', 
+            act: 'logo/科技logo1-w.png', 
+            txt: '领先的HCM一体化云解决方案提供商', 
+            url: ' https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465738&idx=1&sn=818e416f3dea54b8564714e975ac07eb&chksm=f3dd1592c4aa9c84d9002727687825c67d1f609e6f97665648569acc56b82c5adc911bd027cc&token=1845434932&lang=zh_CN#rd' 
+        },
+        { 
+            id: 35,
+            type: 1,
+            name: '快兔物流', 
+            def: 'logo/kuaiyuntu.png', 
+            act: 'logo/科技logo1-w.png', 
+            txt: '为中小企业提供一站式门到门运输服务的智能化物流平台', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465816&idx=1&sn=7186e7913e78e084b592d2425ea04f46&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+        },
+        { 
+            id: 36,
+            type: 1,
+            name: '移芯通信', 
+            def: 'logo/yixin.png', 
+            act: 'logo/科技logo1-w.png', 
+            txt: '蜂窝移动通信芯片及其软件的研发和销售', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml9iMDdiZGdzUDJUVk0zVlhFMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzUGNkOHdGdGtXdHFDa2lPTFFWUVdiTHlOZGNfanVpSlk3WGVFYk9IVXR0MnU1YU5mOFdqNjN4TXNCS0JoRzJIMFMxbURnemUxU2trSmJDbERSMmtOQXhFLUVmSEpnMjhkZVpVVDBLTkVzejBnfn4%3D&chksm=73dd128e44aa9b980853330373ceff70a9ea9e3a2b71a8178345280d58e6b26c425709163c62#rd' 
+        },
+        { 
             id: 1,
             type:1,
             name:'运去哪', 
-            def: 'logo/科技logo1.png', 
+            def: 'logo/yunquna.png', 
             act: 'logo/科技logo1-w.png', 
             txt: '国内领先的一站式国际物流服务平台', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465320&idx=1&sn=b5ed5688c3266d71e1eb93b7761f9a4c&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
