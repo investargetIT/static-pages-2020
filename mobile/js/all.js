@@ -162,14 +162,22 @@ $(function() {
             4642c778249778a2b1581&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
-            id: 9, 
-            type:3,
-            name:'云账房', 
-            def: 'logo/消费logo1.png', 
+            id: 37, 
+            type: 3,
+            name:'小佩宠物', 
+            def: 'logo/xiaopei.png', 
             act: 'logo/消费logo1-w.png', 
-            txt: '中国领先的智能财税SaaS提供商', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=
-            50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+            txt: '一站式宠物消费平台', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466332&idx=1&sn=789a12f34ee85b87b87f964cce0e3610&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
+        },
+        { 
+            id: 38, 
+            type: 3,
+            name:'豌豆思维', 
+            def: 'logo/wandou.png', 
+            act: 'logo/消费logo1-w.png', 
+            txt: '少儿数理思维头部企业', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466435&idx=1&sn=323f677f11344b9edbe5d0139575f8f3&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 10, 
@@ -181,6 +189,25 @@ $(function() {
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465510&idx=
             1&sn=9a2dd516a3628d8d19e26ff25139ec09&chksm=f3dd16bec4aa9fa89206b
             2574fec2ebd98c907a4dda851b70e392ada33580820af845b970a27&token=1914594675&lang=zh_CN#rd`
+        },
+        { 
+            id: 9, 
+            type:3,
+            name:'云账房', 
+            def: 'logo/消费logo1.png', 
+            act: 'logo/消费logo1-w.png', 
+            txt: '中国领先的智能财税SaaS提供商', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=
+            50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+        },
+        { 
+            id: 39, 
+            type:3,
+            name:'视游互动', 
+            def: 'logo/xiaoy.png', 
+            act: 'logo/消费logo1-w.png', 
+            txt: '国内领先的家庭屏终端内容服务商', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml9MMHhvZTNBUWNsRVgrMEZrMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzTUVydzBYQlRsQmFlRnhPd0wzZFg5RFVuMUJNTXNVTTV2QWRyelVwYjFjTVRXZ1dOZ3JLc2h1Qkc0M0FTeGkwUDB0RE5nOGxTNVRqM3lnek8weWFsQlYxT2FKN19yX2ROQmZsaUZWYVJ3dUlnfn4%3D&chksm=73dd147c44aa9d6a77dfeb3a76ba0502845fa2be1972374351199f352cecbe1af85cd3189fe8#rd`
         },
         { 
             id: 11, 
