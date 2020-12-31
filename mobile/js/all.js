@@ -43,7 +43,7 @@ $(function() {
             type: 1,
             name: '竹间智能', 
             def: 'logo/emotibit.png', 
-            act: 'logo/科技logo1-w.png', 
+            act: 'logo/emotibit-w.png', 
             txt: '多模态情感识别技术研发商', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466453&idx=1&sn=570b8755ca8a8d7b15dbe368a403ac95&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
         },
@@ -52,7 +52,7 @@ $(function() {
             type: 1,
             name: '固安捷中国', 
             def: 'logo/guanjie.png', 
-            act: 'logo/科技logo1-w.png', 
+            act: 'logo/guanjie-w.png', 
             txt: '全球最大工业品分销商W.W.Grainger的中国运营子公司', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466316&idx=1&sn=088eeb58de4bb895e0642cc943d0bd39&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
         },
@@ -61,7 +61,7 @@ $(function() {
             type: 1,
             name: '慧策集团', 
             def: 'logo/cehui.png', 
-            act: 'logo/科技logo1-w.png', 
+            act: 'logo/cehui-w.png', 
             txt: '一体化智能零售服务商', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml94bDM1azMyRnA5UWVvZkExMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzTTBEbmlwSVdKcDFyemVFd3VvTVpYZE5GOERRRjFaQ3ozbTg5aHZmTU9LUnV3bF9NZmhTOThYZGNuUzRPRk9aX1IwNEo3QmxXMjQ5cXpCNUJTa3hyRVRoMXJyOXp6dWZTY2d3eldTb2NvVjZnfn4%3D&chksm=73dd12be44aa9ba8cafa2fd2f387721254e324ba8f4eea43d8274170ada05b8377dc5b7aca23#rd' 
         },
@@ -70,7 +70,7 @@ $(function() {
             type: 1,
             name: '肯耐珂萨', 
             def: 'logo/kennai.png', 
-            act: 'logo/科技logo1-w.png', 
+            act: 'logo/kennai-w.png', 
             txt: '领先的HCM一体化云解决方案提供商', 
             url: ' https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465738&idx=1&sn=818e416f3dea54b8564714e975ac07eb&chksm=f3dd1592c4aa9c84d9002727687825c67d1f609e6f97665648569acc56b82c5adc911bd027cc&token=1845434932&lang=zh_CN#rd' 
         },
@@ -79,7 +79,7 @@ $(function() {
             type: 1,
             name: '快兔物流', 
             def: 'logo/kuaiyuntu.png', 
-            act: 'logo/科技logo1-w.png', 
+            act: 'logo/kuaiyuntu-w.png', 
             txt: '为中小企业提供一站式门到门运输服务的智能化物流平台', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465816&idx=1&sn=7186e7913e78e084b592d2425ea04f46&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
         },
@@ -88,7 +88,7 @@ $(function() {
             type: 1,
             name: '移芯通信', 
             def: 'logo/yixin.png', 
-            act: 'logo/科技logo1-w.png', 
+            act: 'logo/yixin-w.png', 
             txt: '蜂窝移动通信芯片及其软件的研发和销售', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml9iMDdiZGdzUDJUVk0zVlhFMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzUGNkOHdGdGtXdHFDa2lPTFFWUVdiTHlOZGNfanVpSlk3WGVFYk9IVXR0MnU1YU5mOFdqNjN4TXNCS0JoRzJIMFMxbURnemUxU2trSmJDbERSMmtOQXhFLUVmSEpnMjhkZVpVVDBLTkVzejBnfn4%3D&chksm=73dd128e44aa9b980853330373ceff70a9ea9e3a2b71a8178345280d58e6b26c425709163c62#rd' 
         },
@@ -97,7 +97,7 @@ $(function() {
             type:1,
             name:'运去哪', 
             def: 'logo/yunquna.png', 
-            act: 'logo/科技logo1-w.png', 
+            act: 'logo/yunquna-w.png', 
             txt: '国内领先的一站式国际物流服务平台', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465320&idx=1&sn=b5ed5688c3266d71e1eb93b7761f9a4c&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
         },
@@ -166,7 +166,7 @@ $(function() {
             type: 3,
             name:'小佩宠物', 
             def: 'logo/xiaopei.png', 
-            act: 'logo/消费logo1-w.png', 
+            act: 'logo/xiaopei-w.png', 
             txt: '一站式宠物消费平台', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466332&idx=1&sn=789a12f34ee85b87b87f964cce0e3610&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
         },
@@ -175,7 +175,7 @@ $(function() {
             type: 3,
             name:'豌豆思维', 
             def: 'logo/wandou.png', 
-            act: 'logo/消费logo1-w.png', 
+            act: 'logo/wandou-w.png', 
             txt: '少儿数理思维头部企业', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466435&idx=1&sn=323f677f11344b9edbe5d0139575f8f3&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
         },
@@ -205,7 +205,7 @@ $(function() {
             type:3,
             name:'视游互动', 
             def: 'logo/xiaoy.png', 
-            act: 'logo/消费logo1-w.png', 
+            act: 'logo/xiaoy-w.png', 
             txt: '国内领先的家庭屏终端内容服务商', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml9MMHhvZTNBUWNsRVgrMEZrMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzTUVydzBYQlRsQmFlRnhPd0wzZFg5RFVuMUJNTXNVTTV2QWRyelVwYjFjTVRXZ1dOZ3JLc2h1Qkc0M0FTeGkwUDB0RE5nOGxTNVRqM3lnek8weWFsQlYxT2FKN19yX2ROQmZsaUZWYVJ3dUlnfn4%3D&chksm=73dd147c44aa9d6a77dfeb3a76ba0502845fa2be1972374351199f352cecbe1af85cd3189fe8#rd`
         },
@@ -234,7 +234,7 @@ $(function() {
             type:4,
             name:'希迪智驾', 
             def: 'logo/xidi.png', 
-            act: 'logo/工业logo1-w.png', 
+            act: 'logo/xidi-w.png', 
             txt: '以人工智能技术为导向打造下一代的物流系统', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466242&idx=1&sn=391ee14f3861a93b76a82aed729859d1&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
         },
@@ -243,7 +243,7 @@ $(function() {
             type:4,
             name:'GoFun科技', 
             def: 'logo/gofun.png', 
-            act: 'logo/工业logo1-w.png', 
+            act: 'logo/gofun-w.png', 
             txt: '首汽集团针对移动出行推出的一款共享汽车产品', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466381&idx=1&sn=ae8ee70f1ea58b5b9eeb63fa798f4ad4&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
         },
@@ -262,7 +262,7 @@ $(function() {
             type:4,
             name:'箱信', 
             def: 'logo/股权融资工业logo4.png', 
-            act: 'logo/工业logo3-w.png', 
+            act: 'logo/股权融资工业logo4-w.png', 
             txt: '专注于港口集装箱物流的陆运服务的集装箱物流经纪平台', 
             url: `#`
         },
