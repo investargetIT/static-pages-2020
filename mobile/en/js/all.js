@@ -39,11 +39,65 @@ $(function() {
     // type:6  -> 战略顾问 
     let list = [
         { 
+            id: 31,
+            type: 1,
+            name: 'Emotibot', 
+            def: 'logo/emotibit.png', 
+            act: 'logo/emotibit-w.png', 
+            txt: 'Multimodal Emotion Recognition Solution Provider', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466453&idx=1&sn=570b8755ca8a8d7b15dbe368a403ac95&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+        },
+        { 
+            id: 32,
+            type: 1,
+            name: 'MYMRO', 
+            def: 'logo/guanjie.png', 
+            act: 'logo/guanjie-w.png', 
+            txt: 'Chinese Subsidiary of Global Leading MRO Supplier W.W. Grainger', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466316&idx=1&sn=088eeb58de4bb895e0642cc943d0bd39&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+        },
+        { 
+            id: 33,
+            type: 1,
+            name: 'Huice', 
+            def: 'logo/cehui.png', 
+            act: 'logo/cehui-w.png', 
+            txt: 'Integrated Intelligent Retail Service Provider', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml94bDM1azMyRnA5UWVvZkExMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzTTBEbmlwSVdKcDFyemVFd3VvTVpYZE5GOERRRjFaQ3ozbTg5aHZmTU9LUnV3bF9NZmhTOThYZGNuUzRPRk9aX1IwNEo3QmxXMjQ5cXpCNUJTa3hyRVRoMXJyOXp6dWZTY2d3eldTb2NvVjZnfn4%3D&chksm=73dd12be44aa9ba8cafa2fd2f387721254e324ba8f4eea43d8274170ada05b8377dc5b7aca23#rd' 
+        },
+        { 
+            id: 34,
+            type: 1,
+            name: 'KNX', 
+            def: 'logo/kennai.png', 
+            act: 'logo/kennai-w.png', 
+            txt: 'Leading HCM Cloud Solution Provider', 
+            url: ' https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465738&idx=1&sn=818e416f3dea54b8564714e975ac07eb&chksm=f3dd1592c4aa9c84d9002727687825c67d1f609e6f97665648569acc56b82c5adc911bd027cc&token=1845434932&lang=zh_CN#rd' 
+        },
+        { 
+            id: 35,
+            type: 1,
+            name: 'KTU', 
+            def: 'logo/kuaiyuntu.png', 
+            act: 'logo/kuaiyuntu-w.png', 
+            txt: ' One-stop Door-to Door Smart Logistics Platform for SMEs', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465816&idx=1&sn=7186e7913e78e084b592d2425ea04f46&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+        },
+        { 
+            id: 36,
+            type: 1,
+            name: 'EIGENCOMM', 
+            def: 'logo/yixin.png', 
+            act: 'logo/yixin-w.png', 
+            txt: 'Leading Developer of Honeycomb Mobile Communication Chips and Software', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml9iMDdiZGdzUDJUVk0zVlhFMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzUGNkOHdGdGtXdHFDa2lPTFFWUVdiTHlOZGNfanVpSlk3WGVFYk9IVXR0MnU1YU5mOFdqNjN4TXNCS0JoRzJIMFMxbURnemUxU2trSmJDbERSMmtOQXhFLUVmSEpnMjhkZVpVVDBLTkVzejBnfn4%3D&chksm=73dd128e44aa9b980853330373ceff70a9ea9e3a2b71a8178345280d58e6b26c425709163c62#rd' 
+        },
+        { 
             id: 1,
             type:1,
             name:'YUNQUNA', 
-            def: 'logo/科技logo1.png', 
-            act: 'logo/科技logo1-w.png', 
+            def: 'logo/yunquna.png', 
+            act: 'logo/yunquna-w.png', 
             txt: 'The Largest Digital One-stop Cross-border Logistics Service Provider in China', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465320&idx=1&sn=b5ed5688c3266d71e1eb93b7761f9a4c&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
         },
@@ -108,14 +162,22 @@ $(function() {
             4642c778249778a2b1581&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
-            id: 9, 
-            type:3,
-            name:'Yunzhangfang', 
-            def: 'logo/消费logo1.png', 
-            act: 'logo/消费logo1-w.png', 
-            txt: 'Leading Intelligent Accounting and Tax Services SaaS Company in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=
-            50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+            id: 37, 
+            type: 3,
+            name:'PETKIT', 
+            def: 'logo/xiaopei.png', 
+            act: 'logo/xiaopei-w.png', 
+            txt: 'One-stop Pet Supplies Retail Platform', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466332&idx=1&sn=789a12f34ee85b87b87f964cce0e3610&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
+        },
+        { 
+            id: 38, 
+            type: 3,
+            name:'VIPThink', 
+            def: 'logo/wandou.png', 
+            act: 'logo/wandou-w.png', 
+            txt: 'Leading Online Education Platform for K-12 Children Specialized in Mathematics and Science', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466435&idx=1&sn=323f677f11344b9edbe5d0139575f8f3&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 10, 
@@ -127,6 +189,25 @@ $(function() {
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465510&idx=
             1&sn=9a2dd516a3628d8d19e26ff25139ec09&chksm=f3dd16bec4aa9fa89206b
             2574fec2ebd98c907a4dda851b70e392ada33580820af845b970a27&token=1914594675&lang=zh_CN#rd`
+        },
+        { 
+            id: 9, 
+            type:3,
+            name:'Yunzhangfang', 
+            def: 'logo/消费logo1.png', 
+            act: 'logo/消费logo1-w.png', 
+            txt: 'Leading Intelligent Accounting and Tax Services SaaS Company in China', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=
+            50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+        },
+        { 
+            id: 39, 
+            type:3,
+            name:'XiaoY', 
+            def: 'logo/xiaoy.png', 
+            act: 'logo/xiaoy-w.png', 
+            txt: 'Leading Content Provider of Home Intelligent Devices', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml9MMHhvZTNBUWNsRVgrMEZrMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzTUVydzBYQlRsQmFlRnhPd0wzZFg5RFVuMUJNTXNVTTV2QWRyelVwYjFjTVRXZ1dOZ3JLc2h1Qkc0M0FTeGkwUDB0RE5nOGxTNVRqM3lnek8weWFsQlYxT2FKN19yX2ROQmZsaUZWYVJ3dUlnfn4%3D&chksm=73dd147c44aa9d6a77dfeb3a76ba0502845fa2be1972374351199f352cecbe1af85cd3189fe8#rd`
         },
         { 
             id: 11, 
@@ -149,6 +230,44 @@ $(function() {
             ced799ecdb8aa7e1019c2f3e0a25fcd9&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
+            id: 40, 
+            type:4,
+            name:'CiDi', 
+            def: 'logo/xidi.png', 
+            act: 'logo/xidi-w.png', 
+            txt: 'Next-gen Logistics System driven by AI Technologies', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466242&idx=1&sn=391ee14f3861a93b76a82aed729859d1&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
+        },
+        { 
+            id: 41, 
+            type:4,
+            name:'GoFun', 
+            def: 'logo/gofun.png', 
+            act: 'logo/gofun-w.png', 
+            txt: 'Car-sharing Platform launched by Shouqi Grou', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466381&idx=1&sn=ae8ee70f1ea58b5b9eeb63fa798f4ad4&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
+        },
+
+        { 
+            id: 15, 
+            type:4,
+            name:'KZ Mall', 
+            def: 'logo/工业logo3.png', 
+            act: 'logo/工业logo3-w.png', 
+            txt: 'Leading Auto Parts Supply Chain Platform in China', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465410&idx=1&sn=1ca21f27bb673a5e5a929e05f0d8562f&chksm=f3dd16dac4aa9fccb57
+            e4cf9443ae6b1eba6290c1c851f97c534265a92a03fbf17a1417e1eee&token=1271111519&lang=zh_CN#rd`
+        },
+        { 
+            id: 42, 
+            type:4,
+            name:'Xiangxin', 
+            def: 'logo/股权融资工业logo4.png', 
+            act: 'logo/股权融资工业logo4-w.png', 
+            txt: 'Logistics Service Provider focused on Seaport Container Transportation', 
+            url: `#`
+        },
+        { 
             id: 13, 
             type:4,
             name:'Xpeng Motors', 
@@ -165,16 +284,6 @@ $(function() {
             act: 'logo/工业logo2-w.png', 
             txt: 'Leading Autonomous Driving and ADAS Solution Provider in China', 
             url: `#`
-        },
-        { 
-            id: 15, 
-            type:4,
-            name:'KZ Mall', 
-            def: 'logo/工业logo3.png', 
-            act: 'logo/工业logo3-w.png', 
-            txt: 'Leading Auto Parts Supply Chain Platform in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465410&idx=1&sn=1ca21f27bb673a5e5a929e05f0d8562f&chksm=f3dd16dac4aa9fccb57
-            e4cf9443ae6b1eba6290c1c851f97c534265a92a03fbf17a1417e1eee&token=1271111519&lang=zh_CN#rd`
         },
         { 
             id: 16, 
