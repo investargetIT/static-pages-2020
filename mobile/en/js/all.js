@@ -460,9 +460,9 @@ $(function() {
     let assess = [ 
         {
             id:1,
-            name:'Shihao Zhou',
-            title:'YunQuNa-Founder & CEO',
-            content:`We appreciate InvesTarget’s long-standing support and help in thinking and planning the future. With their transaction experience and network in the global market, we are able to quickly promote our cooperation with Coatue and Sequoia Capital. They have rich deal experience and always give us help and advice at the right node. We look forward to more cooperation with InvesTarget in the future. `
+            name:'Weixue Guo',
+            title:'PETKIT-CEO',
+            content: 'We are very impressed by InvesTarget’s professionalism, project management and execution as a leading investment bank in China during our private placement process. Thanks to the support of Kun Yan Capital and other shareholders, the Company will further invest in chain stores and build an open, cooperative, win-win pet consumption platform.'
         },
         {
             id:2,
