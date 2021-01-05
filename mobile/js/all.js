@@ -48,15 +48,6 @@ $(function() {
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466453&idx=1&sn=570b8755ca8a8d7b15dbe368a403ac95&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
         },
         { 
-            id: 32,
-            type: 1,
-            name: '固安捷中国', 
-            def: 'logo/guanjie.png', 
-            act: 'logo/guanjie-w.png', 
-            txt: '全球最大工业品分销商W.W.Grainger的中国运营子公司', 
-            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466316&idx=1&sn=088eeb58de4bb895e0642cc943d0bd39&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
-        },
-        { 
             id: 33,
             type: 1,
             name: '慧策集团', 
@@ -293,6 +284,15 @@ $(function() {
             txt: '智能车载音频服务商', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465597&idx=1&s
             n=1dd69d0b3e5724254b8101255e4ce903&chksm=f3dd1665c4aa9f733ff621562c5a20a303743cedf607930a4c0f8697502d8c54c3656fbf8b02&token=1914594675&lang=zh_CN#rd`
+        },
+        { 
+            id: 32,
+            type: 4,
+            name: '固安捷中国', 
+            def: 'logo/guanjie.png', 
+            act: 'logo/guanjie-w.png', 
+            txt: '全球最大工业品分销商W.W.Grainger的中国运营子公司', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466316&idx=1&sn=088eeb58de4bb895e0642cc943d0bd39&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
         },
         { 
             id: 17, 
