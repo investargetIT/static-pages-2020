@@ -75,9 +75,10 @@ body {
     font-size: 44px;
     color: white;
     position: absolute;
-    top: 40%;
+    /* top: 40%; */
     /* left: 33%; */
-    width: 100%;
+    /* width: 100%; */
+    max-width: calc(100% - 400px);
 }
 
 .cir {
