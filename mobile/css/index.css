@@ -22,8 +22,8 @@
 }
 
 .box_ .swiper-slide:nth-child(2) .info {
-  align-items: flex-start;
-  padding-top: 3.6232rem;
+  /* align-items: flex-start;
+  padding-top: 3.6232rem; */
 }
 .box_ .swiper-slide .info {
   width: 100%;
