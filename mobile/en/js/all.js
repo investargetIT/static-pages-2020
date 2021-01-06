@@ -124,6 +124,16 @@ $(function() {
             8f0c1f9e4ff387e0cca&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
+            id: 9, 
+            type:1,
+            name:'Yunzhangfang', 
+            def: 'logo/消费logo1.png', 
+            act: 'logo/消费logo1-w.png', 
+            txt: 'Leading Intelligent Accounting and Tax Services SaaS Company in China', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=
+            50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+        },
+        { 
             id: 6, 
             type:2,
             name:'Mallow Medical', 
@@ -180,16 +190,6 @@ $(function() {
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465510&idx=
             1&sn=9a2dd516a3628d8d19e26ff25139ec09&chksm=f3dd16bec4aa9fa89206b
             2574fec2ebd98c907a4dda851b70e392ada33580820af845b970a27&token=1914594675&lang=zh_CN#rd`
-        },
-        { 
-            id: 9, 
-            type:3,
-            name:'Yunzhangfang', 
-            def: 'logo/消费logo1.png', 
-            act: 'logo/消费logo1-w.png', 
-            txt: 'Leading Intelligent Accounting and Tax Services SaaS Company in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=
-            50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 39, 
@@ -467,7 +467,7 @@ $(function() {
         {
             id:2,
             name:'Haoran Yu',
-            title:'UDESK-Founder & CEO',
+            title:'UDESK-Founder & CEOli',
             content:`InvesTarget’s excellent ability proved in the transaction process is much appreciated. Their deep understanding of the market, excellent insight into the project and rich capital market experience and resources have successfully helped us find the top investors. We are very satisfied with their professional services and hence the guarantee on the rapid transaction.`
         },
         {
