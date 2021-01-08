@@ -650,7 +650,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
+                        <a href="https://m.investarget.com" class="login_">登 录</a>
                         <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
@@ -720,7 +720,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
+                        <a href="https://m.investarget.com" class="login_">登 录</a>
                         <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
@@ -790,7 +790,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
+                        <a href="https://m.investarget.com" class="login_">登 录</a>
                         <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
@@ -860,7 +860,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
+                        <a href="https://m.investarget.com" class="login_">登 录</a>
                         <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
@@ -930,7 +930,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
+                        <a href="https://m.investarget.com" class="login_">登 录</a>
                         <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
@@ -1000,7 +1000,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
+                        <a href="https://m.investarget.com" class="login_">登 录</a>
                         <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
@@ -1070,7 +1070,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
+                        <a href="https://m.investarget.com" class="login_">登 录</a>
                         <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
@@ -1140,7 +1140,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
+                        <a href="https://m.investarget.com" class="login_">登 录</a>
                         <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
