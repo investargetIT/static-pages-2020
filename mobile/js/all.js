@@ -124,6 +124,17 @@ $(function() {
             txt: '为中小企业提供一站式门到门运输服务的智能化物流平台', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465816&idx=1&sn=7186e7913e78e084b592d2425ea04f46&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
         },
+
+        { 
+            id: 51,
+            type: 1,
+            name: '同创永益', 
+            def: 'logo/kuaiyuntu.png', // after this TODO
+            act: 'logo/kuaiyuntu-w.png', 
+            txt: '为中小企业提供一站式门到门运输服务的智能化物流平台', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465816&idx=1&sn=7186e7913e78e084b592d2425ea04f46&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+        },
+
         { 
             id: 3, 
             type:1,
@@ -640,7 +651,7 @@ $(function() {
                     </ul>
                     <div class="link_box"> 
                         <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
-                        <a href="contact.html" class="about_us">关于我们 ></a>
+                        <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
             </div>
@@ -710,7 +721,7 @@ $(function() {
                     </ul>
                     <div class="link_box"> 
                         <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
-                        <a href="contact.html" class="about_us">关于我们 ></a>
+                        <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
             </div>
@@ -780,7 +791,7 @@ $(function() {
                     </ul>
                     <div class="link_box"> 
                         <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
-                        <a href="contact.html" class="about_us">关于我们 ></a>
+                        <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
             </div>
@@ -850,7 +861,7 @@ $(function() {
                     </ul>
                     <div class="link_box"> 
                         <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
-                        <a href="contact.html" class="about_us">关于我们 ></a>
+                        <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
             </div>
@@ -920,7 +931,7 @@ $(function() {
                     </ul>
                     <div class="link_box"> 
                         <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
-                        <a href="contact.html" class="about_us">关于我们 ></a>
+                        <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
             </div>
@@ -990,7 +1001,7 @@ $(function() {
                     </ul>
                     <div class="link_box"> 
                         <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
-                        <a href="contact.html" class="about_us">关于我们 ></a>
+                        <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
             </div>
@@ -1060,7 +1071,7 @@ $(function() {
                     </ul>
                     <div class="link_box"> 
                         <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
-                        <a href="contact.html" class="about_us">关于我们 ></a>
+                        <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
             </div>
@@ -1130,7 +1141,7 @@ $(function() {
                     </ul>
                     <div class="link_box"> 
                         <a href="http://mtest.investarget.com/login" class="login_">登 入</a>
-                        <a href="contact.html" class="about_us">关于我们 ></a>
+                        <a href="contact.html" class="about_us">联系我们 ></a>
                     </div>
                 </div>
             </div>
