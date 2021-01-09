@@ -143,6 +143,15 @@ $(function() {
             txt: '国内领先的产业链金融AI赋能和运营商', 
             url: '#' 
         },
+        { 
+            id: 53,
+            type: 1,
+            name: '中科聚信', 
+            def: 'logo/股权融资消费logo6.png',
+            act: 'logo/股权融资消费logo6-w.png', 
+            txt: '中国大数据智能分析与金融科技领域的代表企业', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
+        },
 
         { 
             id: 3, 

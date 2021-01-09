@@ -146,6 +146,16 @@ $(function() {
         },
 
         { 
+            id: 53,
+            type: 1,
+            name: 'SCAI', 
+            def: 'logo/股权融资消费logo6.png',
+            act: 'logo/股权融资消费logo6-w.png', 
+            txt: 'Leading Data Analytics and AI Solution Provider for Financial Institutions in China', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
+        },
+
+        { 
             id: 3, 
             type:1,
             name:'Kenexa', 
