@@ -156,6 +156,16 @@ $(function() {
         },
 
         { 
+            id: 54,
+            type: 1,
+            name: 'Kuaijin Data', 
+            def: 'logo/股权融资消费logo7.png',
+            act: 'logo/股权融资消费logo7-w.png', 
+            txt: 'Leading Logistics Data Service Provider in China', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465574&idx=1&sn=d95590847f4b5087b2ce6da1d57c9c29&chksm=f3dd167ec4aa9f683208dacea185a9d587ed171e85bb6f308c83c56cfdc6e68dbb1f96e16aef&token=1914594675&lang=zh_CN#rd' 
+        },
+
+        { 
             id: 3, 
             type:1,
             name:'Kenexa', 

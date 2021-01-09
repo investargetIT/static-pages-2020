@@ -152,6 +152,15 @@ $(function() {
             txt: '中国大数据智能分析与金融科技领域的代表企业', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
         },
+        { 
+            id: 54,
+            type: 1,
+            name: '快金数据', 
+            def: 'logo/股权融资消费logo7.png',
+            act: 'logo/股权融资消费logo7-w.png', 
+            txt: '国内领先的物流数据科技服务公司', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465574&idx=1&sn=d95590847f4b5087b2ce6da1d57c9c29&chksm=f3dd167ec4aa9f683208dacea185a9d587ed171e85bb6f308c83c56cfdc6e68dbb1f96e16aef&token=1914594675&lang=zh_CN#rd' 
+        },
 
         { 
             id: 3, 
