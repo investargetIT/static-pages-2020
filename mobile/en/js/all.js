@@ -272,9 +272,7 @@ $(function() {
             def: 'logo/消费logo2.png', 
             act: 'logo/消费logo2-w.png', 
             txt: 'Largest Blue-collar Apartments Operation in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465510&idx=
-            1&sn=9a2dd516a3628d8d19e26ff25139ec09&chksm=f3dd16bec4aa9fa89206b
-            2574fec2ebd98c907a4dda851b70e392ada33580820af845b970a27&token=1914594675&lang=zh_CN#rd`
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465510&idx=1&sn=9a2dd516a3628d8d19e26ff25139ec09&chksm=f3dd16bec4aa9fa89206b2574fec2ebd98c907a4dda851b70e392ada33580820af845b970a27&token=1914594675&lang=zh_CN#rd`
         },
         { 
             id: 39, 
@@ -286,24 +284,22 @@ $(function() {
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml9MMHhvZTNBUWNsRVgrMEZrMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzTUVydzBYQlRsQmFlRnhPd0wzZFg5RFVuMUJNTXNVTTV2QWRyelVwYjFjTVRXZ1dOZ3JLc2h1Qkc0M0FTeGkwUDB0RE5nOGxTNVRqM3lnek8weWFsQlYxT2FKN19yX2ROQmZsaUZWYVJ3dUlnfn4%3D&chksm=73dd147c44aa9d6a77dfeb3a76ba0502845fa2be1972374351199f352cecbe1af85cd3189fe8#rd`
         },
         { 
-            id: 11, 
-            type:3,
-            name:'Jia You Xue Ba', 
-            def: 'logo/消费logo3.png', 
-            act: 'logo/消费logo3-w.png', 
-            txt: 'Leading One to One C2C Online Education Platform in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465391&idx=1&
-            sn=a7adddae8ba8f0aa178a01732cf67ff0&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
-        },
-        { 
             id: 12, 
             type:3,
             name:'DEAMPIX', 
             def: 'logo/消费logo4.png', 
             act: 'logo/消费logo4-w.png', 
             txt: 'Online Original Animation Content Creation Community in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465370&idx=1&sn=
-            ced799ecdb8aa7e1019c2f3e0a25fcd9&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465370&idx=1&sn=ced799ecdb8aa7e1019c2f3e0a25fcd9&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+        },
+        { 
+            id: 11, 
+            type:3,
+            name:'Jia You Xue Ba', 
+            def: 'logo/消费logo3.png', 
+            act: 'logo/消费logo3-w.png', 
+            txt: 'Leading One to One C2C Online Education Platform in China', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465391&idx=1&sn=a7adddae8ba8f0aa178a01732cf67ff0&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 40, 
