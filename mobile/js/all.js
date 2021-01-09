@@ -296,71 +296,6 @@ $(function() {
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465391&idx=1&sn=a7adddae8ba8f0aa178a01732cf67ff0&scene=19&token=1271111519&lang=zh_CN#wechat_redirect'
         },
         { 
-            id: 40, 
-            type:4,
-            name:'希迪智驾', 
-            def: 'logo/xidi.png', 
-            act: 'logo/xidi-w.png', 
-            txt: '以人工智能技术为导向打造下一代的物流系统', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466242&idx=1&sn=391ee14f3861a93b76a82aed729859d1&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
-        },
-        { 
-            id: 41, 
-            type:4,
-            name:'GoFun科技', 
-            def: 'logo/gofun.png', 
-            act: 'logo/gofun-w.png', 
-            txt: '首汽集团针对移动出行推出的一款共享汽车产品', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466381&idx=1&sn=ae8ee70f1ea58b5b9eeb63fa798f4ad4&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
-        },
-        { 
-            id: 15, 
-            type:4,
-            name:'快准车服', 
-            def: 'logo/工业logo3.png', 
-            act: 'logo/工业logo3-w.png', 
-            txt: '中国汽车后市场行业领先的汽配供应链平台', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465410&idx=1&sn=1ca21f27bb673a5e5a929e05f0d8562f&chksm=f3dd16dac4aa9fccb57
-            e4cf9443ae6b1eba6290c1c851f97c534265a92a03fbf17a1417e1eee&token=1271111519&lang=zh_CN#rd`
-        },
-        { 
-            id: 42, 
-            type:4,
-            name:'箱信', 
-            def: 'logo/股权融资工业logo4.png', 
-            act: 'logo/股权融资工业logo4-w.png', 
-            txt: '专注于港口集装箱物流的陆运服务的集装箱物流经纪平台', 
-            url: `#`
-        },
-        { 
-            id: 13, 
-            type:4,
-            name:'小鹏汽车', 
-            def: 'logo/工业logo1.png', 
-            act: 'logo/工业logo1-w.png', 
-            txt: '专注于互联网电动汽车的研发', 
-            url: `#`
-        },
-        { 
-            id: 14, 
-            type:4,
-            name:'纵目科技', 
-            def: 'logo/工业logo2.png', 
-            act: 'logo/工业logo2-w.png', 
-            txt: '中国领先的自动驾驶和高级驾驶辅助系统技术及产品供应商', 
-            url: `#`
-        },
-        { 
-            id: 16, 
-            type:4,
-            name:'听伴', 
-            def: 'logo/工业logo4.png', 
-            act: 'logo/工业logo4-w.png', 
-            txt: '智能车载音频服务商', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465597&idx=1&s
-            n=1dd69d0b3e5724254b8101255e4ce903&chksm=f3dd1665c4aa9f733ff621562c5a20a303743cedf607930a4c0f8697502d8c54c3656fbf8b02&token=1914594675&lang=zh_CN#rd`
-        },
-        { 
             id: 32,
             type: 4,
             name: '固安捷中国', 
@@ -369,6 +304,70 @@ $(function() {
             txt: '全球最大工业品分销商W.W.Grainger的中国运营子公司', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466316&idx=1&sn=088eeb58de4bb895e0642cc943d0bd39&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
         },
+        { 
+            id: 15, 
+            type: 4,
+            name: '快准车服', 
+            def: 'logo/工业logo3.png', 
+            act: 'logo/工业logo3-w.png', 
+            txt: '中国汽车后市场行业领先的汽配供应链平台', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465410&idx=1&sn=1ca21f27bb673a5e5a929e05f0d8562f&chksm=f3dd16dac4aa9fccb57e4cf9443ae6b1eba6290c1c851f97c534265a92a03fbf17a1417e1eee&token=1271111519&lang=zh_CN#rd`
+        },
+        { 
+            id: 41, 
+            type: 4,
+            name:'GoFun科技', 
+            def: 'logo/gofun.png', 
+            act: 'logo/gofun-w.png', 
+            txt: '首汽集团针对移动出行推出的一款共享汽车产品', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466381&idx=1&sn=ae8ee70f1ea58b5b9eeb63fa798f4ad4&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
+        },
+        { 
+            id: 40, 
+            type: 4,
+            name: '希迪智驾', 
+            def: 'logo/xidi.png', 
+            act: 'logo/xidi-w.png', 
+            txt: '以人工智能技术为导向打造下一代的物流系统', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466242&idx=1&sn=391ee14f3861a93b76a82aed729859d1&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
+        },
+        
+        { 
+            id: 16, 
+            type: 4,
+            name: '听伴', 
+            def: 'logo/工业logo4.png', 
+            act: 'logo/工业logo4-w.png', 
+            txt: '智能车载音频服务商', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465597&idx=1&sn=1dd69d0b3e5724254b8101255e4ce903&chksm=f3dd1665c4aa9f733ff621562c5a20a303743cedf607930a4c0f8697502d8c54c3656fbf8b02&token=1914594675&lang=zh_CN#rd`
+        },
+        { 
+            id: 42, 
+            type: 4,
+            name: '箱信', 
+            def: 'logo/股权融资工业logo4.png', 
+            act: 'logo/股权融资工业logo4-w.png', 
+            txt: '专注于港口集装箱物流的陆运服务的集装箱物流经纪平台', 
+            url: `#`
+        },
+        // { 
+        //     id: 13, 
+        //     type:4,
+        //     name:'小鹏汽车', 
+        //     def: 'logo/工业logo1.png', 
+        //     act: 'logo/工业logo1-w.png', 
+        //     txt: '专注于互联网电动汽车的研发', 
+        //     url: `#`
+        // },
+        // { 
+        //     id: 14, 
+        //     type:4,
+        //     name:'纵目科技', 
+        //     def: 'logo/工业logo2.png', 
+        //     act: 'logo/工业logo2-w.png', 
+        //     txt: '中国领先的自动驾驶和高级驾驶辅助系统技术及产品供应商', 
+        //     url: `#`
+        // },
         { 
             id: 17, 
             type:5,

@@ -302,13 +302,22 @@ $(function() {
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465391&idx=1&sn=a7adddae8ba8f0aa178a01732cf67ff0&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
-            id: 40, 
+            id: 32,
+            type: 4,
+            name: 'MYMRO', 
+            def: 'logo/guanjie.png', 
+            act: 'logo/guanjie-w.png', 
+            txt: 'Chinese Subsidiary of Global Leading MRO Supplier W.W. Grainger', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466316&idx=1&sn=088eeb58de4bb895e0642cc943d0bd39&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+        },
+        { 
+            id: 15, 
             type:4,
-            name:'CiDi', 
-            def: 'logo/xidi.png', 
-            act: 'logo/xidi-w.png', 
-            txt: 'Next-gen Logistics System driven by AI Technologies', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466242&idx=1&sn=391ee14f3861a93b76a82aed729859d1&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
+            name:'KZ Mall', 
+            def: 'logo/工业logo3.png', 
+            act: 'logo/工业logo3-w.png', 
+            txt: 'Leading Auto Parts Supply Chain Platform in China', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465410&idx=1&sn=1ca21f27bb673a5e5a929e05f0d8562f&chksm=f3dd16dac4aa9fccb57e4cf9443ae6b1eba6290c1c851f97c534265a92a03fbf17a1417e1eee&token=1271111519&lang=zh_CN#rd`
         },
         { 
             id: 41, 
@@ -319,16 +328,23 @@ $(function() {
             txt: 'Car-sharing Platform launched by Shouqi Grou', 
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466381&idx=1&sn=ae8ee70f1ea58b5b9eeb63fa798f4ad4&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
         },
-
         { 
-            id: 15, 
+            id: 40, 
             type:4,
-            name:'KZ Mall', 
-            def: 'logo/工业logo3.png', 
-            act: 'logo/工业logo3-w.png', 
-            txt: 'Leading Auto Parts Supply Chain Platform in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465410&idx=1&sn=1ca21f27bb673a5e5a929e05f0d8562f&chksm=f3dd16dac4aa9fccb57
-            e4cf9443ae6b1eba6290c1c851f97c534265a92a03fbf17a1417e1eee&token=1271111519&lang=zh_CN#rd`
+            name:'CiDi', 
+            def: 'logo/xidi.png', 
+            act: 'logo/xidi-w.png', 
+            txt: 'Next-gen Logistics System driven by AI Technologies', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466242&idx=1&sn=391ee14f3861a93b76a82aed729859d1&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
+        },
+        { 
+            id: 16, 
+            type:4,
+            name:'Tingban', 
+            def: 'logo/工业logo4.png', 
+            act: 'logo/工业logo4-w.png', 
+            txt: 'Intelligent Car Audio Service Provider in China', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465597&idx=1&sn=1dd69d0b3e5724254b8101255e4ce903&chksm=f3dd1665c4aa9f733ff621562c5a20a303743cedf607930a4c0f8697502d8c54c3656fbf8b02&token=1914594675&lang=zh_CN#rd`
         },
         { 
             id: 42, 
@@ -339,43 +355,25 @@ $(function() {
             txt: 'Logistics Service Provider focused on Seaport Container Transportation', 
             url: `#`
         },
-        { 
-            id: 13, 
-            type:4,
-            name:'Xpeng Motors', 
-            def: 'logo/工业logo1.png', 
-            act: 'logo/工业logo1-w.png', 
-            txt: 'Focused on development of smart electric vehicles', 
-            url: `#`
-        },
-        { 
-            id: 14, 
-            type:4,
-            name:'ZongmuTech', 
-            def: 'logo/工业logo2.png', 
-            act: 'logo/工业logo2-w.png', 
-            txt: 'Leading Autonomous Driving and ADAS Solution Provider in China', 
-            url: `#`
-        },
-        { 
-            id: 16, 
-            type:4,
-            name:'Tingban', 
-            def: 'logo/工业logo4.png', 
-            act: 'logo/工业logo4-w.png', 
-            txt: 'Intelligent Car Audio Service Provider in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465597&idx=1&s
-            n=1dd69d0b3e5724254b8101255e4ce903&chksm=f3dd1665c4aa9f733ff621562c5a20a303743cedf607930a4c0f8697502d8c54c3656fbf8b02&token=1914594675&lang=zh_CN#rd`
-        },
-        { 
-            id: 32,
-            type: 4,
-            name: 'MYMRO', 
-            def: 'logo/guanjie.png', 
-            act: 'logo/guanjie-w.png', 
-            txt: 'Chinese Subsidiary of Global Leading MRO Supplier W.W. Grainger', 
-            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466316&idx=1&sn=088eeb58de4bb895e0642cc943d0bd39&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
-        },
+        // { 
+        //     id: 13, 
+        //     type:4,
+        //     name:'Xpeng Motors', 
+        //     def: 'logo/工业logo1.png', 
+        //     act: 'logo/工业logo1-w.png', 
+        //     txt: 'Focused on development of smart electric vehicles', 
+        //     url: `#`
+        // },
+        // { 
+        //     id: 14, 
+        //     type:4,
+        //     name:'ZongmuTech', 
+        //     def: 'logo/工业logo2.png', 
+        //     act: 'logo/工业logo2-w.png', 
+        //     txt: 'Leading Autonomous Driving and ADAS Solution Provider in China', 
+        //     url: `#`
+        // },
+        
         { 
             id: 17, 
             type:5,
