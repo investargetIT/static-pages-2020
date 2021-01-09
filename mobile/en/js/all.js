@@ -66,13 +66,14 @@ $(function() {
             url: ' https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465738&idx=1&sn=818e416f3dea54b8564714e975ac07eb&chksm=f3dd1592c4aa9c84d9002727687825c67d1f609e6f97665648569acc56b82c5adc911bd027cc&token=1845434932&lang=zh_CN#rd' 
         },
         { 
-            id: 35,
-            type: 1,
-            name: 'KTU', 
-            def: 'logo/kuaiyuntu.png', 
-            act: 'logo/kuaiyuntu-w.png', 
-            txt: ' One-stop Door-to Door Smart Logistics Platform for SMEs', 
-            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465816&idx=1&sn=7186e7913e78e084b592d2425ea04f46&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+            id: 9, 
+            type:1,
+            name:'Yunzhangfang', 
+            def: 'logo/消费logo1.png', 
+            act: 'logo/消费logo1-w.png', 
+            txt: 'Leading Intelligent Accounting and Tax Services SaaS Company in China', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=
+            50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 36,
@@ -84,15 +85,6 @@ $(function() {
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml9iMDdiZGdzUDJUVk0zVlhFMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzUGNkOHdGdGtXdHFDa2lPTFFWUVdiTHlOZGNfanVpSlk3WGVFYk9IVXR0MnU1YU5mOFdqNjN4TXNCS0JoRzJIMFMxbURnemUxU2trSmJDbERSMmtOQXhFLUVmSEpnMjhkZVpVVDBLTkVzejBnfn4%3D&chksm=73dd128e44aa9b980853330373ceff70a9ea9e3a2b71a8178345280d58e6b26c425709163c62#rd' 
         },
         { 
-            id: 1,
-            type:1,
-            name:'YUNQUNA', 
-            def: 'logo/yunquna.png', 
-            act: 'logo/yunquna-w.png', 
-            txt: 'The Largest Digital One-stop Cross-border Logistics Service Provider in China', 
-            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465320&idx=1&sn=b5ed5688c3266d71e1eb93b7761f9a4c&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
-        },
-        { 
             id: 2, 
             type:1,
             name:'Udesk', 
@@ -101,6 +93,48 @@ $(function() {
             txt: 'Leading Solution Provider of All-scenario Intelligent Customer Service System Provider in China', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465128&idx=1&sn=e9c9a27c840e139f8d21567bfff25d72&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
         },
+        
+      
+        { 
+            id: 50, 
+            type: 1,
+            name: 'EOI Tek', 
+            def: 'logo/股权融资科技logo8.png', 
+            act: 'logo/股权融资科技logo8-w.png', 
+            txt: 'The First AIOps Solution Provider in China', 
+            url: '#' 
+        },
+
+        { 
+            id: 1,
+            type:1,
+            name:'YUNQUNA', 
+            def: 'logo/yunquna.png', 
+            act: 'logo/yunquna-w.png', 
+            txt: 'The Largest Digital One-stop Cross-border Logistics Service Provider in China', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465320&idx=1&sn=b5ed5688c3266d71e1eb93b7761f9a4c&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
+        },
+        
+        { 
+            id: 35,
+            type: 1,
+            name: 'KTU', 
+            def: 'logo/kuaiyuntu.png', 
+            act: 'logo/kuaiyuntu-w.png', 
+            txt: ' One-stop Door-to Door Smart Logistics Platform for SMEs', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465816&idx=1&sn=7186e7913e78e084b592d2425ea04f46&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+        },
+
+        { 
+            id: 51,
+            type: 1,
+            name: 'Tongchuang Yongyi', 
+            def: 'logo/股权融资科技logo5.png',
+            act: 'logo/股权融资科技logo5-w.png', 
+            txt: 'Leading Solution Provider of Business Continuity and Disaster Recovery Management in China', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465416&idx=1&sn=3e5fbb08d5a12fddeea89b2ef1cfc849&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
+        },
+
         { 
             id: 3, 
             type:1,
@@ -123,16 +157,7 @@ $(function() {
             52464496&idx=1&sn=2d631f6fd028f
             8f0c1f9e4ff387e0cca&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
-        { 
-            id: 9, 
-            type:1,
-            name:'Yunzhangfang', 
-            def: 'logo/消费logo1.png', 
-            act: 'logo/消费logo1-w.png', 
-            txt: 'Leading Intelligent Accounting and Tax Services SaaS Company in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=
-            50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
-        },
+        
         { 
             id: 6, 
             type:2,

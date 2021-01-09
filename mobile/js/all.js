@@ -129,10 +129,10 @@ $(function() {
             id: 51,
             type: 1,
             name: '同创永益', 
-            def: 'logo/kuaiyuntu.png', // after this TODO
-            act: 'logo/kuaiyuntu-w.png', 
-            txt: '为中小企业提供一站式门到门运输服务的智能化物流平台', 
-            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465816&idx=1&sn=7186e7913e78e084b592d2425ea04f46&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
+            def: 'logo/股权融资科技logo5.png',
+            act: 'logo/股权融资科技logo5-w.png', 
+            txt: '国内业务连续性和容灾管理领域的领军企业', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465416&idx=1&sn=3e5fbb08d5a12fddeea89b2ef1cfc849&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
         },
 
         { 
