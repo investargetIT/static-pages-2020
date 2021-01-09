@@ -176,6 +176,26 @@ $(function() {
         },
 
         { 
+            id: 4, 
+            type:1,
+            name:'Holovis', 
+            def: 'logo/科技logo4.png', 
+            act: 'logo/科技logo4-w.png', 
+            txt: 'UK Immersive Virtual Reality Solution Provider', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652464496&idx=1&sn=2d631f6fd028f8f0c1f9e4ff387e0cca&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+        },
+
+        { 
+            id: 56, 
+            type: 1,
+            name: 'FLI', 
+            def: 'logo/股权融资科技logo2.png', 
+            act: 'logo/股权融资科技logo2-w.png', 
+            txt: 'Leading Land Remediation Solution Provider in Europe', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504979860&idx=1&sn=1dc8d6d79f1f956b8a5836ac03c94dc4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+        },
+
+        { 
             id: 3, 
             type:1,
             name:'Kenexa', 
@@ -186,17 +206,7 @@ $(function() {
             &mid=2652464496&idx=1&sn=2d631f6fd028f8f0c1f9e4ff3
             87e0cca&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
-        { 
-            id: 4, 
-            type:1,
-            name:'Holovis', 
-            def: 'logo/科技logo4.png', 
-            act: 'logo/科技logo4-w.png', 
-            txt: 'UK Immersive Virtual Reality Solution Provider', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=26
-            52464496&idx=1&sn=2d631f6fd028f
-            8f0c1f9e4ff387e0cca&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
-        },
+       
         
         { 
             id: 6, 
