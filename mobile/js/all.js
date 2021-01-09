@@ -163,6 +163,16 @@ $(function() {
         },
 
         { 
+            id: 55,
+            type: 1,
+            name: '氪信科技', 
+            def: 'logo/股权融资科技logo3.png',
+            act: 'logo/股权融资科技logo3-w.png', 
+            txt: '人工智能技术驱动金融机构升级的领跑者', 
+            url: '#' 
+        },
+
+        { 
             id: 3, 
             type:1,
             name:'KeneXa', 

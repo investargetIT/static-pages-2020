@@ -166,6 +166,16 @@ $(function() {
         },
 
         { 
+            id: 55,
+            type: 1,
+            name: 'CRAIDITX', 
+            def: 'logo/股权融资科技logo3.png',
+            act: 'logo/股权融资科技logo3-w.png', 
+            txt: 'Leading AI Solution Provider empowering upgrading of financial institutions in China', 
+            url: '#' 
+        },
+
+        { 
             id: 3, 
             type:1,
             name:'Kenexa', 
