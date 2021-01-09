@@ -136,6 +136,16 @@ $(function() {
         },
 
         { 
+            id: 52,
+            type: 1,
+            name: 'KNOWLEDGENE', 
+            def: 'logo/股权融资科技logo7.png',
+            act: 'logo/股权融资科技logo7-w.png', 
+            txt: 'Leading AI Solution Provider of Industrial and Supply Chain Finance', 
+            url: '#' 
+        },
+
+        { 
             id: 3, 
             type:1,
             name:'Kenexa', 

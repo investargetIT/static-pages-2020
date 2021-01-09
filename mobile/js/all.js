@@ -134,6 +134,15 @@ $(function() {
             txt: '国内业务连续性和容灾管理领域的领军企业', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465416&idx=1&sn=3e5fbb08d5a12fddeea89b2ef1cfc849&scene=19&token=1271111519&lang=zh_CN#wechat_redirect' 
         },
+        { 
+            id: 52,
+            type: 1,
+            name: '知因智慧', 
+            def: 'logo/股权融资科技logo7.png',
+            act: 'logo/股权融资科技logo7-w.png', 
+            txt: '国内领先的产业链金融AI赋能和运营商', 
+            url: '#' 
+        },
 
         { 
             id: 3, 
