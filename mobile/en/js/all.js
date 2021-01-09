@@ -195,19 +195,39 @@ $(function() {
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504979860&idx=1&sn=1dc8d6d79f1f956b8a5836ac03c94dc4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
 
-        { 
-            id: 3, 
-            type:1,
-            name:'Kenexa', 
-            def: 'logo/科技logo3.png', 
-            act: 'logo/科技logo3-w.png', 
-            txt: 'Leading Comprehensive Human Capital Management Solution Provider', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==
-            &mid=2652464496&idx=1&sn=2d631f6fd028f8f0c1f9e4ff3
-            87e0cca&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
-        },
+        // { 
+        //     id: 3, 
+        //     type:1,
+        //     name:'Kenexa', 
+        //     def: 'logo/科技logo3.png', 
+        //     act: 'logo/科技logo3-w.png', 
+        //     txt: 'Leading Comprehensive Human Capital Management Solution Provider', 
+        //     url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==
+        //     &mid=2652464496&idx=1&sn=2d631f6fd028f8f0c1f9e4ff3
+        //     87e0cca&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+        // },
        
-        
+       
+        { 
+            id: 7, 
+            type:2,
+            name:'Yizhun AI', 
+            def: 'logo/健康logo3.png', 
+            act: 'logo/健康logo3-w.png', 
+            txt: 'AI-assisted Medical Imaging Diagnosis Service Provider', 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465183&idx=1&sn=b958aa1be8615dd34d0f7e744a027adb&scene=19&token=664976924&lang=zh_CN#wechat_redirect'
+        },
+
+        { 
+            id: 57, 
+            type: 2,
+            name: 'Corrison', 
+            def: 'logo/股权融资健康logo2.png', 
+            act: 'logo/股权融资健康logo2-w.png', 
+            txt: 'Assisted Reproductive Platform built by Sinopharm Group and Seasoned R&D Team', 
+            url: '#'
+        },
+
         { 
             id: 6, 
             type:2,
@@ -217,16 +237,7 @@ $(function() {
             txt: 'Committed to the Research and Development of Congenital Heart Disease Treatment Devices', 
             url: `#`
         },
-        { 
-            id: 7, 
-            type:2,
-            name:'Yizhun AI', 
-            def: 'logo/健康logo3.png', 
-            act: 'logo/健康logo3-w.png', 
-            txt: 'AI-assisted Medical Imaging Diagnosis Service Provider', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465183&idx=1&sn=b958aa1be8615dd34d0f7e74
-            4a027adb&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
-        },
+        
         { 
             id: 8, 
             type:2,
@@ -234,8 +245,7 @@ $(function() {
             def: 'logo/健康logo4.png', 
             act: 'logo/健康logo4-w.png', 
             txt: 'A Drug Research and Development Company focusing on a Next-generation of Antibody Coupling Technology', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465178&idx=1&sn=38d6d4676df
-            4642c778249778a2b1581&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465178&idx=1&sn=38d6d4676df4642c778249778a2b1581&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 37, 
