@@ -338,6 +338,15 @@ $(function() {
             url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466242&idx=1&sn=391ee14f3861a93b76a82aed729859d1&scene=19&token=970758363&lang=zh_CN#wechat_redirect`
         },
         { 
+            id: 58, 
+            type: 4,
+            name: 'IPLAS', 
+            def: 'logo/股权融资消费logo5.png', 
+            act: 'logo/股权融资消费logo5-w.png', 
+            txt: 'Leading Plastics and Chemical B2B E-commerce Platform in Asia', 
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465190&idx=1&sn=4226d5662315fd888add02319c956f69&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+        }, 
+        { 
             id: 16, 
             type:4,
             name:'Tingban', 
