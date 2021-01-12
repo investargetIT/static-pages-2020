@@ -29,7 +29,7 @@ body {
   display: block;
   background-color: #13356C;
   padding-top: 3.693rem;
-  height: 100vh;
+  height: 100%;
 }
 nav {
   z-index: 999;
@@ -193,7 +193,7 @@ nav .head_box .act_list .link_box {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: fixed;
+  position: absolute;
   width: 100%;
   bottom: 6.9%;
 }
