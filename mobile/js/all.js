@@ -72,8 +72,7 @@ $(function() {
             def: 'logo/消费logo1.png', 
             act: 'logo/消费logo1-w.png', 
             txt: '中国领先的智能财税SaaS提供商', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465250&idx=1&sn=
-            50d0dfbebc03c5541d825a76a837a4c4&scene=19&token=1271111519&lang=zh_CN#wechat_redirect`
+            url: '#'
         },
         { 
             id: 36,
@@ -275,7 +274,7 @@ $(function() {
             def: 'logo/xiaoy.png', 
             act: 'logo/xiaoy-w.png', 
             txt: '国内领先的家庭屏终端内容服务商', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml9MMHhvZTNBUWNsRVgrMEZrMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzTUVydzBYQlRsQmFlRnhPd0wzZFg5RFVuMUJNTXNVTTV2QWRyelVwYjFjTVRXZ1dOZ3JLc2h1Qkc0M0FTeGkwUDB0RE5nOGxTNVRqM3lnek8weWFsQlYxT2FKN19yX2ROQmZsaUZWYVJ3dUlnfn4%3D&chksm=73dd147c44aa9d6a77dfeb3a76ba0502845fa2be1972374351199f352cecbe1af85cd3189fe8#rd`
+            url: '#'
         },
         { 
             id: 12, 
