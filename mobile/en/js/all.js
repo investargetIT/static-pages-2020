@@ -389,8 +389,7 @@ $(function() {
             def: 'logo/兼收logo1.png', 
             act: 'logo/兼收logo1-w.png', 
             txt: 'Largest Stationery Brand in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504981519&idx=1&sn=9ff246e5b5f533528a81b970
-            7aa018dc&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504981504&idx=1&sn=e1fba607e56a12e61e5f951497a1a61b&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 18, 
@@ -466,8 +465,7 @@ $(function() {
             def: 'logo/兼收logo9.png', 
             act: 'logo/兼收logo9-w.png', 
             txt: 'Leading Industrial Wastewater Treatment Solution Provider and Membrane Manufacturer in China', 
-            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504977627&idx=1&sn=a53b0a7d93ed03c1b6469e31
-            ac89e5a2&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504977627&idx=1&sn=a53b0a7d93ed03c1b6469e31ac89e5a2&scene=19&token=664976924&lang=zh_CN#wechat_redirect`
         },
         { 
             id: 24, 
@@ -1305,7 +1303,7 @@ $(function() {
                         <img src="${list[i].def}" class="def" alt="">
                         <div class="bg">
                             <img src="${list[i].act}" class="act" alt=""> 
-                            <p><a href="${list[i].url}">${list[i].txt}</a></p> 
+                            <p><a href="${list[i].url}" target="_blank">${list[i].txt}</a></p> 
                         </div> 
                     </li>`
             $('#guquan').append(li_str)
@@ -1317,7 +1315,7 @@ $(function() {
                         <img src="${list[i].def}" class="def" alt="">
                         <div class="bg">
                             <img src="${list[i].act}" class="act" alt=""> 
-                            <p><a href="${list[i].url}">${list[i].txt}</a></p> 
+                            <p><a href="${list[i].url}" target="_blank">${list[i].txt}</a></p> 
                         </div> 
                     </li>`
             $('#jianshou').append(li_str)
