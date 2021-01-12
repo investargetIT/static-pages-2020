@@ -54,7 +54,7 @@ $(function() {
             def: 'logo/cehui.png', 
             act: 'logo/cehui-w.png', 
             txt: '一体化智能零售服务商', 
-            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml94bDM1azMyRnA5UWVvZkExMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzTTBEbmlwSVdKcDFyemVFd3VvTVpYZE5GOERRRjFaQ3ozbTg5aHZmTU9LUnV3bF9NZmhTOThYZGNuUzRPRk9aX1IwNEo3QmxXMjQ5cXpCNUJTa3hyRVRoMXJyOXp6dWZTY2d3eldTb2NvVjZnfn4%3D&chksm=73dd12be44aa9ba8cafa2fd2f387721254e324ba8f4eea43d8274170ada05b8377dc5b7aca23#rd' 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466535&idx=1&sn=283966eb0bb8f21bdba088eabfab0992&chksm=f3dd12bfc4aa9ba9e38cb483e78fac365fa6e5b9124926f730070854a61b4651110b47507e51&token=545970318&lang=zh_CN#rd' 
         },
         { 
             id: 34,
@@ -82,7 +82,7 @@ $(function() {
             def: 'logo/yixin.png', 
             act: 'logo/yixin-w.png', 
             txt: '蜂窝移动通信芯片及其软件的研发和销售', 
-            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&tempkey=MTA5Ml9iMDdiZGdzUDJUVk0zVlhFMEpoYlN3TUtycV9qRnZPU2Q3T2VCUy02V3E3MXlZaFNleTc4UzlSaHZzUGNkOHdGdGtXdHFDa2lPTFFWUVdiTHlOZGNfanVpSlk3WGVFYk9IVXR0MnU1YU5mOFdqNjN4TXNCS0JoRzJIMFMxbURnemUxU2trSmJDbERSMmtOQXhFLUVmSEpnMjhkZVpVVDBLTkVzejBnfn4%3D&chksm=73dd128e44aa9b980853330373ceff70a9ea9e3a2b71a8178345280d58e6b26c425709163c62#rd' 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466521&idx=1&sn=d987d4b74afbf0b2723dc140d3002db0&chksm=f3dd1281c4aa9b977285b4fb32b498a21ad5b8c3c5d77c2f3f53a75757d578a9e46308515f32&token=545970318&lang=zh_CN#rd' 
         },
 
         { 
@@ -102,7 +102,7 @@ $(function() {
             def: 'logo/股权融资科技logo8.png', 
             act: 'logo/股权融资科技logo8-w.png', 
             txt: '国内首家智能运维AIOps落地解决方案供应商', 
-            url: '#' 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465790&idx=1&sn=249a5a798459caafe2c2e7a9c700ea6f&chksm=f3dd15a6c4aa9cb02a698994b8ad60b85b8a39a3fc47cfbcf0bb9c9a69adc82138416abb6029&token=545970318&lang=zh_CN#rd' 
         },
         
         { 
@@ -141,7 +141,7 @@ $(function() {
             def: 'logo/股权融资科技logo7.png',
             act: 'logo/股权融资科技logo7-w.png', 
             txt: '国内领先的产业链金融AI赋能和运营商', 
-            url: '#' 
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465738&idx=2&sn=ad5619b50f408983f8a4baeedf5ba083&chksm=f3dd1592c4aa9c84b3b75234e27a5ed77e154ccd4b3272db8cce061cd4528f55ecf970c1f0fd&token=545970318&lang=zh_CN#rd' 
         },
         { 
             id: 53,
@@ -393,7 +393,7 @@ $(function() {
             def: 'logo/兼收logo2.png', 
             act: 'logo/兼收logo2-w.png', 
             txt: '中国领先的跨境母婴电商品牌', 
-            url: `#`
+            url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466259&idx=1&sn=525928b6cc15f96b53deaaa37db608e6&chksm=f3dd138bc4aa9a9dfc1a0e7a1a917ca22465705a20d13856597c10d722e8ffd195305d4afa5c&token=545970318&lang=zh_CN#rd'
         },
         { 
             id: 19, 
@@ -412,9 +412,7 @@ $(function() {
             def: 'logo/兼收logo4.png', 
             act: 'logo/兼收logo4-w.png', 
             txt: '中国新一代IT基础架构解决方案。', 
-            url: `https://mp.weixin.qq.com/s?__biz=M
-            zIyMjIxODkzNQ==&tempkey=MTAzMV8yeS9PTEduU1JPRVczWFJCaDZKNU5TaVgxSTlnRlMweUVXdUFOQVZ0MmlPSEcxYTJpZjNnWUZWUGZVTGUzbEQzR1RRcnliTmFxcTlGTWpyUy1oOHROV2NXekFjaTdHWWpEZk10RGx2Skc4bXJNdFhxT0E2V2NNMENoSE1QVExCUzM3VlJkVEVJT1FiTTNkNGJTNGp0VDM3TnJDdmRfUkNyX1dlejlRfn4%3D&chksm=73dd2fe244aaa6f43038782
-            6d19d006ab8f4f25903284638ade4930681a477f6730f068dd07f#rd`
+            url: `https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652459128&idx=2&sn=b03187ab99f9fb4cc40a36d7811f3e37&chksm=f3dd2fa0c4aaa6b6a4ec97f88e6403dc3c9ae2b1fc3215bb095e9a5e6a32d8059969886cfb68&token=545970318&lang=zh_CN#rd`
         },
         { 
             id: 21, 
