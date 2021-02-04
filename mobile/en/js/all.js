@@ -553,12 +553,12 @@ $(function() {
             title:'UDESK-Founder & CEOli',
             content:`InvesTarget’s excellent ability proved in the transaction process is much appreciated. Their deep understanding of the market, excellent insight into the project and rich capital market experience and resources have successfully helped us find the top investors. We are very satisfied with their professional services and hence the guarantee on the rapid transaction.`
         },
-        {
-            id:3,
-            name:'Xinghua Xue',
-            title:'YunZhangFang-Founder & CEO',
-            content:`Our cooperation with InvesTarget is smooth and pleasant. InvesTarget has demonstrated a very professional value mining and precise investor matching ability in the project, which guarantees the smooth closing of the deal. We appreciate and trust the services of InvesTarget, because they show a very high degree of professionalism in transaction structuring and negotiations, which is also the reason why we choose to cooperate with them.`
-        },
+        // {
+        //     id:3,
+        //     name:'Xinghua Xue',
+        //     title:'YunZhangFang-Founder & CEO',
+        //     content:`Our cooperation with InvesTarget is smooth and pleasant. InvesTarget has demonstrated a very professional value mining and precise investor matching ability in the project, which guarantees the smooth closing of the deal. We appreciate and trust the services of InvesTarget, because they show a very high degree of professionalism in transaction structuring and negotiations, which is also the reason why we choose to cooperate with them.`
+        // },
         {
             id:4,
             name:'Wenting Tang',
@@ -589,12 +589,12 @@ $(function() {
             title:'ECCOM Strategic Development Department',
             content:`InvesTarget has professional investment banking and consulting service capabilities, providing us with strategic services, target screening, project execution, post-investment management and other services. With the help of rich global target resources, InvesTarget provides us with good suggestions for searching and locating high-quality companies in the US IT and infrastructure fields, and for us to root our technology and services in the US market and the global allocation of capital.`
         },
-        {
-            id:9,
-            name:'Pengfei Wang',
-            title:'Tiger Global-Managing Director',
-            content:`InvesTarget has in-depth business insight, efficient and professional project execution capabilities. With the assistance of InvesTarget, we were able to approach projects with great potential and were able to quickly cooperate with them. They are one of the few financial advisors with a global perspective in China. I am very satisfied with the professional services provided by InvesTarget.`
-        },
+        // {
+        //     id:9,
+        //     name:'Pengfei Wang',
+        //     title:'Tiger Global-Managing Director',
+        //     content:`InvesTarget has in-depth business insight, efficient and professional project execution capabilities. With the assistance of InvesTarget, we were able to approach projects with great potential and were able to quickly cooperate with them. They are one of the few financial advisors with a global perspective in China. I am very satisfied with the professional services provided by InvesTarget.`
+        // },
         {
             id:10,
             name:'Quanli Xu',
@@ -607,12 +607,12 @@ $(function() {
             title:'The Carlyle Group-Managing Director',
             content:`With excellent transaction experience and professional  spirit, InvesTarget is one of the few domestic financial advisors with capital markets and strategic consulting experience, and also a rare team that can provide all-round services. Their insight in industry and global vision in identifying opportunities are very valuable. We have a lot of exchanges in industry views and the markets, and we look forward to more cooperation opportunities.`
         },
-        {
-            id:12,
-            name:'Kai Jiang',
-            title:'Coatue Management-Managing Director',
-            content:`We have achieved many times of cooperation with InvesTarget. InvesTarget team has efficient execution ability and rich experience, which facilitates the smooth progress of multiple rounds of transactions, and provides us with good investment suggestions. We will continue to place our bets in the Chinese market and look forward to more and more in-depth cooperation with InvesTarget in the future.`
-        },
+        // {
+        //     id:12,
+        //     name:'Kai Jiang',
+        //     title:'Coatue Management-Managing Director',
+        //     content:`We have achieved many times of cooperation with InvesTarget. InvesTarget team has efficient execution ability and rich experience, which facilitates the smooth progress of multiple rounds of transactions, and provides us with good investment suggestions. We will continue to place our bets in the Chinese market and look forward to more and more in-depth cooperation with InvesTarget in the future.`
+        // },
         {
             id:13,
             name:'Jing Zhang',
