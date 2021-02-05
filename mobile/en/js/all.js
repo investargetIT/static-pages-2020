@@ -678,7 +678,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">Login</a>
+                        <a href="https://m.investarget.com" class="login_">Login</a>
                         <a href="contact.html" class="about_us">Contact us ></a>
                     </div>
                 </div>
@@ -748,7 +748,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">Login</a>
+                        <a href="https://m.investarget.com" class="login_">Login</a>
                         <a href="contact.html" class="about_us">Contact us ></a>
                     </div>
                 </div>
@@ -818,7 +818,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">Login</a>
+                        <a href="https://m.investarget.com" class="login_">Login</a>
                         <a href="contact.html" class="about_us">Contact us ></a>
                     </div>
                 </div>
@@ -888,7 +888,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">Login</a>
+                        <a href="https://m.investarget.com" class="login_">Login</a>
                         <a href="contact.html" class="about_us">Contact us ></a>
                     </div>
                 </div>
@@ -958,7 +958,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">Login</a>
+                        <a href="https://m.investarget.com" class="login_">Login</a>
                         <a href="contact.html" class="about_us">Contact us ></a>
                     </div>
                 </div>
@@ -1028,7 +1028,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">Login</a>
+                        <a href="https://m.investarget.com" class="login_">Login</a>
                         <a href="contact.html" class="about_us">Contact us ></a>
                     </div>
                 </div>
@@ -1098,7 +1098,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">Login</a>
+                        <a href="https://m.investarget.com" class="login_">Login</a>
                         <a href="contact.html" class="about_us">Contact us ></a>
                     </div>
                 </div>
@@ -1168,7 +1168,7 @@ $(function() {
                         </li> 
                     </ul>
                     <div class="link_box"> 
-                        <a href="http://mtest.investarget.com/login" class="login_">Login</a>
+                        <a href="https://m.investarget.com" class="login_">Login</a>
                         <a href="contact.html" class="about_us">Contact us ></a>
                     </div>
                 </div>
