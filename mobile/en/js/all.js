@@ -303,10 +303,10 @@ $(function() {
         { 
             id: 32,
             type: 4,
-            name: 'MYMRO', 
+            name: 'MyMRO', 
             def: 'logo/guanjie.png', 
             act: 'logo/guanjie-w.png', 
-            txt: 'Chinese Subsidiary of Global Leading MRO Supplier W.W. Grainger', 
+            txt: 'The pioneer in building digital infrastructure for the MRO industry', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466316&idx=1&sn=088eeb58de4bb895e0642cc943d0bd39&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
         },
         { 

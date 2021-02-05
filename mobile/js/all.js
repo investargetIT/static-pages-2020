@@ -297,10 +297,10 @@ $(function() {
         { 
             id: 32,
             type: 4,
-            name: '固安捷中国', 
+            name: '固安捷', 
             def: 'logo/guanjie.png', 
             act: 'logo/guanjie-w.png', 
-            txt: '全球最大工业品分销商W.W.Grainger的中国运营子公司', 
+            txt: 'MRO行业的数字化新型基础设施打造者', 
             url: 'https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466316&idx=1&sn=088eeb58de4bb895e0642cc943d0bd39&scene=19&token=970758363&lang=zh_CN#wechat_redirect' 
         },
         { 
