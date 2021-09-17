@@ -1,9 +1,9 @@
 .head {
     width: 100%;
 	min-width: 1200px;
-    height: 120px;
+    height: 61px;
     /* background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.52) 0%, #FFFFFF 83%); */
-    background-color: rgba(225,225,225,0.7);
+    background-color: rgba(131, 184, 246);
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -11,23 +11,24 @@
 }
 
 .logoHead {
-    margin: 10px 0;
+    margin: 18px 0;
+    width: 160px;
 }
 
 .headText {
-    line-height: 109px;
+    line-height: 60px;
 }
 
 .headText li {
-    margin: 0 1%;
+    margin: 0 30px;
 }
 
 .headText li a {
     text-decoration: none;
-    color: black;
+    color: rgba(255, 255, 255, .9);
 }
 .headText li a.lang {
-    color: #747474;
+    color: rgba(255, 255, 255, .9);
 }
 
 .loginImg {
@@ -41,7 +42,8 @@
 }
 
 .textLine {
-    margin: 0 5px;
+    margin: 0 3px;
+    color: rgba(255, 255, 255, .9);
 }
 
 .textCh,
@@ -49,5 +51,5 @@
     cursor: pointer;
 }
 .textCh {
-    color: #000;
+    color: #fff;
 }
