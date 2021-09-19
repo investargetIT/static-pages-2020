@@ -171,3 +171,12 @@ body{
  .smallLine {
     margin: 20px auto !important;
 }
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    content: none;
+}
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+    content: none;
+}
+.swiper-slide {
+    background: none;
+}
