@@ -20,6 +20,66 @@
             window.location.href = "/mobile/index.html"
         }
     </script>
+    <style>
+        .member-details__container {
+            display: flex;
+            justify-content: center;
+        }
+        .member-details__image {
+            width: 620px;
+            height: 550px;
+            background-color: #ededed;
+            margin-right: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .member-details__text {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .member-details__text__name {
+            margin-top: 20px;
+            font-size: 28px;
+            color: black;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        .member-details__text__title {
+            margin-top: 14px;
+            font-size: 16px;
+            color: #979EA6;
+            letter-spacing: 1px;
+        }
+        .member-details__text__content {
+            margin-top: 28px;
+            font-size: 14px;
+            color: black;
+            letter-spacing: 1px;
+            line-height: 22px;
+        }
+        .member-details__text__number {
+            margin-bottom: 20px;
+            font-size: 11px;
+            color: black;
+            letter-spacing: 1px;
+            line-height: 20px;
+        }
+        .arrow-left {
+            background-image: url(../img/arrow-left.svg);
+        }
+        .arrow-right {
+            background-image: url(../img/arrow-right.svg);
+        }
+        .arrow-left:hover {
+            background-image: url(../img/arrow-left-active.svg);
+        }
+        .arrow-right:hover {
+            background-image: url(../img/arrow-right-active.svg);
+        }
+    </style>
 </head>
 
 <body>
@@ -61,21 +121,21 @@
                     <div style="margin-right: 15px;width: 1px;height: 26px;background-color: white;"></div>
                     <div style="font-size: 24px;color: white;font-weight: bold;letter-spacing: 0.86px;">多维团队</div>
                 </div>
-                <div style="position: relative;margin-right: 50px;background-color: #f3f3f3;">
+                <div onClick="handleMemberClick(0)" style="cursor: pointer;position: relative;margin-right: 50px;background-color: #f3f3f3;">
                     <img src="../img/rw/曹芳宁.png" style="width: 239px;height: 313px;" />
                     <div style="padding-left: 34px;display: flex;flex-direction: column;justify-content: center;color: white;position: absolute;left: 0;bottom: 0;width: 135px;height: 64px;background-image: url(../img/team_member_bg.png);">
                       <div style="margin-bottom: 2px;font-size: 14px;line-height: 21px;">曹芳宁</div>
                       <div style="font-size: 12px;color: #bfbfbf;line-height: 16px;">管理合伙人</div>
                     </div>
                 </div>
-                <div style="position: relative;margin-right: 50px;background-color: #f3f3f3;">
+                <div onClick="handleMemberClick(1)" style="cursor: pointer;position: relative;margin-right: 50px;background-color: #f3f3f3;">
                     <img src="../img/rw/周炫.png" style="width: 239px;height: 313px;" />
                     <div style="padding-left: 34px;display: flex;flex-direction: column;justify-content: center;color: white;position: absolute;left: 0;bottom: 0;width: 135px;height: 64px;background-image: url(../img/team_member_bg.png);">
                       <div style="margin-bottom: 2px;font-size: 14px;line-height: 21px;">周炫</div>
                       <div style="font-size: 12px;color: #bfbfbf;line-height: 16px;">管理合伙人</div>
                     </div>
                 </div>
-                <div style="position: relative;background-color: #f3f3f3;">
+                <div onClick="handleMemberClick(2)" style="cursor: pointer;position: relative;background-color: #f3f3f3;">
                     <img src="../img/rw/尤頔.png" style="width: 239px;height: 313px;" />
                     <div style="padding-left: 34px;display: flex;flex-direction: column;justify-content: center;color: white;position: absolute;left: 0;bottom: 0;width: 135px;height: 64px;background-image: url(../img/team_member_bg.png);">
                       <div style="margin-bottom: 2px;font-size: 14px;line-height: 21px;">尤頔</div>
@@ -85,28 +145,28 @@
             </div>
 
             <div style="margin-top: 50px;padding-bottom: 156px;display: flex;justify-content: center;align-items: center;">
-                <div style="position: relative;margin-right: 50px;background-color: #f3f3f3;">
+                <div onClick="handleMemberClick(3)" style="cursor: pointer;position: relative;margin-right: 50px;background-color: #f3f3f3;">
                     <img src="../img/rw/王浩.png" style="width: 239px;height: 313px;" />
                     <div style="padding-left: 34px;display: flex;flex-direction: column;justify-content: center;color: white;position: absolute;left: 0;bottom: 0;width: 135px;height: 64px;background-image: url(../img/team_member_bg.png);">
                       <div style="margin-bottom: 2px;font-size: 14px;line-height: 21px;">王浩</div>
                       <div style="font-size: 12px;color: #bfbfbf;line-height: 16px;">董事</div>
                     </div>
                 </div>
-                <div style="position: relative;margin-right: 50px;background-color: #f3f3f3;">
+                <div onClick="handleMemberClick(4)" style="cursor: pointer;position: relative;margin-right: 50px;background-color: #f3f3f3;">
                     <img src="../img/rw/尹乐鸣.png" style="width: 239px;height: 313px;" />
                     <div style="padding-left: 34px;display: flex;flex-direction: column;justify-content: center;color: white;position: absolute;left: 0;bottom: 0;width: 135px;height: 64px;background-image: url(../img/team_member_bg.png);">
                       <div style="margin-bottom: 2px;font-size: 14px;line-height: 21px;">尹乐鸣</div>
                       <div style="font-size: 12px;color: #bfbfbf;line-height: 16px;">董事</div>
                     </div>
                 </div>
-                <div style="position: relative;margin-right: 50px;background-color: #f3f3f3;">
+                <div onClick="handleMemberClick(5)" style="cursor: pointer;position: relative;margin-right: 50px;background-color: #f3f3f3;">
                     <img src="../img/rw/罗耀锋.png" style="width: 239px;height: 313px;" />
                     <div style="padding-left: 34px;display: flex;flex-direction: column;justify-content: center;color: white;position: absolute;left: 0;bottom: 0;width: 135px;height: 64px;background-image: url(../img/team_member_bg.png);">
                       <div style="margin-bottom: 2px;font-size: 14px;line-height: 21px;">罗耀锋</div>
                       <div style="font-size: 12px;color: #bfbfbf;line-height: 16px;">董事</div>
                     </div>
                 </div>
-                <div style="position: relative;background-color: #f3f3f3;">
+                <div onClick="handleMemberClick(6)" style="cursor: pointer;position: relative;background-color: #f3f3f3;">
                     <img src="../img/rw/唐雪.png" style="width: 239px;height: 313px;" />
                     <div style="padding-left: 34px;display: flex;flex-direction: column;justify-content: center;color: white;position: absolute;left: 0;bottom: 0;width: 135px;height: 64px;background-image: url(../img/team_member_bg.png);">
                       <div style="margin-bottom: 2px;font-size: 14px;line-height: 21px;">唐雪</div>
@@ -122,16 +182,75 @@
 <div id="myModal" class="modal" tabindex="-1">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
             <div class="modal-body">
-                <p>Modal body text goes here.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <div style="margin: 40px;text-align: right;">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" style="margin-bottom: 100px;">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="member-details__container" style="display: flex;">
+                              <div class="member-details__image">
+                                <img style="height: 550px;width: auto;" src="../img/rw/曹芳宁.png" />
+                              </div>
+                              <div class="member-details__text">
+                                <div>
+                                    <div class="member-details__text__name">曹芳宁</div>
+                                    <div class="member-details__text__title">管理合伙人</div>
+                                    <div class="member-details__text__content">主管多维资本整体发展规划、组织战略和日常运营，以及重大核心交易管理。</div>
+                                    <div class="member-details__text__content">创立多维资本前，曹芳宁女士曾出任全球顶级战略管理咨询公司罗兰贝格（Roland Berger）大中华区合伙人，拥有超过十年的咨询行业从业经历。</div>
+                                    <div class="member-details__text__content">曹芳宁女士在汽车和消费领域有着极其丰富的行业经验与深刻敏锐的洞察力，亦曾担任上海市政府高级顾问及三家上市公司独立董事。</div>
+                                    <div class="member-details__text__content">曹芳宁女士曾在欧洲学习、工作和生活近八年，并精通德语、法语和英语。</div>
+                                    <div class="member-details__text__content">曹芳宁女士获得法国巴黎HEC商学院MBA学位。</div>
+                                </div>
+                                  <div class="member-details__text__number">01 / 07</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="member-details__container" style="display: flex;">
+                            <div class="member-details__image">
+                              <img style="height: 550px;width: auto;" src="../img/rw/曹芳宁.png" />
+                            </div>
+                            <div class="member-details__text">
+                                <div>
+                                    <div class="member-details__text__name">曹芳宁</div>
+                                    <div class="member-details__text__title">管理合伙人</div>
+                                    <div class="member-details__text__content">主管多维资本整体发展规划、组织战略和日常运营，以及重大核心交易管理。</div>
+                                    <div class="member-details__text__content">创立多维资本前，曹芳宁女士曾出任全球顶级战略管理咨询公司罗兰贝格（Roland Berger）大中华区合伙人，拥有超过十年的咨询行业从业经历。</div>
+                                    <div class="member-details__text__content">曹芳宁女士在汽车和消费领域有着极其丰富的行业经验与深刻敏锐的洞察力，亦曾担任上海市政府高级顾问及三家上市公司独立董事。</div>
+                                    <div class="member-details__text__content">曹芳宁女士曾在欧洲学习、工作和生活近八年，并精通德语、法语和英语。</div>
+                                    <div class="member-details__text__content">曹芳宁女士获得法国巴黎HEC商学院MBA学位。</div>
+                                </div>
+                                  <div class="member-details__text__number">01 / 07</div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="member-details__container" style="display: flex;">
+                            <div class="member-details__image">
+                              <img style="height: 550px;width: auto;" src="../img/rw/曹芳宁.png" />
+                            </div>
+                            <div class="member-details__text">
+                                <div>
+                                    <div class="member-details__text__name">曹芳宁</div>
+                                    <div class="member-details__text__title">管理合伙人</div>
+                                    <div class="member-details__text__content">主管多维资本整体发展规划、组织战略和日常运营，以及重大核心交易管理。</div>
+                                    <div class="member-details__text__content">创立多维资本前，曹芳宁女士曾出任全球顶级战略管理咨询公司罗兰贝格（Roland Berger）大中华区合伙人，拥有超过十年的咨询行业从业经历。</div>
+                                    <div class="member-details__text__content">曹芳宁女士在汽车和消费领域有着极其丰富的行业经验与深刻敏锐的洞察力，亦曾担任上海市政府高级顾问及三家上市公司独立董事。</div>
+                                    <div class="member-details__text__content">曹芳宁女士曾在欧洲学习、工作和生活近八年，并精通德语、法语和英语。</div>
+                                    <div class="member-details__text__content">曹芳宁女士获得法国巴黎HEC商学院MBA学位。</div>
+                                </div>
+                                  <div class="member-details__text__number">01 / 07</div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="display: flex;width: 96px;height: 48px;position: absolute;bottom: 0;right: 0;">
+                        <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
+                        <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
+                    </div> 
+                  </div>
             </div>
         </div>
     </div>
@@ -157,7 +276,22 @@
         var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
             keyboard: false
         })
-        myModal.show();
+        function handleMemberClick(index) {
+            console.log('index', index);
+            myModal.show();
+        }
+
+        var myCarousel = document.querySelector('#carouselExampleControls');
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            pause: false,
+        });
+
+        function handlePrevBtnClick() {
+            carousel.prev();
+        }
+        function handleNextBtnClick() {
+            carousel.next();
+        }
     </script>
 </body>
 
