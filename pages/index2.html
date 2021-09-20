@@ -138,14 +138,27 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div style="margin-bottom: 40px;display: flex;">
+                                        <img style="margin-right: 30px;width: 150px;" src="../img/10强硬科技.png" />
+                                        <img style="width: 150px;" src="../img/财务顾问.png" />
+                                    </div>
+                                    <div style="display: flex;">
+                                        <img style="margin-right: 30px;width: 150px;" src="../img/2020Top10.png" />
+                                        <img style="width: 150px;" src="../img/2018top10.png" /> 
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <!-- If we need pagination -->
                         <!-- <div class="swiper-pagination"></div> -->
                     
                         <!-- If we need navigation buttons -->
-                        <!-- <div class="swiper-button-prev" style="left: 30px; width: 32px;height: 32px;right: auto;background-image: url(../img/arrow-left.png);background-size: cover;"></div> -->
-                        <!-- <div class="swiper-button-next"></div> -->
+                        <div class="swiper-button-prev" onClick="navigateLeft()" style="left: 30px; width: 32px;height: 32px;right: auto;background-image: url(../img/arrow-left-new.png);background-size: cover;"></div>
+                        <div class="swiper-button-next" onClick="navigateRight()" style="right: 30px; width: 32px;height: 32px;left: auto;background-image: url(../img/arrow-right.png);background-size: cover;"></div>
                     
                         <!-- If we need scrollbar -->
                         <!-- <div class="swiper-scrollbar"></div> -->
@@ -184,6 +197,12 @@
             },
             autoHeight: true,
         });
+        function navigateLeft() {
+            swiper.slidePrev();
+        }
+        function navigateRight() { 
+            swiper.slideNext();
+        }
     </script>
 </body>
 
