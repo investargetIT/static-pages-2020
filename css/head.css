@@ -9,6 +9,9 @@
 	top: 0;
 	z-index: 999;
     backdrop-filter: blur(80px);
+    display: flex;
+    padding-left: 50px;
+    padding-right: 15px;
 }
 
 .logoHead {
