@@ -216,7 +216,8 @@ nav .head_box .act_list .link_box .about_us {
   margin-top: 1.7%;
 }
 footer {
-  height: 7.2422rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
   background: #13356C;
   display: -webkit-box;
   display: -ms-flexbox;

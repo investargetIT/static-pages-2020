@@ -712,28 +712,10 @@ $(function() {
     // 打印底部
     // 
     $('#layout').append(`<footer>
-            <div class="fhead_">
-                <div class="f-l"> 
-                    <i>联系我们</i>
-                    <b>021-5258 0136</b>
-                    <em>career@investarget.com</em>
-                </div>
-                <div class="f-r">
-                    <div class="code_box">
-                        <img src="images/微信二维码.png" alt="">
-                        <p>微信公众号</p>
-                    </div>
-                    <div class="code_box">
-                        <img src="images/客户端二维码.png" alt="">
-                        <p>客户端下载</p>
-                    </div>
-                </div> 
-            </div>
             <div class="fend_">
                 <p>copyright©2020 Investarget </p>
                 <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
-            <div class="to_top"></div>
         </footer>`)
 
         $('#layout1').prepend(`
