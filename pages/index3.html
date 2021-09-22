@@ -184,7 +184,7 @@
 
         <!-- Full screen modal -->
 
-<div id="myModal" class="modal" tabindex="-1">
+<div id="myModal" class="modal" tabindex="-1" style="display: none;">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-body">
@@ -363,13 +363,19 @@
         var carousel = new bootstrap.Carousel(myCarousel, {
             pause: false,
         });
+        var firstTime = true;
 
         myCarousel.addEventListener('slid.bs.carousel', function () {
             myModal.show();
         });
 
         function handleMemberClick(index) {
-            carousel.to(index);
+            if (firstTime && index === 0) {
+                myModal.show();
+                firstTime = false;
+            } else {
+              carousel.to(index);
+            }
         }
         function handlePrevBtnClick() {
             carousel.prev();
