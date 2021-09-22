@@ -357,17 +357,20 @@
     <script>
         var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
             keyboard: false
-        })
-        function handleMemberClick(index) {
-            console.log('index', index);
-            myModal.show();
-        }
+        });
 
         var myCarousel = document.querySelector('#carouselExampleControls');
         var carousel = new bootstrap.Carousel(myCarousel, {
             pause: false,
         });
 
+        myCarousel.addEventListener('slid.bs.carousel', function () {
+            myModal.show();
+        });
+
+        function handleMemberClick(index) {
+            carousel.to(index);
+        }
         function handlePrevBtnClick() {
             carousel.prev();
         }
