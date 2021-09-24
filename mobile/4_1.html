@@ -9,13 +9,38 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/swiper-4.3.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper-7.0.6.min.css">
     <link rel="stylesheet" type="text/css" href="css/neiye.css">
     <link rel="stylesheet" type="text/css" href="css/course.css">
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/swiper-4.3.5.min.js"></script>
     <script type="text/javascript" src="js/all.js"></script>
     <script type="text/javascript" src="js/rem.js"></script>
+    <style>
+        .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    content: none;
+}
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+    content: none;
+}
+        .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 170px;
+        height: 305px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+    </style>
 </head>
 
 <body>
@@ -63,79 +88,55 @@
             
 
         </div>
-        <div style="flex: 5;padding-top: 10px;padding-bottom: 80px;">
+        <div style="flex: 5;padding-top: 10px;">
 
-            <div style="font-size: 18px;font-weight: 500;color: rgba(0, 0, 0, .8);letter-spacing: 0.5px;margin: 40px auto;background-color: rgba(94, 128, 190, .05);width: 304px;height: 44px;display: flex;align-items: center;justify-content: center;">多维荣誉</div>
+            <div style="font-size: 18px;font-weight: 500;color: rgba(0, 0, 0, .8);letter-spacing: 0.5px;margin: 0 auto;margin-top: 20px;background-color: rgba(94, 128, 190, .05);width: 304px;height: 44px;display: flex;align-items: center;justify-content: center;">多维荣誉</div>
 
-            <!-- Slider main container -->
-            <div class="swiper" style="width: 100%;position: relative;">
-                <!-- Additional required wrapper -->
+            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <div>
-                            <div style="margin-bottom: 40px;display: flex;justify-content: center;">
-                                <img style="margin-right: 30px;width: 150px;" src="../img/2020Top10.png" />
-                                <img style="width: 150px;" src="../img/2018top10.png" />
-                            </div>
-                            <div style="display: flex;justify-content: center;">
-                                <img style="margin-right: 30px;width: 150px;" src="../img/10强硬科技.png" />
-                                <img style="width: 150px;" src="../img/财务顾问.png" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div>
-                            <div style="margin-bottom: 40px;display: flex;justify-content: center;">
-                                <img style="margin-right: 30px;width: 150px;" src="../img/10强硬科技.png" />
-                                <img style="width: 150px;" src="../img/财务顾问.png" />
-                            </div>
-                            <div style="display: flex;justify-content: center;">
-                                <img style="margin-right: 30px;width: 150px;" src="../img/2020Top10.png" />
-                                <img style="width: 150px;" src="../img/2018top10.png" /> 
-                            </div>
-                        </div>
-                    </div>
+                  <div class="swiper-slide">
+                    <img src="./images/2018top10.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/2020Top10.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/10强硬科技.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/财务顾问.png" />
+                  </div>
                 </div>
-
-                <!-- If we need pagination -->
                 <!-- <div class="swiper-pagination"></div> -->
-            
-                <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev" onClick="navigateLeft()" style="left: 30px; width: 32px;height: 32px;right: auto;background-image: url(../img/arrow-left-new.png);background-size: cover;"></div>
                 <div class="swiper-button-next" onClick="navigateRight()" style="right: 30px; width: 32px;height: 32px;left: auto;background-image: url(../img/arrow-right.png);background-size: cover;"></div>
-            
-                <!-- If we need scrollbar -->
-                <!-- <div class="swiper-scrollbar"></div> -->
-            </div>
+              </div>
+
         
         </div>
-        </div>
-        <script>
-            var swiper = new Swiper('.swiper', {
-                spaceBetween: 30,
-                effect: 'fade', 
+    </div>
+    <script type="text/javascript" src="js/swiper-7.0.6.min.js"></script>
+    <script>
+            var swiper = new Swiper(".mySwiper", {
+                effect: "coverflow",
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: -50,
+                    depth: 200,
+                    modifier: 1,
+                    slideShadows: true,
+                },
                 // pagination: {
-                //     el: '.swiper-pagination',
-                //     clickable: true,
+                //   el: ".swiper-pagination",
                 // },
-                // 如果需要前进后退按钮
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
-                autoHeight: true,
             });
-
-            function navigateLeft() {
-                console.log('leftt');
-                swiper.slidePrev();
-            }
-            function navigateRight() { 
-                swiper.slideNext();
-            }
-        </script>
+    </script>
 </body>
-
 </html>
