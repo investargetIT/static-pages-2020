@@ -674,37 +674,24 @@ $(function() {
                 </div>
                 <div class="nav_box"></div> 
                 <div class="act_list"> 
-                    <div class="change_box">
-                        <span class="lg En"><a href="/mobile/en/index.html">En</a></span>
-                        <span class="lg Cn active"><a href="/mobile/index.html">中</a></span>
-                    </div>
+                   
                     <ul class="list_">  
-                        <li><a href="index.html">首页</a></li>
-                        <li>
-                            <div class="fx">精品投行<i>+</i></div>
-                            <div class="hover_box">
-                                <div class="getHeight">
-                                    <span><a href="股权融资.html">股权融资</a></span>
-                                    <span><a href="2_2.html">兼并收购</a></span>
-                                    <span><a href="2_3.html">核心团队</a></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li><a href="3.html">产业投资</a></li>
-                        <li>
-                            <div class="fx">产业发展<i>+</i></div>
-                            <div class="hover_box">
-                                <div class="getHeight">
-                                    <span><a href="4_1.html">简介历程</a></span>
-                                    <span><a href="4_2.html">产业综合体</a></span> 
-                                </div>
-                            </div>
-                        </li> 
+                        <li class="active"><a href="index.html">多维资本</a></li>
+                        <li><a href="4_1.html">关于我们</a></li>
+                        <li><a href="3.html">多维团队</a></li>
+                        <li><a href="#">多维交易</a></li> 
                     </ul>
-                    <div class="link_box"> 
-                        <a href="https://m.investarget.com" class="login_">登 录</a>
-                        <a href="contact.html" class="about_us">联系我们 ></a>
+                    <div class="lang-switch">
+                        <div class="change_box">
+                            <span class="lg En"><a href="/mobile/en/index.html">CH</a></span>
+                            <span style="opacity: 1;">/</span>
+                            <span class="lg Cn active"><a href="/mobile/index.html">EN</a></span>
+                        </div>
                     </div>
+                    <!-- <div class="link_box"> 
+                         <a href="https://m.investarget.com" class="login_">登 录</a>
+                         <a href="contact.html" class="about_us">联系我们 ></a>
+                     </div> ->
                 </div>
             </div>
         </nav>  `)
