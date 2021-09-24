@@ -63,22 +63,22 @@
             
 
         </div>
-        <div style="flex: 5;padding: 100px 0;">
+        <div style="flex: 5;padding-top: 10px;padding-bottom: 80px;">
 
             <div style="font-size: 18px;font-weight: 500;color: rgba(0, 0, 0, .8);letter-spacing: 0.5px;margin: 40px auto;background-color: rgba(94, 128, 190, .05);width: 304px;height: 44px;display: flex;align-items: center;justify-content: center;">多维荣誉</div>
 
             <!-- Slider main container -->
-            <div class="swiper" style="width: 500px;position: relative;">
+            <div class="swiper" style="width: 100%;position: relative;">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide">
                         <div>
-                            <div style="margin-bottom: 40px;display: flex;">
+                            <div style="margin-bottom: 40px;display: flex;justify-content: center;">
                                 <img style="margin-right: 30px;width: 150px;" src="../img/2020Top10.png" />
                                 <img style="width: 150px;" src="../img/2018top10.png" />
                             </div>
-                            <div style="display: flex;">
+                            <div style="display: flex;justify-content: center;">
                                 <img style="margin-right: 30px;width: 150px;" src="../img/10强硬科技.png" />
                                 <img style="width: 150px;" src="../img/财务顾问.png" />
                             </div>
@@ -87,11 +87,11 @@
 
                     <div class="swiper-slide">
                         <div>
-                            <div style="margin-bottom: 40px;display: flex;">
+                            <div style="margin-bottom: 40px;display: flex;justify-content: center;">
                                 <img style="margin-right: 30px;width: 150px;" src="../img/10强硬科技.png" />
                                 <img style="width: 150px;" src="../img/财务顾问.png" />
                             </div>
-                            <div style="display: flex;">
+                            <div style="display: flex;justify-content: center;">
                                 <img style="margin-right: 30px;width: 150px;" src="../img/2020Top10.png" />
                                 <img style="width: 150px;" src="../img/2018top10.png" /> 
                             </div>
@@ -112,43 +112,30 @@
         
         </div>
         </div>
+        <script>
+            var swiper = new Swiper('.swiper', {
+                spaceBetween: 30,
+                effect: 'fade', 
+                // pagination: {
+                //     el: '.swiper-pagination',
+                //     clickable: true,
+                // },
+                // 如果需要前进后退按钮
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                autoHeight: true,
+            });
 
+            function navigateLeft() {
+                console.log('leftt');
+                swiper.slidePrev();
+            }
+            function navigateRight() { 
+                swiper.slideNext();
+            }
+        </script>
 </body>
-<script>
-    $('.develop_ul li').click(function () {
-        event.stopPropagation();
-        $('.develop_ul li').removeClass('on');
-        $('.develop_ul li').find('.hover_box').removeClass('active');
-        $('.develop_ul li').find('.stu').text('+');
-
-        $(this).toggleClass('on');
-        $(this).find('.hover_box').toggleClass('active');
-
-        if ($(this).hasClass('on')) {
-            $(this).find('.stu').text('')
-        } else {
-            $(this).find('.stu').text('+')
-        }
-    })
-    $('.develop_ul li .hover_box span').click(function (event) {
-        $(this).find('.show_Temp').addClass('show_');
-        $('body').css({ overflow: 'hidden' });
-    });
-    $('.course_content .develop_item .show_Temp .show_box .close_').click(function (event) {
-        event.stopPropagation();
-        $(this).parents('.show_Temp').removeClass('show_');
-        $('body').css({ overflow: 'inherit' })
-    });
-
-    $('.course_content .team_leader ul li').click(function (event) {
-        $(this).find('.show_Temp').addClass('show_');
-        $('body').css({ overflow: 'hidden' });
-    });
-    $('.course_content .team_leader .show_Temp .show_box .close_').click(function (event) {
-        event.stopPropagation();
-        $(this).parents('.show_Temp').removeClass('show_');
-        $('body').css({ overflow: 'inherit' })
-    });
-</script>
 
 </html>
