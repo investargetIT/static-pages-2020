@@ -9,10 +9,10 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/header.css"> 
-    <link rel="stylesheet" type="text/css" href="css/swiper-4.3.5.min.css">  
+    <link rel="stylesheet" type="text/css" href="css/swiper-7.0.6.min.css">  
     <link rel="stylesheet" type="text/css" href="css/neiye.css"> 
     <script type="text/javascript" src="js/jquery.min.js"></script>  
-    <script type="text/javascript" src="js/swiper-4.3.5.min.js"></script> 
+    <script type="text/javascript" src="js/swiper-7.0.6.min.js"></script> 
     <script type="text/javascript" src="js/all.js"></script>   
     <script type="text/javascript" src="js/rem.js"></script>
     <style>
@@ -78,12 +78,39 @@
 <body>
     <div class="layout" id="layout2">
         <div>
-            <div style="margin-bottom: 80px;background-color: #F9F9F9;">
+            <div style="margin-bottom: 20px;background-color: #F9F9F9;">
                 <div style="padding-top: 4px;display: flex;justify-content: center;align-items: center;">
                     <div id="private-tab" onClick="handlePrivateClick()" class="tab-item tab-active" style="margin-right: 120px;">私募融资</div>
                     <div id="international-tab" class="tab-item" onClick="handleInternationalClick()">跨国并购</div>
                 </div>
                 <div style="width: 100%;height: 1px;background-color: #979797;opacity: 0.44;"></div>
+            </div>
+
+            <div id="private_fundraising">
+                <div style="margin-bottom: 100px;">
+                    <div style="letter-spacing: 2px;padding: 20px 0;text-align: center;font-size: 14px;font-weight: bold;color: black">企业服务</div>
+                    <div style="flex: 1;">
+                        <div style="display: flex;justify-content: space-evenly;">
+                            <div class="project-image-container"><img style="width: 95px;" src="../img/1慧策.png" /></div>
+                            <div class="project-image-container"><img style="width: 80px;" src="../img/2UDesk.png" /></div>
+                            <div class="project-image-container"><img style="width: 58px;" src="../img/3knx.png" /></div>
+                            <div class="project-image-container"><img style="width: 80px;" src="../img/4快运兔.png" /></div>
+                            <div class="project-image-container"><img style="width: 80px;" src="../img/5箱信.png" /></div>
+                            <div class="project-image-container"><img style="width: 52px;" src="../img/6数据.png" /></div>
+                            <div class="project-image-container"><img style="width: 80px;" src="../img/7维狮物联网.png" /></div>
+                        </div>
+                        <div style="margin-top: 40px;display: flex;justify-content: space-evenly;">
+                            <div class="project-image-container"><img style="width: 80px;" src="../img/8Holovis.png" /></div>
+                            <div class="project-image-container"><img style="width: 80px;" src="../img/9运去哪.png" /></div>
+                            <div class="project-image-container"><img style="width: 68px;" src="../img/10Honor.png" /></div>
+                            <div class="project-image-container"><img style="width: 85px;" src="../img/11印象笔记.png" /></div>
+                            <div class="project-image-container"><img style="width: 100px;" src="../img/12BIPO.png" /></div>
+                            <div class="project-image-container"><img style="width: 80px;" src="../img/13固安捷.png" /></div>
+                            <div class="project-image-container"><img style="width: 65px;" src="../img/14云账房.png" /></div>
+                        </div>
+                    </div>
+                </div>
+            
             </div>
 
             <div id="international_purchase" style="display: none;margin-bottom: 100px;">
@@ -108,112 +135,6 @@
                         <div class="project-image-container" style="width: 100px;"></div>
                         <div class="project-image-container" style="width: 110px;"></div>
                         <div class="project-image-container" style="width: 110px;"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="private_fundraising">
-                <div style="margin-bottom: 100px;display: flex;">
-                    <div style="margin-right: 80px;font-size: 20px;font-weight: 500;color: rgba(255, 255, 255, .9)">
-                        <div style="padding: 10px 40px;background-color: #193663;">企业服务</div>
-                    </div>
-                    <div style="flex: 1;">
-                        <div style="display: flex;justify-content: space-evenly;">
-                            <div class="project-image-container"><img style="width: 95px;" src="../img/1慧策.png" /></div>
-                            <div class="project-image-container"><img style="width: 80px;" src="../img/2UDesk.png" /></div>
-                            <div class="project-image-container"><img style="width: 58px;" src="../img/3knx.png" /></div>
-                            <div class="project-image-container"><img style="width: 80px;" src="../img/4快运兔.png" /></div>
-                            <div class="project-image-container"><img style="width: 80px;" src="../img/5箱信.png" /></div>
-                            <div class="project-image-container"><img style="width: 52px;" src="../img/6数据.png" /></div>
-                            <div class="project-image-container"><img style="width: 80px;" src="../img/7维狮物联网.png" /></div>
-                        </div>
-                        <div style="margin-top: 40px;display: flex;justify-content: space-evenly;">
-                            <div class="project-image-container"><img style="width: 80px;" src="../img/8Holovis.png" /></div>
-                            <div class="project-image-container"><img style="width: 80px;" src="../img/9运去哪.png" /></div>
-                            <div class="project-image-container"><img style="width: 68px;" src="../img/10Honor.png" /></div>
-                            <div class="project-image-container"><img style="width: 85px;" src="../img/11印象笔记.png" /></div>
-                            <div class="project-image-container"><img style="width: 100px;" src="../img/12BIPO.png" /></div>
-                            <div class="project-image-container"><img style="width: 80px;" src="../img/13固安捷.png" /></div>
-                            <div class="project-image-container"><img style="width: 65px;" src="../img/14云账房.png" /></div>
-                        </div>
-                    </div>
-                </div>
-            
-                <div style="margin-bottom: 100px;display: flex;">
-                    <div style="margin-right: 80px;font-size: 20px;font-weight: 500;color: rgba(255, 255, 255, .9)">
-                        <div style="padding: 10px 40px;background-color: #193663;">消费文娱</div>
-                    </div>
-                    <div style="flex: 1;">
-                        <div style="display: flex;justify-content: space-evenly;">
-                            <div class="project-image-container"><img style="width: 80px;" src="../img/rw/1触摸.png" /></div>
-                            <div class="project-image-container"><img style="width: 32px;" src="../img/rw/2株.png" /></div>
-                            <div class="project-image-container"><img style="width: 87px;" src="../img/rw/3小丫科技.png" /></div>
-                            <div class="project-image-container"><img style="width: 64px;" src="../img/rw/4anxin.png" /></div>
-                            <div class="project-image-container"><img style="width: 45px;" src="../img/rw/5豌豆思维.png" /></div>
-                            <div class="project-image-container"><img style="width: 94px;" src="../img/rw/6PETKIT.png" /></div>
-                            <div class="project-image-container"><img style="width: 64px;" src="../img/rw/7椿风.png" /></div>
-                        </div>
-                        <div style="margin-top: 40px;display: flex;justify-content: space-evenly;">
-                            <div class="project-image-container"><img style="width: 64px;" src="../img/rw/8咖啡.png" /></div>
-                            <div class="project-image-container"><img style="width: 110px;" src="../img/rw/9内外.png" /></div>
-                            <div class="project-image-container"><img style="width: 40px;" src="../img/rw/10万物必选.png" /></div>
-                            <div class="project-image-container"><img style="width: 95px;" src="../img/rw/11小佩宠物.png" /></div>
-                            <div class="project-image-container"><img style="width: 112px;" src="../img/rw/12学霸辅导.png" /></div>
-                            <div class="project-image-container"><img style="width: 35px;" src="../img/rw/13wuli.png" /></div>
-                            <div class="project-image-container" style="width: 100px;"></div>
-                        </div>
-                    </div>
-                </div>
-            
-                <div style="margin-bottom: 100px;display: flex;">
-                    <div style="margin-right: 80px;font-size: 20px;font-weight: 500;color: rgba(255, 255, 255, .9)">
-                        <div style="padding: 10px 40px;background-color: #193663;">前沿科技</div>
-                    </div>
-                    <div style="flex: 1;">
-                        <div style="display: flex;justify-content: space-evenly;">
-                            <div class="project-image-container"><img style="width: 56px;" src="../img/logo/1光晶.png" /></div>
-                            <div class="project-image-container"><img style="width: 92px;" src="../img/logo/2竹间智能.png" /></div>
-                            <div class="project-image-container"><img style="width: 96px;" src="../img/logo/3追势科技.png" /></div>
-                            <div class="project-image-container"><img style="width: 85px;" src="../img/logo/4拓攻机器人.png" /></div>
-                            <div class="project-image-container"><img style="width: 100px;" src="../img/logo/5奥动.png" /></div>
-                            <div class="project-image-container"><img style="width: 110px;" src="../img/logo/6甲乙丙丁.png" /></div>
-                            <div class="project-image-container"><img style="width: 76px;" src="../img/logo/7擎创科技.png" /></div>
-                        </div>
-                        <div style="margin-top: 40px;display: flex;justify-content: space-evenly;">
-                            <div class="project-image-container"><img style="width: 100px;" src="../img/logo/8本源量子.png" /></div>
-                            <div class="project-image-container"><img style="width: 66px;" src="../img/logo/9快准车服.png" /></div>
-                            <div class="project-image-container"><img style="width: 100px;" src="../img/logo/10飞驰.png" /></div>
-                            <div class="project-image-container"><img style="width: 58px;" src="../img/logo/11T3出行.png" /></div>
-                            <div class="project-image-container"><img style="width: 100px;" src="../img/logo/12首约汽车.png" /></div>
-                            <div class="project-image-container"><img style="width: 110px;" src="../img/logo/13motos.png" /></div>
-                            <div class="project-image-container"><img style="width: 100px;" src="../img/logo/14凌空天行.png" /></div>
-                        </div>
-                    </div>
-                </div>
-            
-                <div style="margin-bottom: 100px;display: flex;">
-                    <div style="width: 160px;margin-right: 80px;font-size: 20px;font-weight: 500;color: rgba(255, 255, 255, .9)">
-                        <div style="text-align: center;padding: 10px 40px;background-color: #193663;">医疗</div>
-                    </div>
-                    <div style="flex: 1;">
-                        <div style="display: flex;justify-content: space-evenly;">
-                            <div class="project-image-container"><img style="width: 110px;" src="../img/fblogo/1复星杏脉.png" /></div>
-                            <div class="project-image-container"><img style="width: 92px;" src="../img/fblogo/2博腾生物.png" /></div>
-                            <div class="project-image-container"><img style="width: 106px;" src="../img/fblogo/3常安康.png" /></div>
-                            <div class="project-image-container"><img style="width: 94px;" src="../img/fblogo/4柯渡医学.png" /></div>
-                            <div class="project-image-container"><img style="width: 110px;" src="../img/fblogo/5柯林布瑞.png" /></div>
-                            <div class="project-image-container"><img style="width: 106px;" src="../img/fblogo/6诺灵生物.png" /></div>
-                            <div class="project-image-container"><img style="width: 92px;" src="../img/fblogo/7妙健康.png" /></div>
-                        </div>
-                        <div style="margin-top: 40px;display: flex;justify-content: space-evenly;">
-                            <div class="project-image-container"><img style="width: 105px;" src="../img/fblogo/8至本医疗.png" /></div>
-                            <div class="project-image-container"><img style="width: 102px;" src="../img/fblogo/9stem.png" /></div>
-                            <div class="project-image-container"><img style="width: 103px;" src="../img/fblogo/10柯润xi.png" /></div>
-                            <div class="project-image-container"><img style="width: 95px;" src="../img/fblogo/11医准智能.png" /></div>
-                            <div class="project-image-container" style="width: 100px;"></div>
-                            <div class="project-image-container" style="width: 110px;"></div>
-                            <div class="project-image-container" style="width: 110px;"></div>
-                        </div>
                     </div>
                 </div>
             </div>
