@@ -162,7 +162,8 @@
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
                 <div class="modal-body">
-                    <div style="margin: 40px;text-align: right;">
+                    <div style="margin: 14px 16px;display: flex;justify-content: space-between;align-items: center;">
+                        <div style="font-size: 11px;color: black;">0<span id="no">1</span> / 07</div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div id="carouselExampleControls" class="carousel slide" style="margin-bottom: 100px;">
@@ -313,6 +314,8 @@
     </div>
     <script src="js/bootstrap.js "></script>
     <script>
+        var currentIndex = 0;
+
         var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
             keyboard: false
         });
@@ -328,6 +331,8 @@
         });
 
         function handleMemberClick(index) {
+            currentIndex = index;
+            $("#no").text(`${currentIndex + 1}`);
             if (firstTime && index === 0) {
                 myModal.show();
                 firstTime = false;
@@ -336,9 +341,21 @@
             }
         }
         function handlePrevBtnClick() {
+            if (currentIndex === 0) {
+                currentIndex = 6;
+            } else {
+                currentIndex--;
+            }
+            $("#no").text(`${currentIndex + 1}`); 
             carousel.prev();
         }
         function handleNextBtnClick() {
+            if (currentIndex === 6) {
+                currentIndex = 0;
+            } else {
+                currentIndex++;
+            }
+            $("#no").text(`${currentIndex + 1}`);
             carousel.next();
         }
     </script>
