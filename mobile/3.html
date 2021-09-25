@@ -353,7 +353,7 @@
         });
 
         function handleMemberClick(index) {
-            $("#no").text(`${currentIndex + 1}`);
+            $("#no").text(`${index + 1}`);
             if (firstTime && index === 0) {
                 myModal.show();
             } else if (index === currentIndex) {
