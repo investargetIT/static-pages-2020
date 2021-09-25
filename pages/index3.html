@@ -363,6 +363,7 @@
         var carousel = new bootstrap.Carousel(myCarousel, {
             pause: false,
         });
+        var currentIndex = 0;
         var firstTime = true;
 
         myCarousel.addEventListener('slid.bs.carousel', function () {
@@ -372,15 +373,28 @@
         function handleMemberClick(index) {
             if (firstTime && index === 0) {
                 myModal.show();
+            } else if (index === currentIndex) {
+                myModal.show();
             } else {
-              carousel.to(index);
+                carousel.to(index);
             }
+            currentIndex = index;
             firstTime = false;
         }
         function handlePrevBtnClick() {
+            if (currentIndex === 0) {
+                currentIndex = 6;
+            } else {
+                currentIndex--;
+            }
             carousel.prev();
         }
         function handleNextBtnClick() {
+            if (currentIndex === 6) {
+                currentIndex = 0;
+            } else {
+                currentIndex++;
+            }
             carousel.next();
         }
     </script>

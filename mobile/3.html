@@ -314,8 +314,6 @@
     </div>
     <script src="js/bootstrap.js "></script>
     <script>
-        var currentIndex = 0;
-
         var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
             keyboard: false
         });
@@ -324,6 +322,8 @@
         var carousel = new bootstrap.Carousel(myCarousel, {
             pause: false,
         });
+
+        var currentIndex = 0;
         var firstTime = true;
 
         myCarousel.addEventListener('slid.bs.carousel', function () {
@@ -331,13 +331,15 @@
         });
 
         function handleMemberClick(index) {
-            currentIndex = index;
             $("#no").text(`${currentIndex + 1}`);
             if (firstTime && index === 0) {
+                myModal.show();
+            } else if (index === currentIndex) {
                 myModal.show();
             } else {
                 carousel.to(index);
             }
+            currentIndex = index;
             firstTime = false;
         }
         function handlePrevBtnClick() {
