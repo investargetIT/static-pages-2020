@@ -26,6 +26,7 @@
         .member-details__container {
         }
         .member-details__image {
+            position: relative;
             width: 100%;
             background-color: #ededed;
             margin-right: 80px;
@@ -38,7 +39,8 @@
             height: auto;
         }
         .member-details__text {
-            width: 500px;
+            width: 100%;
+            padding: 40px 20px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -71,19 +73,19 @@
             line-height: 20px;
         }
         .arrow-left {
-            background-image: url(../img/arrow-left.svg);
+            background-image: url(./images/arrow-left-mobile.svg);
         }
         .arrow-right {
-            background-image: url(../img/arrow-right.svg);
+            background-image: url(./images/arrow-right-active.svg);
         }
         .arrow-left:hover {
-            background-image: url(../img/arrow-left-active.svg);
+            background-image: url(./images/arrow-left-active.svg);
         }
         .arrow-right:hover {
-            background-image: url(../img/arrow-right-active.svg);
+            background-image: url(./images/arrow-right-active-mobile.svg);
         }
         .team-member {
-            background-image: url(../img/team-member-bg.png);
+            background-image: url(./images/team-member-bg.png);
         }
     </style>
 </head>
@@ -172,7 +174,14 @@
                               <div class="member-details__container">
                                   <div class="member-details__image">
                                     <img class="member-details__image__img" src="../img/rw/曹芳宁.png" />
+                                    <div style="display: flex;width: 96px;height: 48px;position: absolute;bottom: -24px;right: 20px;">
+                                        <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
+                                        <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
+                                    </div>
                                   </div>
+
+                                  
+
                                   <div class="member-details__text">
                                     <div>
                                         <div class="member-details__text__name">曹芳宁</div>
@@ -183,7 +192,6 @@
                                         <div class="member-details__text__content">曹芳宁女士曾在欧洲学习、工作和生活近八年，并精通德语、法语和英语。</div>
                                         <div class="member-details__text__content">曹芳宁女士获得法国巴黎HEC商学院MBA学位。</div>
                                     </div>
-                                      <div class="member-details__text__number">01 / 07</div>
                                   </div>
                               </div>
                           </div>
@@ -192,6 +200,10 @@
                             <div class="member-details__container">
                                 <div class="member-details__image">
                                   <img class="member-details__image__img" src="../img/rw/周炫.png" />
+                                  <div style="display: flex;width: 96px;height: 48px;position: absolute;bottom: -24px;right: 20px;">
+                                    <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
+                                    <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
+                                </div>
                                 </div>
                                 <div class="member-details__text">
                                     <div>
@@ -202,7 +214,6 @@
                                         <div class="member-details__text__content">周炫先生在德国柏林、斯图加特和埃尔兰根有近十年的学习、工作和生活经历，精通德语和英语。</div>
                                         <div class="member-details__text__content">周炫先生获得德国柏林工业大学MBA学位。</div>
                                     </div>
-                                      <div class="member-details__text__number">02 / 07</div>
                                 </div>
                             </div>
                         </div>
@@ -211,6 +222,10 @@
                             <div class="member-details__container">
                                 <div class="member-details__image">
                                   <img class="member-details__image__img" src="../img/rw/尤頔.png" />
+                                  <div style="display: flex;width: 96px;height: 48px;position: absolute;bottom: -24px;right: 20px;">
+                                    <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
+                                    <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
+                                </div>
                                 </div>
                                 <div class="member-details__text">
                                     <div>
@@ -221,7 +236,6 @@
                                         <div class="member-details__text__content">尤頔先生获得上海交通大学学士学位。</div>
                                         <div class="member-details__text__content">代表案例：慧策旺店通、固安捷、印象笔记、沃丰时代、擎创科技、运去哪、云账房等。</div>
                                     </div>
-                                      <div class="member-details__text__number">03 / 07</div>
                                 </div>
                             </div>
                         </div>
@@ -230,6 +244,10 @@
                             <div class="member-details__container">
                                 <div class="member-details__image">
                                   <img class="member-details__image__img" src="../img/rw/王浩.png" />
+                                  <div style="display: flex;width: 96px;height: 48px;position: absolute;bottom: -24px;right: 20px;">
+                                    <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
+                                    <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
+                                </div>
                                 </div>
                                 <div class="member-details__text">
                                     <div>
@@ -240,7 +258,6 @@
                                         <div class="member-details__text__content">王浩先生获得北京航空航天大学硕士学位。</div>
                                         <div class="member-details__text__content">代表案例：飞驰镁物、希迪智驾、凌空天行、奥动新能源汽车、云度汽车等。</div>
                                     </div>
-                                      <div class="member-details__text__number">04 / 07</div>
                                 </div>
                             </div>
                         </div>
@@ -249,6 +266,10 @@
                             <div class="member-details__container">
                                 <div class="member-details__image">
                                   <img class="member-details__image__img" src="../img/rw/尹乐鸣.png" />
+                                  <div style="display: flex;width: 96px;height: 48px;position: absolute;bottom: -24px;right: 20px;">
+                                    <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
+                                    <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
+                                </div>
                                 </div>
                                 <div class="member-details__text">
                                     <div>
@@ -260,7 +281,6 @@
                                         <div class="member-details__text__content">尹乐鸣女士获得对外经济贸易大学学士学位。</div>
                                         <div class="member-details__text__content">代表案例：内外、小佩宠物、隅田川咖啡、椿风、印象笔记、视游互动等。</div>
                                     </div>
-                                      <div class="member-details__text__number">05 / 07</div>
                                 </div>
                             </div>
                         </div>
@@ -269,6 +289,10 @@
                             <div class="member-details__container">
                                 <div class="member-details__image">
                                   <img class="member-details__image__img" src="../img/rw/罗耀锋.png" />
+                                  <div style="display: flex;width: 96px;height: 48px;position: absolute;bottom: -24px;right: 20px;">
+                                    <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
+                                    <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
+                                </div>
                                 </div>
                                 <div class="member-details__text">
                                     <div>
@@ -279,7 +303,6 @@
                                         <div class="member-details__text__content">罗耀峰先生获得浙江大学硕士学位。</div>
                                         <div class="member-details__text__content">代表案例： PingPong 金融、联易融、森浦资讯、CCCIS、WeShare 等。</div>
                                     </div>
-                                      <div class="member-details__text__number">06 / 07</div>
                                 </div>
                             </div>
                         </div>
@@ -288,6 +311,10 @@
                             <div class="member-details__container">
                                 <div class="member-details__image">
                                   <img class="member-details__image__img" src="../img/rw/唐雪.png" />
+                                  <div style="display: flex;width: 96px;height: 48px;position: absolute;bottom: -24px;right: 20px;">
+                                    <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
+                                    <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
+                                </div>
                                 </div>
                                 <div class="member-details__text">
                                     <div>
@@ -298,15 +325,10 @@
                                         <div class="member-details__text__content">唐雪女士已带领多维资本投资人关系团队覆盖超过2000 家顶尖投资机构资源，包括但不限于海外、政府、财务、战略、家族办公室等。</div>
                                         <div class="member-details__text__content">唐雪女士获得英国朴茨茅斯大学硕士学位。</div>
                                     </div>
-                                      <div class="member-details__text__number">07 / 07</div>
                                 </div>
                             </div>
                         </div>
-    
-                        <div style="display: flex;width: 96px;height: 48px;position: absolute;bottom: 0;right: 0;">
-                            <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
-                            <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
-                        </div> 
+                        
                     </div>
                 </div>
             </div>
