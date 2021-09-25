@@ -335,10 +335,10 @@
             $("#no").text(`${currentIndex + 1}`);
             if (firstTime && index === 0) {
                 myModal.show();
-                firstTime = false;
             } else {
-              carousel.to(index);
+                carousel.to(index);
             }
+            firstTime = false;
         }
         function handlePrevBtnClick() {
             if (currentIndex === 0) {
