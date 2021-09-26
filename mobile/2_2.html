@@ -126,6 +126,12 @@
         display: block;
         width: 100%;
       }
+      .swiper-3d .swiper-slide-shadow-left {
+        background-image: linear-gradient(to left,rgba(255,255,255,.4),rgba(255,255,255,0));
+      }
+      .swiper-3d .swiper-slide-shadow-right {
+        background-image: linear-gradient(to right,rgba(255,255,255,.4),rgba(255,255,255,0));
+      }
     </style>
 </head>
 
@@ -286,8 +292,8 @@
                   </div>
                 </div>
                 <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev" onClick="navigateLeft()" style="left: 30px; width: 32px;height: 32px;right: auto;background-image: url(../img/arrow-left-new.png);background-size: cover;"></div>
-                <div class="swiper-button-next" onClick="navigateRight()" style="right: 30px; width: 32px;height: 32px;left: auto;background-image: url(../img/arrow-right.png);background-size: cover;"></div>
+                <div class="swiper-button-prev" style="left: 30px; width: 32px;height: 32px;right: auto;background-image: url(../img/arrow-left-new.png);background-size: cover;"></div>
+                <div class="swiper-button-next" style="right: 30px; width: 32px;height: 32px;left: auto;background-image: url(../img/arrow-right.png);background-size: cover;"></div>
               </div>
 
 
