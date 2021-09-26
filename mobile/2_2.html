@@ -29,9 +29,9 @@
             align-items: center; */
         }
         .latest-project__item {
-            padding: 40px 24px;
-            width: 370px;
-            height: 282px;
+            padding: 16px;
+            width: 100%;
+            height: 100%;
             background-color: white;
             box-shadow: 0 30px 100px 0 rgba(122,127,131,0.10);
             border-radius: 10px;
@@ -41,20 +41,20 @@
             box-shadow: 0 30px 100px 0 rgba(122,127,131,0.25);
         }
         .latest-project__item__title {
-            margin-bottom: 20px;
-            font-size: 20px;
+            margin-bottom: 8px;
+            font-size: 14px;
             font-weight: 500;
             color: black;
         }
         .latest-project__item__description {
-            margin-bottom: 30px;
-            font-size: 16px;
+            margin-bottom: 14px;
+            font-size: 12px;
             color: #3e3f42;
             opacity: 0.5;
-            line-height: 30px;
+            line-height: 16px;
         }
         .latest-project__item__date {
-            font-size: 14px;
+            font-size: 10px;
             font-weight: 500;
             color: #3E3F42;
             opacity: 0.2;
@@ -83,6 +83,9 @@
         width: 100%;
         padding-bottom: 50px;
       }
+      .mySwiper1 {
+          margin-bottom: 40px;
+      }
 
       .swiper-slide {
         background-position: center;
@@ -110,6 +113,18 @@
         font-size: 14px;
         font-weight: bold;
         color: black;
+      }
+
+      .swiper-slide1 {
+        background-position: center;
+        background-size: cover;
+        width: 256px;
+        height: 164px;
+      }
+
+      .swiper-slide1 img {
+        display: block;
+        width: 100%;
       }
     </style>
 </head>
@@ -231,6 +246,51 @@
                 
             </div>
 
+            <div style="margin: 0 auto;padding-top: 40px;">
+                <div style="position: relative;">
+                    <div style="font-size: 14px;font-weight: bolder;color: black;line-height: 52px;text-align: center;">最新交易</div>
+                    <div style="position: absolute;right: 30px;top: 0;">
+                        <a style="line-height: 52px;font-size: 12px;color: rgba(0, 0, 0, .64);text-decoration: none;" target="_blank" href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyMjIxODkzNQ==&action=getalbum&album_id=2045277272172986368&scene=173&subscene=&sessionid=0&enterid=1632312648&from_msgid=2652467368&from_itemidx=1&count=3&nolastread=1#wechat_redirect">更多</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper mySwiper1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slide1">
+                    <a target="_blank" href="https://mp.weixin.qq.com/s/sfkNPLNrB3xx6H7v88gFWA" style="text-decoration: none;">
+                        <div class="latest-project__item" style="margin-right: 24px;">
+                            <div class="latest-project__item__title">凌空天行完成逾亿元A+轮融资，多维海拓持续担任财务顾问</div>
+                            <div class="latest-project__item__description">凌行天空是国内唯一从事商业高超音速飞行产品研发和应用的高科技企业，拥有…</div>
+                            <div class="latest-project__item__date">2021-9-14</div>
+                        </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide swiper-slide1">
+                    <a target="_blank" href="https://mp.weixin.qq.com/s/7nHuhLPhvWGryph5mkVjUg" style="text-decoration: none;">
+                        <div class="latest-project__item" style="margin-right: 24px;">
+                            <div class="latest-project__item__title">小佩宠物完成5000万美元D轮融资，多维海拓持续担任独家财务顾问</div>
+                            <div class="latest-project__item__description">近日，小佩宠物宣布完成5000万美金D轮融资，本轮由Sofina、鼎晖百孚领投，现有…</div>
+                            <div class="latest-project__item__date">2021-8-13</div>
+                        </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide swiper-slide1">
+                    <a target="_blank" href="https://mp.weixin.qq.com/s/QsVUBxY0ZBzsS-9SPskkqw" style="text-decoration: none;">
+                        <div class="latest-project__item">
+                            <div class="latest-project__item__title">NEIWAI内外完成1亿美元D轮融资，多维海拓担任独家财务顾问</div>
+                            <div class="latest-project__item__description">NEIWAI内外（以下简称内外），专注于内衣家居运动的贴身衣物品牌，近日完成1亿…</div>
+                            <div class="latest-project__item__date">2021-7-15</div>
+                        </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev" onClick="navigateLeft()" style="left: 30px; width: 32px;height: 32px;right: auto;background-image: url(../img/arrow-left-new.png);background-size: cover;"></div>
+                <div class="swiper-button-next" onClick="navigateRight()" style="right: 30px; width: 32px;height: 32px;left: auto;background-image: url(../img/arrow-right.png);background-size: cover;"></div>
+              </div>
+
+
         </div>
     </div>
     <script>
@@ -262,6 +322,27 @@
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
+                },
+            });
+
+            var swiper1 = new Swiper(".mySwiper1", {
+                effect: "coverflow",
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: -50,
+                    depth: 200,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                pagination: {
+                  el: ".mySwiper1 .swiper-pagination",
+                },
+                navigation: {
+                    nextEl: '.mySwiper1 .swiper-button-next',
+                    prevEl: '.mySwiper1 .swiper-button-prev',
                 },
             });
     </script>
