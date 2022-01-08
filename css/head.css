@@ -28,7 +28,7 @@
 }
 
 .headText li {
-    margin: 0 30px;
+    margin: 0 40px;
 }
 
 .headText li a {
@@ -45,7 +45,7 @@
 }
 
 .textT {
-    font-size: 12px;
+    font-size: 14px;
     color: rgba(116, 116, 116, 1);
 }
 
@@ -60,4 +60,5 @@
 }
 .textCh {
     color: #fff;
+    font-weight: 600;
 }
