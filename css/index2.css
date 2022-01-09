@@ -199,6 +199,9 @@ body{
     min-width: 0;
     overflow: hidden;
 }
+a.about-link:hover {
+    font-weight: bold;
+}
 @media (min-width: 768px) and (max-width: 1199.98px) {
     .slide-left {
         text-align: left;
