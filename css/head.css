@@ -54,11 +54,13 @@
     color: rgba(255, 255, 255, .9);
 }
 
-.textCh,
-.textEnglish {
+.textCh {
     cursor: pointer;
 }
 .textCh {
     color: #fff;
     font-weight: 600;
+}
+.textEnglish {
+    color: white;
 }
