@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Investarget</title>
+    <title>多维资本</title>
     <link rel="icon" href="../img/Navbar logo.png">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/swiper.css">
@@ -17,290 +17,168 @@
         var isIphone = ua.indexOf("iPhone") > -1
         var isAndroid = ua.indexOf("Android") > -1
         if (isIphone || isAndroid) {
-            window.location.href = "/mobile/en/index.html"
+            window.location.href = "/mobile/index.html"
         }
     </script>
+    <style>
+        .team-member__container:hover {
+            -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.08); 
+            box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.08);
+        }
+        .member-details__container {
+            display: flex;
+            justify-content: center;
+        }
+        .member-details__image {
+            width: 620px;
+            height: 550px;
+            background-color: #ededed;
+            margin-right: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .member-details__text {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .member-details__text__name {
+            margin-top: 20px;
+            font-size: 28px;
+            color: black;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        .member-details__text__title {
+            margin-top: 14px;
+            font-size: 16px;
+            color: #979EA6;
+            letter-spacing: 1px;
+        }
+        .member-details__text__content {
+            margin-top: 28px;
+            font-size: 14px;
+            color: black;
+            letter-spacing: 1px;
+            line-height: 22px;
+        }
+        .member-details__text__number {
+            margin-bottom: 20px;
+            font-size: 11px;
+            color: black;
+            letter-spacing: 1px;
+            line-height: 20px;
+        }
+        .arrow-left {
+            background-image: url(../img/arrow-left.svg);
+        }
+        .arrow-right {
+            background-image: url(../img/arrow-right.svg);
+        }
+        .arrow-left:hover {
+            background-image: url(../img/arrow-left-active.svg);
+        }
+        .arrow-right:hover {
+            background-image: url(../img/arrow-right-active.svg);
+        }
+        .team-member {
+            background-image: url(../img/team-member-bg.png);
+        }
+    </style>
 </head>
 
 <body>
     <div class="wrap">
       
         <!-- 内容 -->
-        <div class="content ">
+        <div class="content" style="background-color: #F7F9FC;">
 			<!-- 头部 -->
-			<div class="head">
-			    <div class="row row01">
-			        <div class="text-right">
-			            <img class="logoHead" src="../img/Navbar logo.png" alt="">
-			        </div>
-			        <div class="col-lg-offset-1"  style=" flex: 1;text-align: right;">
-			            <ul class="list-inline headText">
-                            <li ><a href="../pages/index.html">MAIN PAGE</a></li>
-			                <li><a href="../pages/index2.html">Investment Banking</a></li>
-			                <li class="ativet"><a href="../pages/index3.html">Industrial Investment</a></li>
-			                <li><a href="../pages/index4.html">Industrial Development</a></li>
-			                <li><a href="../pages/index5.html">Contact us</a></li>
-                            <li><a class="login-link" href="https://saas.investarget.com/login">Login</a></li>
+			<div class="head" style="background-color: #193663;">
+                    <div class="text-right" style="width: auto;">
+                        <img class="logoHead" src="../img/investarget_logo_transparent.png"
+                            alt="">
+                    </div>
+                    <div class="col-lg-offset-1" style=" flex: 1;text-align: right;">
+                        <ul class="list-inline headText" style="display: flex;justify-content: flex-end;">
+                            <li class="header__menu"><a href="../pages/index.html">首页</a></li>
+                            <li class="header__menu"><a href="../pages/index2.html">关于多维</a></li>
+                            <li class="header__menu ativet"><a href="#">多维团队</a></li>
+                            <li class="header__menu"><a href="../pages/index4.html">多维交易</a></li>
+                            <!-- <li>
+                                        <a href="https://saas.investarget.com/login"><img class="loginImg" src="../img/Button sign in.png" alt=""></a>
+                                    </li> -->
                             <li class="textT">
-                                <a class="lang" href="/pages/index3.html"><span class="textCh">中文</span></a>
-                                <span class="textLine">|</span>
-                                <a class="lang" href="/en/pages/index3.html"><span class="textEnglish">EN</span></a>
+                                <a class="lang" href="/pages/index3.html"><span
+                                        class="textCh">中文</span></a>
+                                <span class="textLine">/</span>
+                                <!-- <a class="lang" href="/en/pages/index.html"> -->
+                                    <span
+                                        class="textEnglish">English</span>
+                                    <!-- </a> -->
                             </li>
-			            </ul>
-			        </div>
-			    </div>
-			</div>
-            <!-- 轮播图 -->
-            <div class="row ">
-                <div class="swiper-slides " style="position: relative;">
-                    <div class="swiperText " style="top: 40%; max-width: none; width: 100%;">
-                        <div class="text-center ">Hyperspace Capital</div>
-                        <div class="text-center ">Global Capital Deployment in Technology and Industrial Developments</div>
+                        </ul>
                     </div>
-                    <img src="../img/page3 titlepic.png " alt=" ">
-                </div>
-            </div>
-            <!-- 1 -->
-            <div class="row gsj ">
-                <div class="col-lg-12 gsjj text-center ">Successful Cases:</div>
-                <div class="col-lg-12 smallLine text-center ">
-                    <div class="whiteL "></div>
-                    <div class="blackL "></div>
-                </div>
-                <!-- f -->
-                <div class="text-center pageCaseBox" style="padding: 50px 100px 0 100px; justify-content: center;" >
-                    <div class="col-5  " style="width: 36.4%; margin: 0 14px;">
-                        <a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465454&idx=1&sn=5018c060a56c87eff6e111ebe469c182&chksm=f3dd16f6c4aa9fe06d70858927adca5121f6457e7ad22f74793fb3642e4e5832539db25ed2fa&token=320641529&lang=zh_CN#rd "target="_blank">
-                            <img style="width: 100%; " src="../img/page3 pic1.png " alt=" ">
-                            <div class="pg3Case text-left ">
-                                <div style="color: #747474;margin-bottom: 14px; ">| Investment Case</div>
-                                <div class="page3CaseT ">Chinese national brand of tire Qingdao Double Star</div>
-                                <div class="page3CaseT ">Invest 200 million US dollars to establish a joint venture with MSD and Daewoo Motors</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-5 " style="width: 36.4%; margin: 0 14px;">
-                        <a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652464400&idx=1&sn=47c3a25200540dc9bd2d4445215d4d09&chksm=f3dd1ac8c4aa93decb3906686fbe073992da15012cb9a123ab218c7d147fe4def0bbced60ed9&token=320641529&lang=zh_CN#rd "target="_blank">
-                            <img style="width: 100%; " src="../img/page3 pic2.png " alt=" ">
-                            <div class="pg3Case text-left ">
-                                <div style="color: #747474;margin-bottom: 14px; ">| Investment Case</div>
-                                <div class="page3CaseT ">Video AI Solution Provider</div>
-                                <div class="page3CaseT ">Anville receives tens of millions of Series-A investment led by Hyperspace Capital</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- s -->
-                <div class="pageCaseBox text-center " style="padding: 24px 100px 0 100px; justify-content: center;">
-                    <div class="col-5  " style="width: 36.4%; margin: 0 14px;">
-                        <a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504980817&idx=1&sn=14a176511bdb47c174ab3f3294306bb3&scene=19&token=655598732&lang=zh_CN#wechat_redirect "target="_blank">
-                            <img style="width: 100%; " src="../img/page3pic3.png " alt=" ">
-                            <div class="pg3Case text-left ">
-                                <div style="color: #747474;margin-bottom: 40px; ">| Investment Case</div>
-                                <div class="page3CaseT ">Leading Blockchain Infrastructure Service Provider</div>
-                                <div class="page3CaseT ">Yunxiang Blockchain receives Series Pre-A investment from Hyperspace Capital</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-5 " style="width: 36.4%; margin: 0 14px;">
-                        <img style="width: 100%; " src="../img/page3pic4.png " alt=" ">
-                        <div class="pg3Case text-left ">
-                            <div style="color: #747474;margin-bottom: 40px; ">| Investment Case</div>
-                            <div class="page3CaseT ">Yunxiang Blockchain completed tens of millions yuan in Series A financing led by Shenzhen Capital Group</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pageCaseBox text-center " style="padding: 24px 100px 0 100px; justify-content: center;">
-                    <div class="col-5 " style="width: 36.4%; margin: 0 14px;">
-                        <a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466521&idx=1&sn=d987d4b74afbf0b2723dc140d3002db0&chksm=f3dd1281c4aa9b977285b4fb32b498a21ad5b8c3c5d77c2f3f53a75757d578a9e46308515f32&token=545970318&lang=zh_CN#rd" target="_blank">
-                            <img style="width: 100%; " src="../img/page3pic5.jpg " alt=" ">
-                            <div class="pg3Case text-left ">
-                                <div style="color: #747474;margin-bottom: 40px; ">| Investment Case</div>
-                                <div class="page3CaseT ">EIGENCOMM</div>
-                                <div class="page3CaseT ">Leading Developer of Honeycomb Mobile Communication Chips and Software</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-12 text-center "><span class="page3Btn "><a href="# ">Load more</a></span></div>
             </div>
             <!-- 2 -->
-            <div class="row gs1 " style="padding-top: 40px; ">
-                <div class="col-lg-12 gsjj text-center ">Management Team</div>
-                <div class="col-lg-12 smallLine text-center ">
-                    <div class="whiteL "></div>
-                    <div class="blackL "></div>
-                </div>
-                <!-- p1 -->
-                <div class=" text-center pageCaseBox" style="padding: 50px 100px; justify-content: center;">
-                    <!-- 1 -->
-                    <div class="col-5 pageR " style="width: 284px;height: 332px;position: relative;">
-                        <div class="text-center page3Cases " style="width: 100%; height: 150px; ">
-                            <img style="width: 120px;height: auto; " src="../img/rw/管理团队2.png " alt=" ">
-                        </div>
-                        <div class="pageRw ">
-                            <p class="text-center " style="font-weight: 400;">Fanny Cao</p>
-                            <p class="text-center ">Founding Partner</p>
-                        </div>
-                        <div class="rwZ text-left ">
-                            <p>More than 10 years' experience in Cross-border M&A and Strategic Consulting. Provided Strategic and Financial Advisory services to Siemens, Bosch, Volkswagen, BASF, Budweiser, Chevron, InBev, etc. Provided service to M&G, JNBY, YunQuNa, KZmall, iPlas, etc.</p>
-                            <div style="margin-top: 25px; ">Served as:</div>
-                            <div>Partner, Roland Berger China  </div>
-                            <div>Senior Consultant, Shanghai Municipal Government </div>
-                            <div>Independent Director at three listed companies </div>
-                            <div style="">MBA, HEC Paris </div>
-                        </div>
-                    </div>
-                    <!-- 2 -->
-                    <div class="col-5 pageR " style="width: 284px;height: 332px;">
-                        <div class="text-center page3Cases " style="width: 100%; height: 150px; ">
-                            <img style="width: 120px;height: auto; " src="../img/rw/管理团队1.png " alt=" ">
-                        </div>
-                        <div class="pageRw ">
-                            <p class="text-center "style="font-weight: 400;">Fabian Zhou</p>
-                            <p class="text-center ">Founding Partner</p>
-                        </div>
-                        <div class="rwZ text-left ">
-                            <p>More than 15 years' experience in M&A and Industrial Investment Management. Served as outbound investment consultant for several companies such as CHINT, JuneYao, CRRC, Neptunus, Micro Medical, LHL, PharmNet, Chunyuyisheng, UNIMED, KeRunXi Medical, etc. and investment advisor for a number of regional governments</p>
-                            <div style="margin-top: 25px; ">Served as:</div>
-                            <div>M&A Director at Siemens Healthineers APAC</div>
-                            <div>Chief APAC Representative at Berlin Partner for Business and Technology</div>
-                            <div style="">MBA, Technische Universität Berlin</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center pageCaseBox" style="padding: 50px 100px;justify-content: center; ">
-                    <!--3 -->
-                    <!-- <div class=" pageR " style="width: 284px;height: 332px;position: relative;">
-                        <div class="text-center page3Cases " style="width: 100%; height: 150px; ">
-                            <img style="width: 120px;height: auto;" src="../img/rw/管理团队11.png " alt=" ">
-                        </div>
-                        <div class="pageRw ">
-                            <p class="text-center "style="font-weight: 400;">He Jianfeng </p>
-                            <p class="text-center ">Partner</p>
-                        </div>
-                        <div class="rwZ text-left ">
-                            <p>More than 15 years of overseas investment experience, mid-to-early investment expert, one of the initiators of the China-Israel High-Tech Summit, and the chief representative of the China region of the Israel’s YHT Group.
-                            </p>
-                        </div>
-                    </div> -->
-                    <!-- 4 -->
-                    <div class="pageR " style="width: 284px;height: 332px;position: relative;">
-                        <div class="text-center page3Cases " style="width: 100%; height: 150px; ">
-                            <img style="width: 120px;height: auto; " src="../img/rw/管理团队4.png " alt=" ">
-                        </div>
-                        <div class="pageRw ">
-                            <p class="text-center "style="font-weight: 400;">S. Woods Myong
-                            </p>
-                            <p class="text-center ">Partner</p>
-                        </div>
-                        <div class="rwZ text-left ">
-                            <p>More than 20 years’ experience in Investment, Cross-border M&A and Strategic Consulting across China and South Korea. Led more than 30 High Return Projects including Naver, NCsoft, Ahnlab, etc.
-                            </p>
-                            <div style="margin-top: 25px; ">Served as:</div>
-                            <div>Partner at The Balloch Group
-                            </div>
-                            <div>COO at Trust Star Investment
-                            </div>
-                            <div>PE Fund Manager at LG Investment & Securities
-                            </div>
-                            <div style="">Master, University of Seoul
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="pageR " style="width: 284px;height: 332px;position: relative;">
-                        <div class="text-center page3Cases " style="width: 100%; height: 150px; ">
-                            <img style="width: 120px;height: auto;" src="../img/rw/管理团队3.png " alt=" ">
-                        </div>
-                        <div class="pageRw ">
-                            <p class="text-center " style="font-weight: 400;">Peng Xu, PhD</p>
-                            <p class="text-center ">Partner</p>
-                        </div>
-                        <div class="rwZ text-left ">
-                            <p>More than 20 years’ experience in Cross-border M&A, Investments, and Post-merger Integration. Established and managed Financial Holding Companies for Listed Companies, participated in managing financial assets under Haier Group (Bank of Qingdao, Changjiang Securities, Haier New York Life Insurance)</p>
-                            <div style="margin-top: 25px; ">Served as:</div>
-                            <div>M&A Director at Haier Group</div>
-                            <div>Deputy GM at Franklin Templeton PE Fund</div>
-                            <div>SVP at Jefferies</div>
-                            <div style="">Ph.D., University of Iowa Tippie College of Business</div>
+            <div style="padding-top: 64px;">
+                <div style="position: relative;display: flex;padding-top: 115px;margin-top: 64px;margin-bottom: 40px;max-width: 1200px;margin-left: auto;margin-right: auto;">
+                    <div style="padding: 36px 55px;position: absolute;left: 0;top: 0;height: 100%;width: 86%;background-color: white;">
+                      <div style="margin-bottom: 17px;font-size: 20px;line-height: 28px;color: #193663;letter-spacing: 1px;font-weight: 400;">创始合伙人</div>
+                      <div style="width: 100%;height: 1px;background-color: #193663;"></div>
+                    </div>
+                    <div style="position: relative;flex: 2;padding: 0 120px 90px 57px;">
+                        <div style="margin-bottom: 166px;font-size: 60px;line-height: 84px;font-weight: 500;letter-spacing: 1px;">曹芳宁</div>
+                        <div style="font-size: 20px;line-height: 28px;color: #4A4A4A;font-weight: 500;">
+                            <p class="mb-4">主管多维资本整体发展规划、组织战略和日常运营，以及重大核心交易管理。</p>
+                            <p class="mb-4">创立多维资本前，曹芳宁女士曾出任全球顶级战略管理咨询公司罗兰贝格（Roland Berger）大中华区合伙人，拥有超过十年的咨询行业从业经历。
+                            </p>
+                        <p class="mb-4">曹芳宁女士在汽车和消费领域有着极其丰富的行业经验与深刻敏锐的洞察力，亦曾担任上海市政府高级顾问及三家上市公司独立董事。</p>
+                        <p class="mb-4">曹芳宁女士曾在欧洲学习、工作和生活近八年，并精通德语、法语和英语。</p>
+                        <p class="mb-4">曹芳宁女士获得法国巴黎HEC商学院MBA学位。</p>
+                        
                         </div>
                     </div>
+                    <div style="position: relative;flex: 1;"><img style="margin-top: 20px;width: 100%;background-color: #999;" src="../img/rw/曹芳宁.png" /></div>
+                </div>
 
-                    <!-- 5 -->
-                    <!-- <div class=" pageR " style="width: 284px;height: 332px;position: relative;">
-                        <div class="text-center page3Cases " style="width: 100%; height: 150px; ">
-                            <img style="width: 120px;height: auto;" src="../img/rw/管理团队6.png " alt=" ">
-                        </div>
-                        <div class="pageRw ">
-                            <p class="text-center "style="font-weight: 400;">Di You</p>
-                            <p class="text-center ">Partner </p>
-                        </div>
-                        <div class="rwZ text-left ">
-                            <p>More than 10 years of experience in private equity investment, mergers and acquisitions, and fund management, focusing on investment opportunities in the Internet and medical health industry. Participating in investments include BGI, VIPABC, ChinaEdu, Walvax, YunQuNa, YunZhangFang, Udesk Many star projects.
+                <div style="position: relative;display: flex;padding-top: 115px;margin-bottom: 40px;max-width: 1200px;margin-left: auto;margin-right: auto;">
+                    <div style="padding: 36px 55px;position: absolute;left: 0;top: 0;height: 100%;width: 86%;background-color: white;">
+                      <div style="margin-bottom: 17px;font-size: 20px;line-height: 28px;color: #193663;letter-spacing: 1px;font-weight: 400;">创始合伙人</div>
+                      <div style="width: 100%;height: 1px;background-color: #193663;"></div>
+                    </div>
+                    <div style="position: relative;flex: 2;padding: 0 120px 90px 57px;">
+                        <div style="margin-bottom: 166px;font-size: 60px;line-height: 84px;font-weight: 500;letter-spacing: 1px;">周炫</div>
+                        <div style="font-size: 20px;line-height: 28px;color: #4A4A4A;font-weight: 500;">
+                            <p class="mb-4">主管多维资本医疗领域核心交易。</p>
+                            <p class="mb-4">创立多维资本前，周炫先生在德国西门子拥有超过五年的从业经历并连续创业，对于医疗行业的市场策略、战略咨询与资产交易有丰富的产业实践和透彻认知。周炫先生的职业生涯始于德国柏林经济促进中心，期间为德国和亚太地区的经济交流搭建桥梁。
                             </p>
-                            <div style="margin-top: 25px; ">Served as:</div>
-                            <div>Associate at Softbank Investment 
-                            </div>
-                            <div style="">Bachelor, Shanghai Jiaotong University </div>
+                        <p class="mb-4">周炫先生在德国柏林、斯图加特和埃尔兰根有近十年的学习、工作和生活经历，精通德语和英语。</p>
+                        <p class="mb-4">周炫先生获得德国柏林工业大学MBA学位。</p>
+                        
                         </div>
-                    </div> -->
+                    </div>
+                    <div style="position: relative;flex: 1;"><img style="margin-top: 20px;width: 100%;background-color: #999;" src="../img/rw/周炫.png" /></div>
+                </div>
+            </div>
+
+        <div>
+            <div style="width: 100%;margin: auto;font-size: 14px;line-height: 60px;background-color: #193663;">
+                <div style="width: 960px;margin: 0 auto;color: rgba(255, 255, 255, .6);font-weight: 300;letter-spacing: 0.5px;">
+                    <a style="color: rgba(255, 255, 255, .6);" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a>
+                    <span>copyright©2022 Investarget</span>
                 </div>
             </div>
         </div>
-       <!-- 页尾 -->
-       <div class="row gsj5 ">
-            <div class="gsj51" style="justify-content: center;">
-            	<div class="col-4 col-lg-offset-1 " style="cursor: pointer;margin-left: 0; ">
-            		<div style="line-height: 26px; color: #C8C8C8 ; ">Contact us</div>
-            		<div><span class="tel ">Telephone: </span><span class="tels ">021-5258 0136</span></div>
-            		<div class="foots ">Careers Email: career@investarget.com</div>
-            		<div class="foots ">Address: Room 2802, K. Wah Centre, 1010 Middle Huaihai Road, <br>Xuhui District, Shanghai, China </div>
-            	</div>
-            	<div class="col-1 " style="cursor: pointer; margin-left: 85px;">
-            		<div style="line-height: 30px;color: #C8C8C8 ; ">Links</div>
-            		<ul class="list-unstyled st " style="color:#999999; font-size: 12px; ">
-                        <li><a style="color: #999999;" href="index2.html">About us</a></li>
-                        <li><a style="color: #999999;" href="index2.html#merger&acquisitions">Merger & Acquisitions</a></li>
-                        <li><a style="color: #999999;" href="index2.html#capital-raising">Capital-raising</a></li>
-                        <li><a style="color: #999999;" href="index3.html">Strategic Investment</a></li>	
-            		</ul>
-            	</div>
-            	<div class="col-1 " style="margin-left: 85px;cursor: pointer; ">
-            		<div style="line-height: 30px;color: #C5C5C5 ; ">WeChat Official Account</div>
-            		<img class="appCode " src="../img/wx%20code.png " alt=" ">
-            	</div>
-            	<div class="col-1 " style="cursor: pointer; margin-left: 30px;">
-            		<div style="line-height: 30px;color: #C5C5C5 ; ">APP Download</div>
-            		<img class="appCode " src="../img/appcode.png " alt=" ">
-            	</div>
-            	<div class="col-1 " style="margin-left: 110px;cursor: pointer; ">
-            		<img class="appCode " style="margin: 26px 0; " src="../img/Bottombar logo.png " alt=" ">
-            	</div>
-            </div>
-            <div class=" text-center " style="width: 1200px; margin: auto; color:#999999; font-size: 12px;">
-                <a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a> copyright©2020 Investarget</div>
-        </div>
+
     </div>
 
-    <script src="../js/jquery-1.9.1.js "></script>
+    <!-- <script src="../js/jquery-1.9.1.js "></script> -->
     <script src="../js/bootstrap.js "></script>
-    <script src="../js/swiper.js "></script>
+    <!-- <script src="../js/swiper.js "></script> -->
     <script>
-        var swiper = new Swiper('.swiper-container', {
-            cssMode: true,
-            autoplay: true,
-            loop: true,
-            navigation: {
-                nextEl: '.swiper-button-prevs',
-                prevEl: '.swiper-button-nexts',
-            },
-            pagination: {
-                el: '.swiper-pagination'
-            },
-            mousewheel: true,
-            keyboard: true,
-        });
     </script>
 </body>
 

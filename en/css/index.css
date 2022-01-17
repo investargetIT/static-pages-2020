@@ -1,5 +1,9 @@
+/* @font-face {
+    font-family: "MFYanSong_Noncommercial-Regular";
+    src: url("../fonts/MFYanSong_Noncommercial-Regular.ttf");
+} */
 html,body,wrap{
-	min-width: 1200px;
+	/* min-width: 1200px; */
 }
 .rowhader{
 	position: relative;
@@ -15,8 +19,9 @@ html,body,wrap{
     margin: 0;
 }
 .ativet{
-    border-bottom: 2px solid #13356C;
+    border-bottom: 2px solid #ffffff;
     font-weight: 600;
+    color: white;
 }
 .gsj {
     padding-top: 30px;
