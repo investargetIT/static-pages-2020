@@ -5,6 +5,9 @@
 html,body,wrap{
 	/* min-width: 1200px; */
 }
+body {
+    font-family: Calibri, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
 .rowhader{
 	position: relative;
 }
