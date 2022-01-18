@@ -19,8 +19,8 @@
     color: white;
 }
 .logoHead {
-    margin: 20px 0;
-    width: 222px;
+    margin: 16px 0;
+    width: 170px;
 }
 
 .headText {
@@ -34,6 +34,7 @@
 .headText li a {
     text-decoration: none;
     color: rgba(255, 255, 255, .9);
+    letter-spacing: 2px;
 }
 .headText li a.lang {
     color: rgba(255, 255, 255, .9);
