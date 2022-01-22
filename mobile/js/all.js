@@ -676,16 +676,16 @@ $(function() {
                 <div class="act_list"> 
                    
                     <ul class="list_">  
-                        <li class="active"><a href="index.html">多维资本</a></li>
+                        <li class="active"><a href="index.html">首页</a></li>
                         <li><a href="4_1.html">关于我们</a></li>
                         <li><a href="3.html">多维团队</a></li>
                         <li><a href="2_2.html">多维交易</a></li> 
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
-                            <span class="lg En"><a href="/mobile/en/index.html">CH</a></span>
+                            <span class="lg En active"><a href="/mobile/en/index.html">中文</a></span>
                             <span style="opacity: 1;">/</span>
-                            <span class="lg Cn active"><a href="/mobile/index.html">EN</a></span>
+                            <span class="lg Cn"><a href="/mobile/index.html">EN</a></span>
                         </div>
                     </div>
                     <!-- <div class="link_box"> 

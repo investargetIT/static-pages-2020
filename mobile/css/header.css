@@ -25,15 +25,15 @@ body {
 .nav_act .head_box .nav_box {
   right: 26px;
   top: 26px;
-  width: 12px;
-  height: 12px;
-  background-image: url('../images/nav-close.png');
+  width: 24px;
+  background-image: url('../images/close@3x.png');
 }
 .nav_act .head_box .act_list {
   display: block;
   background-color: #13356C;
   padding-top: 150px;
   height: 100%;
+  opacity: 95%;
 }
 nav {
   z-index: 999;
