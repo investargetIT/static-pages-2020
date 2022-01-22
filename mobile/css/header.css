@@ -4,7 +4,7 @@
 }
 body {
   /* font-family:'Fp'; */
-  font-family: PingFangSC-Regular;
+  font-family: PingFang SC;
 }
 .container:before {
   display: none;
@@ -62,7 +62,7 @@ nav .head_box .logo_box {
   text-align: center;
 }
 nav .head_box .logo_box img {
-  width: 100px;
+  width: 160px;
   height: auto;
 }
 nav .head_box .nav_box {

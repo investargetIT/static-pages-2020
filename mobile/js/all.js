@@ -670,7 +670,7 @@ $(function() {
         <nav>
             <div class="head_box">
                 <div class="logo_box">
-                    <a href="#"><img src="images/导航logo.png" class="m-logo" alt=""></a>
+                    <a href="#"><img src="images/investarget_logo_transparent.png" class="m-logo" alt=""></a>
                 </div>
                 <div class="nav_box"></div> 
                 <div class="act_list"> 
@@ -700,7 +700,7 @@ $(function() {
     // 
     $('#layout').append(`<footer>
             <div class="fend_">
-                <p>copyright©2021 Investarget </p>
+                <p>copyright©2022 Investarget </p>
                 <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
             </div>
         </footer>`)
