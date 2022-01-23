@@ -918,7 +918,7 @@ $(function() {
     // 
     $('#layout4').append(`<footer>
     <div class="fend_">
-        <p>copyright©2021 Investarget </p>
+        <p>copyright©2022 Investarget </p>
         <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
     </div>
 </footer>`)
