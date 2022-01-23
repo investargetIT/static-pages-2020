@@ -888,22 +888,22 @@ $(function() {
         <nav>
             <div class="head_box">
                 <div class="logo_box">
-                    <a href="#"><img src="images/investarget_logo_transparent.png" class="m-logo" alt=""></a>
+                    <a href="#"><img src="images/导航logo.png" class="m-logo" alt=""></a>
                 </div>
                 <div class="nav_box"></div> 
                 <div class="act_list"> 
                    
                     <ul class="list_">  
-                        <li><a href="index.html">首页</a></li>
-                        <li><a href="4_1.html">关于我们</a></li>
-                        <li class="active"><a href="3.html">多维团队</a></li>
-                        <li><a href="2_2.html">多维交易</a></li> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="4_1.html">About Us</a></li>
+                        <li class="active"><a href="3.html">Team</a></li>
+                        <li><a href="2_2.html">Clients</a></li> 
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
-                            <span class="lg En active"><a href="/mobile/en/index.html">中文</a></span>
+                            <span class="lg En active"><a href="/mobile/index.html">中文</a></span>
                             <span style="opacity: 1;">/</span>
-                            <span class="lg Cn"><a href="/mobile/index.html">EN</a></span>
+                            <span class="lg Cn"><a href="/mobile/en/index.html">EN</a></span>
                         </div>
                     </div>
                     <!-- <div class="link_box"> 
@@ -927,22 +927,22 @@ $(function() {
         <nav>
             <div class="head_box">
                 <div class="logo_box">
-                    <a href="#"><img src="images/investarget_logo_transparent.png" class="m-logo" alt=""></a>
+                    <a href="#"><img src="images/导航logo.png" class="m-logo" alt=""></a>
                 </div>
                 <div class="nav_box"></div> 
                 <div class="act_list"> 
                    
                     <ul class="list_">  
-                        <li><a href="index.html">首页</a></li>
-                        <li class="active"><a href="4_1.html">关于我们</a></li>
-                        <li><a href="3.html">多维团队</a></li>
-                        <li><a href="2_2.html">多维交易</a></li> 
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="4_1.html">About Us</a></li>
+                        <li><a href="3.html">Team</a></li>
+                        <li><a href="2_2.html">Clients</a></li> 
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
-                            <span class="lg En active"><a href="/mobile/en/index.html">中文</a></span>
+                            <span class="lg En active"><a href="/mobile/index.html">中文</a></span>
                             <span style="opacity: 1;">/</span>
-                            <span class="lg Cn"><a href="/mobile/index.html">EN</a></span>
+                            <span class="lg Cn"><a href="/mobile/en/index.html">EN</a></span>
                         </div>
                     </div>
                     <!-- <div class="link_box"> 

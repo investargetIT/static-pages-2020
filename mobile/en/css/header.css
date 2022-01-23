@@ -4,7 +4,7 @@
 }
 body {
   /* font-family:'Fp'; */
-  font-family: PingFang SC;
+  font-family: Calibri, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .container:before {
   display: none;
