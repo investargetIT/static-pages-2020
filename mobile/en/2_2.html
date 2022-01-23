@@ -54,6 +54,9 @@
     .latest-project__item:hover > .latest-project__item__hover {
         /* background-color: #9BA2A7; */
         /* box-shadow: 0 30px 100px 0 rgba(122,127,131,0.25); */
+        /* display: block; */
+    }
+    .swiper-slide-active .latest-project__item__hover {
         display: block;
     }
         .latest-project__item__title {
@@ -81,14 +84,16 @@
             padding: 12px 0;
             font-size: 14px;
             color: #282828;
-            letter-spacing: 3px;
+            letter-spacing: 1px;
         }
         .tab-active {
             opacity: 100%;
-            border-bottom: 4px solid #193663;
+            border-bottom: 2px solid #193663;
             font-weight: bold;
         }
-
+        .tab-item.tab-active {
+            color: #193663;
+        }
         .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
             content: none;
         }
@@ -159,8 +164,8 @@
         <div>
             <div style="margin-bottom: 20px;background-color: #F9F9F9;">
                 <div style="padding-top: 4px;display: flex;justify-content: center;align-items: center;">
-                    <div id="private-tab" onClick="handlePrivateClick()" class="tab-item tab-active" style="margin-right: 120px;">私募融资</div>
-                    <div id="international-tab" class="tab-item" onClick="handleInternationalClick()">跨国并购</div>
+                    <div id="private-tab" onClick="handlePrivateClick()" class="tab-item tab-active" style="margin-right: 50px;">Financial Advisor</div>
+                    <div id="international-tab" class="tab-item" onClick="handleInternationalClick()">Cross-border M&A</div>
                 </div>
                 <div style="width: 100%;height: 1px;background-color: #979797;opacity: 0.44;"></div>
             </div>
@@ -169,7 +174,7 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div class="project-group-title">前沿科技</div>
+                    <div class="project-group-title">High Tech</div>
                     <div class="project-group">
                         <div class="project-image-container"><img style="width: 50px;" src="../img/1慧策.png" /></div>
                         <div class="project-image-container"><img style="width: 40px;" src="../img/2UDesk.png" /></div>
@@ -190,7 +195,8 @@
                   </div>
 
                   <div class="swiper-slide">
-                    <div class="project-group-title">消费文娱</div>
+                    <div class="project-group-title">Consumer Goods, <br>
+                        Retail& Entertainment</div>
                     <div class="project-group">
                         <div class="project-image-container"><img style="width: 40px;" src="../img/rw/1触摸.png" /></div>
                         <div class="project-image-container"><img style="width: 16px;" src="../img/rw/2株.png" /></div>
@@ -209,7 +215,7 @@
                   </div>
 
                 <div class="swiper-slide">
-                    <div class="project-group-title">智能制造</div>
+                    <div class="project-group-title">Deep Tech</div>
                     <div class="project-group">
                         <div class="project-image-container"><img style="width: 28px;" src="../img/logo/1光晶.png" /></div>
                         <div class="project-image-container"><img style="width: 46px;" src="../img/logo/2竹间智能.png" /></div>
@@ -229,7 +235,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="project-group-title">医疗健康</div>
+                    <div class="project-group-title">Healthcare&Pharma</div>
                     <div class="project-group">
                         <div class="project-image-container"><img style="width: 55px;" src="../img/fblogo/1复星杏脉.png" /></div>
                         <div class="project-image-container"><img style="width: 46px;" src="../img/fblogo/2博腾生物.png" /></div>
@@ -254,7 +260,7 @@
 
             <div id="international_purchase" style="display: none;margin-bottom: 100px;">
                 
-                <div class="project-group-title">跨国并购</div>
+                <div class="project-group-title">Cross-border M&A</div>
                 <div class="project-group">
                     <div class="project-image-container"><img style="width: 55px;" src="../img/1晨光文具.png" /></div>
                     <div class="project-image-container"><img style="width: 50px;" src="../img/2JNBY.jpeg" /></div>
@@ -274,9 +280,9 @@
 
             <div style="margin: 0 auto;padding-top: 40px;">
                 <div style="position: relative;">
-                    <div style="font-size: 14px;font-weight: bolder;color: black;line-height: 52px;text-align: center;">最新交易</div>
+                    <div style="font-size: 14px;font-weight: bolder;color: black;line-height: 52px;text-align: center;">Latest Transaction</div>
                     <div style="position: absolute;right: 30px;top: 0;">
-                        <a style="line-height: 52px;font-size: 12px;color: rgba(0, 0, 0, .64);text-decoration: none;" target="_blank" href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyMjIxODkzNQ==&action=getalbum&album_id=2045277272172986368&scene=173&subscene=&sessionid=0&enterid=1632312648&from_msgid=2652467368&from_itemidx=1&count=3&nolastread=1#wechat_redirect">更多</a>
+                        <a style="line-height: 52px;font-size: 12px;color: rgba(0, 0, 0, .64);text-decoration: none;" target="_blank" href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyMjIxODkzNQ==&action=getalbum&album_id=2045277272172986368&scene=173&subscene=&sessionid=0&enterid=1632312648&from_msgid=2652467368&from_itemidx=1&count=3&nolastread=1#wechat_redirect">More</a>
                     </div>
                 </div>
             </div>
@@ -284,21 +290,21 @@
             <div class="swiper mySwiper1">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide swiper-slide1">
-                    <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652467425&idx=1&sn=cd3b84243381c2c956bdaedfcc3e4e9d&chksm=f3dd0f39c4aa862febad113b7ae8548e15717cec54272e8109e51f7c02299ed6488eac8fcef0&scene=178&cur_album_id=2045277272172986368#rd" style="text-decoration: none;">
+                    <a target="_blank" href="https://mp.weixin.qq.com/s/WXZxWb3i6wvsejd6FHa6-Q" style="text-decoration: none;">
                         <div class="latest-project__item" style="margin-right: 24px;">
                             <div class="latest-project__item__hover"></div>
-                            <div class="latest-project__item__title">追势科技完成超亿元A轮融资，多维资本担任独家财务顾问多维资本担任独家财务顾问</div>
-                            <div class="latest-project__item__description">2021年12月27日，领先的自动驾驶技术方案商上海追势科技有限公司（以下简称：追势科技）宣布完成超亿元A轮融资…</div>
+                            <div class="latest-project__item__title">SPACE has raised more than RMB 100 million in Series A funding</div>
+                            <div class="latest-project__item__description">https://mp.weixin.qq.com/s/WXZxWb3i6wvsejd6FHa6-Q</div>
                             <div class="latest-project__item__date">2021-12-27</div>
                         </div>
                     </a>
                   </div>
                   <div class="swiper-slide swiper-slide1">
-                    <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652467422&idx=1&sn=96e8ab3a1d7029e5168dfc3c51114ffd&chksm=f3dd0f06c4aa86108599d6fcefaba08a482e204fd90d8555a7dc0343482b2db0e3775b0c252d&scene=178&cur_album_id=2045277272172986368#rd" style="text-decoration: none;">
+                    <a target="_blank" href="https://mp.weixin.qq.com/s/tFbrKX-wqdiznereZscm6g" style="text-decoration: none;">
                         <div class="latest-project__item" style="margin-right: 24px;">
                             <div class="latest-project__item__hover"></div>
-                            <div class="latest-project__item__title">车后汽配供应链龙头企业甲乙丙丁完成B+轮2亿元融资，多维资本担任独家财务顾问</div>
-                            <div class="latest-project__item__description">车后汽配供应链龙头企业——甲乙丙丁已完成B+轮2亿元融资。本轮融资由中金资本旗下中金汇融领投…</div>
+                            <div class="latest-project__item__title">JYBD has raised RMB 200 million in Series B+ funding</div>
+                            <div class="latest-project__item__description">Link: https://mp.weixin.qq.com/s/tFbrKX-wqdiznereZscm6g</div>
                             <div class="latest-project__item__date">2021-12-24</div>
                         </div>
                     </a>
@@ -307,8 +313,8 @@
                     <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652467419&idx=1&sn=1342254615cf2e65d5e93b33e2275346&chksm=f3dd0f03c4aa8615496e1aa35df63e56e13b0b6cb3dad5356005cbe7eca10d56bf571edeceba&scene=178&cur_album_id=2045277272172986368#rd" style="text-decoration: none;">
                         <div class="latest-project__item">
                             <div class="latest-project__item__hover"></div>
-                            <div class="latest-project__item__title">寻汇 SUNRATE 完成C轮融资，多维资本担任财务顾问</div>
-                            <div class="latest-project__item__description">数字化全球支付与财资管理企业服务公司「寻汇SUNRATE」已完成C轮融资。该轮融资由软银亚洲风险投资公司…</div>
+                            <div class="latest-project__item__title">SUNRATE has achieved Series C funding</div>
+                            <div class="latest-project__item__description">https://mp.weixin.qq.com/s/pLRDbS1cQzysCxmRyObQ7w</div>
                             <div class="latest-project__item__date">2021-12-21</div>
                         </div>
                     </a>
