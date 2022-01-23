@@ -683,9 +683,9 @@ $(function() {
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
-                            <span class="lg En active"><a href="/mobile/en/index.html">中文</a></span>
+                            <span class="lg En active"><a href="/mobile/index.html">中文</a></span>
                             <span style="opacity: 1;">/</span>
-                            <span class="lg Cn"><a href="/mobile/index.html">EN</a></span>
+                            <span class="lg Cn"><a href="/mobile/en/index.html">EN</a></span>
                         </div>
                     </div>
                     <!-- <div class="link_box"> 
@@ -792,9 +792,9 @@ $(function() {
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
-                            <span class="lg En active"><a href="/mobile/en/index.html">中文</a></span>
+                            <span class="lg En active"><a href="/mobile/index.html">中文</a></span>
                             <span style="opacity: 1;">/</span>
-                            <span class="lg Cn"><a href="/mobile/index.html">EN</a></span>
+                            <span class="lg Cn"><a href="/mobile/en/index.html">EN</a></span>
                         </div>
                     </div>
                     <!-- <div class="link_box"> 
@@ -901,9 +901,9 @@ $(function() {
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
-                            <span class="lg En active"><a href="/mobile/en/index.html">中文</a></span>
+                            <span class="lg En active"><a href="/mobile/index.html">中文</a></span>
                             <span style="opacity: 1;">/</span>
-                            <span class="lg Cn"><a href="/mobile/index.html">EN</a></span>
+                            <span class="lg Cn"><a href="/mobile/en/index.html">EN</a></span>
                         </div>
                     </div>
                     <!-- <div class="link_box"> 
@@ -940,9 +940,9 @@ $(function() {
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
-                            <span class="lg En active"><a href="/mobile/en/index.html">中文</a></span>
+                            <span class="lg En active"><a href="/mobile/index.html">中文</a></span>
                             <span style="opacity: 1;">/</span>
-                            <span class="lg Cn"><a href="/mobile/index.html">EN</a></span>
+                            <span class="lg Cn"><a href="/mobile/en/index.html">EN</a></span>
                         </div>
                     </div>
                     <!-- <div class="link_box"> 

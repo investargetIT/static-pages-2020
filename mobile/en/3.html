@@ -2,279 +2,205 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-	<title>InvesTarget</title>
-	<link rel="icon" href="images/导航logo.png">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css"> 
-    <link rel="stylesheet" type="text/css" href="css/swiper-4.3.5.min.css">  
-    <link rel="stylesheet" type="text/css" href="css/neiye.css"> 
-    <script type="text/javascript" src="js/jquery.min.js"></script>  
-    <script type="text/javascript" src="js/swiper-4.3.5.min.js"></script> 
-    <script type="text/javascript" src="js/all.js"></script>   
-    <script type="text/javascript" src="js/rem.js"></script>   
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<title>多维资本</title>
+	<link rel="icon" href="images/导航logo1.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper-7.0.6.min.css">
+	<link rel="stylesheet" type="text/css" href="css/neiye.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/swiper-7.0.6.min.js"></script>
+	<script type="text/javascript" src="js/all.js"></script>
+	<script type="text/javascript" src="js/rem.js"></script>
+    <style>
+        .modal-body {
+            padding: 0;
+        }
+        .team-member__container:hover {
+            -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.08); 
+            box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.08);
+        }
+        .member-details__container {
+        }
+        .member-details__image {
+            position: relative;
+            width: 100%;
+            background-color: #ededed;
+            margin-right: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .member-details__image__img {
+            width: 100%;
+            height: auto;
+        }
+        .member-details__outer {
+            position: relative;
+        }
+        .member-details__text {
+            margin-left: 20px;
+            margin-top: -20px;
+            margin-right: 20px;
+            margin-bottom: 48px;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: white;
+            position: relative;
+        }
+        .member-details__text__name {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: black;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        .member-details__text__title {
+            margin-top: 14px;
+            margin-bottom: 12px;
+            font-size: 14px;
+            color: #193663;
+            letter-spacing: 1px;
+            line-height: 20px;
+        }
+        .member-details__text__divider {
+            height: 1px;
+            width: 100%;
+            background-color: #193003;
+        }
+        .member-details__text__content {
+            margin-top: 28px;
+            font-size: 12px;
+            color: black;
+            letter-spacing: 1px;
+            line-height: 20px;
+        }
+        .member-details__text__number {
+            margin-bottom: 20px;
+            font-size: 11px;
+            color: black;
+            letter-spacing: 1px;
+            line-height: 20px;
+        }
+        .arrow-left {
+            background-image: url(./images/arrow-left-mobile.svg);
+        }
+        .arrow-right {
+            background-image: url(./images/arrow-right-active.svg);
+        }
+        .arrow-left:hover {
+            background-image: url(./images/arrow-left-active.svg);
+        }
+        .arrow-right:hover {
+            background-image: url(./images/arrow-right-active-mobile.svg);
+        }
+        .team-member {
+            background-image: url(./images/team-member-bg.png);
+        }
+    </style>
 </head>
 
 <body>
-    <div class="layout" id="layout4">
-        <div class="banner">
-            <img src="images/page2 titlepic.png" alt="">
-            <div class="info"> 
-                <span>Hyperspace Capital<br>Global Capital Deployment in Technology and Industrial Developments</span>
-            </div>
-        </div>     
-        <!-- content -->
-        <div class="case_content">
-            <div class="title_box">
-                <h3>Successful Cases:</h3>
-                <div class="line"></div>
-            </div> 
-            <div class="Temp4"> 
-            	<ul>
-            		<li>
-            			<div class="img_box">
-            				<a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465454&idx=1&sn=5018c060a56c87eff6e111ebe469c182&chksm=f3dd16f6c4aa9fe06d70858927adca5121f6457e7ad22f74793fb3642e4e5832539db25ed2fa&token=320641529&lang=zh_CN#rd">
-            					<img src="images/page3 pic1.png" alt="">
-            				</a>
-            				<div class="box"> 
-	            				<i> | Investment Case</i>
-	            				<div class="info">
-	            					<a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652465454&idx=1&sn=5018c060a56c87eff6e111ebe469c182&chksm=f3dd16f6c4aa9fe06d70858927adca5121f6457e7ad22f74793fb3642e4e5832539db25ed2fa&token=320641529&lang=zh_CN#rd">
-	            						<p>Chinese national brand of tire Qingdao Double Star</p>
-	            						<p>Invest 200 million US dollars to establish a joint venture with MSD and Daewoo Motors</p> 
-	        						</a>
-	            				</div> 
-            				</div>
-            			</div>
-            		</li>
-            		<li>
-            			<div class="img_box">
-            				<a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652464400&idx=1&sn=47c3a25200540dc9bd2d4445215d4d09&chksm=f3dd1ac8c4aa93decb3906686fbe073992da15012cb9a123ab218c7d147fe4def0bbced60ed9&token=320641529&lang=zh_CN#rd">
-            					<img src="images/page3 pic2.png" alt="">
-            				</a>
-            				<div class="box"> 
-	            				<i> | Investment Case</i>
-	            				<div class="info">
-	            					<a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652464400&idx=1&sn=47c3a25200540dc9bd2d4445215d4d09&chksm=f3dd1ac8c4aa93decb3906686fbe073992da15012cb9a123ab218c7d147fe4def0bbced60ed9&token=320641529&lang=zh_CN#rd">
-	            						<p>Video AI Solution Provider</p>
-	            						<p>Anville receives tens of millions of Series-A investment led by Hyperspace Capital</p> 
-	        						</a>
-	            				</div> 
-            				</div>
-            			</div>
-            		</li>
-            		<li>
-            			<div class="img_box">
-            				<a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504980817&idx=1&sn=14a176511bdb47c174ab3f3294306bb3&scene=19&token=655598732&lang=zh_CN#wechat_redirect">
-            					<img src="images/page3 pic3.png" alt="">
-            				</a>
-            				<div class="box"> 
-	            				<i>| Investment Case</i>
-	            				<div class="info">
-	            					<a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=504980817&idx=1&sn=14a176511bdb47c174ab3f3294306bb3&scene=19&token=655598732&lang=zh_CN#wechat_redirect">
-	            						<p>Leading Blockchain Infrastructure Service Provider</p>
-	            						<p>Yunxiang Blockchain receives Series Pre-A investment from Hyperspace Capital</p> 
-	        						</a>
-	            				</div> 
-            				</div>
-            			</div>
-					</li>
-					<li>
-            			<div class="img_box">
-            				<a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466521&idx=1&sn=d987d4b74afbf0b2723dc140d3002db0&chksm=f3dd1281c4aa9b977285b4fb32b498a21ad5b8c3c5d77c2f3f53a75757d578a9e46308515f32&token=545970318&lang=zh_CN#rd">
-            					<img src="images/page3pic5.jpg" alt="">
-            				</a>
-            				<div class="box"> 
-	            				<i> | Investment Case</i>
-	            				<div class="info">
-	            					<a href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652466521&idx=1&sn=d987d4b74afbf0b2723dc140d3002db0&chksm=f3dd1281c4aa9b977285b4fb32b498a21ad5b8c3c5d77c2f3f53a75757d578a9e46308515f32&token=545970318&lang=zh_CN#rd">
-	            						<p>EIGENCOMM</p>
-	            						<p>Leading Developer of Honeycomb Mobile Communication Chips and Software</p> 
-	        						</a>
-	            				</div> 
-            				</div>
-            			</div>
-            		</li>
-            	</ul>
-            	<a href="#" class="more">Load more</a>
-            </div>
-            <div class="team_content">
-            <div class="title_box">
-                <h3>Management Team</h3>
-                <div class="line"></div>
-            </div> 
-            <div class="Temp3"> 
-            	<ul>
-            		<li>
-            			<div class="info">
-	            			<img src="images/管理团队头像2.png" alt="">
-	            			<h3>Fanny Cao</h3> 
-							<p>Founding Partner</p>
-						</div>
-						<div class="show_box">
-							<div class="close_"></div>
-							<div class="info">
-		            			<img src="images/管理团队头像2.png" alt="">
-		            			<h3>Fanny Cao</h3> 
-								<p>Founding Partner</p>
-							</div>
-							<div class="content">
-								<div class="cont"> 
-									<p>More than 10 years' experience in Cross-border M&A and Strategic Consulting. Provided Strategic and Financial Advisory services to Siemens, Bosch, Volkswagen, BASF, Budweiser, Chevron, InBev, etc. Provided service to M&G, JNBY, YunQuNa, KZmall, iPlas, etc.</p>
-								</div>
-								<div class="cont"> 
-									<span>Served as:</span>
-									<p>Partner, Roland Berger China</p>
-									<p>Senior Consultant, Shanghai Municipal Government</p>
-									<p>Independent Director at three listed companies</p> 
-								</div>
-								<div class="cont"> 
-									<p>MBA, HEC Paris</p> 
-								</div>
-							</div>
-						</div>
-            		</li> 
-            		<li>
-            			<div class="info">
-	            			<img src="images/管理团队头像1.png" alt="">
-	            			<h3>Fabian Zhou</h3> 
-							<p>Founding Partner</p>
-						</div>
-						<div class="show_box">
-							<div class="close_"></div>
-							<div class="info">
-		            			<img src="images/管理团队头像1.png" alt="">
-		            			<h3>Fabian Zhou</h3> 
-								<p>Founding Partner</p>
-							</div>
-							<div class="content">
-								<div class="cont"> 
-									<p>More than 15 years' experience in M&A and Industrial Investment Management. Served as outbound investment consultant for several companies such as CHINT, JuneYao, CRRC, Neptunus, Micro Medical, LHL, PharmNet, Chunyuyisheng, UNIMED, KeRunXi Medical, etc. and investment advisor for a number of regional governments</p>
-								</div>
-								<div class="cont"> 
-									<span>Served as:</span>
-									<p>M&A Director at Siemens Healthineers APAC</p>
-									<p>Chief APAC Representative at Berlin Partner for Business and Technology</p>
-								</div>
-								<div class="cont"> 
-									<p>MBA, Technische Universität Berlin</p> 
-								</div>
-							</div>
-						</div>
-            		</li> 
-            		<!-- <li>
-            			<div class="info">
-	            			<img src="images/page3何剑峰头像.png" alt="">
-	            			<h3>He Jianfeng</h3> 
-							<p>Partner</p>
-						</div>
-						<div class="show_box">
-							<div class="close_"></div>
-							<div class="info">
-		            			<img src="images/page3何剑峰头像.png" alt="">
-		            			<h3>He Jianfeng</h3> 
-								<p>Partner</p>
-							</div>
-							<div class="content">
-								<div class="cont"> 
-									<p>More than 15 years of overseas investment experience, mid-to-early investment expert, one of the initiators of the China-Israel High-Tech Summit, and the chief representative of the China region of the Israel’s YHT Group.</p>
-								</div> 
-							</div>
-						</div>
-					</li>  -->
-					
-					<li>
-            			<div class="info">
-	            			<img src="images/管理团队头像3.png" alt="">
-							<h3>Peng Xu, PhD</h3>
-							<p>Partner</p>
-						</div>
-						<div class="show_box">
-							<div class="close_"></div>
-							<div class="info">
-		            			<img src="images/管理团队头像3.png" alt="">
-								<h3>Peng Xu, PhD</h3>
-								<p>Partner</p>
-							</div>
-							<div class="content">
-								<div class="cont"> 
-									<p>More than 20 years’ experience in Cross-border M&A, Investments, and Post-merger Integration. Established and managed Financial Holding Companies for Listed Companies, participated in managing financial assets under Haier Group (Bank of Qingdao, Changjiang Securities, Haier New York Life Insurance)</p>
-								</div>
-								<div class="cont"> 
-									<span>Served as:</span> 
-									<p>M&A Director at Haier Group</p>
-									<p>Deputy GM at Franklin Templeton PE Fund</p>
-									<p>SVP at Jefferies</p> 
-								</div>
-								<div class="cont"> 
-									<p>Ph.D., University of Iowa Tippie College of Business</p> 
-								</div>
-							</div>
-						</div>
-					</li> 
+	<div class="layout" id="layout4" style="background-color: #F7F9FC;">
 
-            		<li>
-            			<div class="info">
-	            			<img src="images/管理团队头像4.png" alt="">
-	            			<h3>S. Woods Myong</h3> 
-							<p>Partner</p>
-						</div>
-						<div class="show_box">
-							<div class="close_"></div>
-							<div class="info">
-		            			<img src="images/管理团队头像4.png" alt="">
-		            			<h3>S. Woods Myong</h3> 
-								<p>Partner</p>
-							</div>
-							<div class="content">
-								<div class="cont"> 
-									<p>More than 20 years’ experience in Investment, Cross-border M&A and Strategic Consulting across China and South Korea. Led more than 30 High Return Projects including Naver, NCsoft, Ahnlab, etc.</p>
-								</div>
-								<div class="cont">  
-									<span>Served as:</span> 
-									<p>Partner at The Balloch Group</p>
-									<p>COO at Trust Star Investment</p>
-									<p>PE Fund Manager at LG Investment & Securities</p> 
-								</div>
-								<div class="cont"> 
-									<p>Master, University of Seoul</p> 
-								</div>
-							</div>
-						</div>
-            		</li> 
-            		<!-- <li>
-            			<div class="info">
-	            			<img src="images/管理团队头像6.png" alt="">
-	            			<h3>Di You</h3> 
-							<p>Partner</p>
-						</div>
-						<div class="show_box">
-							<div class="close_"></div>
-							<div class="info">
-	            			<img src="images/管理团队头像6.png" alt="">
-		            			<h3>Di You</h3> 
-								<p>Partner</p>
-							</div>
-							<div class="content">
-								<div class="cont"> 
-									<p>More than 10 years of experience in private equity investment, mergers and acquisitions, and fund management, focusing on investment opportunities in the Internet and medical health industry. Participating in investments include BGI, VIPABC, ChinaEdu, Walvax, YunQuNa, YunZhangFang, Udesk Many star projects.</p>
-								</div>
-								<div class="cont">  
-									<span>Served as:</span>   
-									<p>Associate at Softbank Investment  </p> 
-								</div>
-								<div class="cont"> 
-									<p>Bachelor, Shanghai Jiaotong University</p> 
-								</div>
-							</div>
-						</div>
-            		</li>  -->
-            	</ul>
+        <div id="carouselExampleControls" class="carousel slide" style="margin-bottom: 30px;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="member-details__container">
+                      <div class="member-details__image">
+                        <img class="member-details__image__img" src="../img/rw/曹芳宁.png" />
+                        
+                      </div>
+
+                      
+
+                      <div class="member-details__outer">
+                        <div class="member-details__text">
+                            <div class="member-details__text__title">创始合伙人</div>
+                            <div class="member-details__text__divider"></div>
+                            <div class="member-details__text__name">曹芳宁</div>
+                            <div class="member-details__text__content">主管多维资本整体发展规划、组织战略和日常运营，以及重大核心交易管理。</div>
+                            <div class="member-details__text__content">创立多维资本前，曹芳宁女士曾出任全球顶级战略管理咨询公司罗兰贝格（Roland Berger）大中华区合伙人，拥有超过十年的咨询行业从业经历。</div>
+                            <div class="member-details__text__content">曹芳宁女士在汽车和消费领域有着极其丰富的行业经验与深刻敏锐的洞察力，亦曾担任上海市政府高级顾问及三家上市公司独立董事。</div>
+                            <div class="member-details__text__content">曹芳宁女士曾在欧洲学习、工作和生活近八年，并精通德语、法语和英语。</div>
+                            <div class="member-details__text__content">曹芳宁女士获得法国巴黎HEC商学院MBA学位。</div>
+                        </div>
+                        <div style="display: flex;width: 96px;height: 48px;position: absolute;top: -24px;right: 40px;">
+                            <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
+                            <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+
+            <div class="carousel-item">
+                <div class="member-details__container">
+                    <div class="member-details__image">
+                      <img class="member-details__image__img" src="../img/rw/周炫.png" />
+                    </div>
+                    <div class="member-details__outer">
+                        <div class="member-details__text">
+                            <div class="member-details__text__title">创始合伙人</div>
+                            <div class="member-details__text__divider"></div>
+                            <div class="member-details__text__name">周炫</div>
+                            <div class="member-details__text__content">主管多维资本医疗领域核心交易。</div>
+                            <div class="member-details__text__content">创立多维资本前，周炫先生在德国西门子拥有超过五年的从业经历并连续创业，对于医疗行业的市场策略、战略咨询与资产交易有丰富的产业实践和透彻认知。周炫先生的职业生涯始于德国柏林经济促进中心，期间为德国和亚太地区的经济交流搭建桥梁。</div>
+                            <div class="member-details__text__content">周炫先生在德国柏林、斯图加特和埃尔兰根有近十年的学习、工作和生活经历，精通德语和英语。</div>
+                            <div class="member-details__text__content">周炫先生获得德国柏林工业大学MBA学位。</div>
+                        </div>
+                        <div style="display: flex;width: 96px;height: 48px;position: absolute;top: -24px;right: 40px;">
+                            <div class="arrow-left" style="flex: 1;cursor: pointer;" onclick="handlePrevBtnClick()"></div>
+                            <div class="arrow-right" style="flex: 1;cursor: pointer;" onclick="handleNextBtnClick()"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div> 
-    </div>
-</body> 
+
+
+    
+
+
+
+
+
+
+            
+        </div>
+	</div>
+
+    <script src="js/bootstrap.js "></script>
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleControls');
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            pause: false,
+        });
+
+        var currentIndex = 0;
+        function handlePrevBtnClick() {
+            if (currentIndex === 0) {
+                currentIndex = 6;
+            } else {
+                currentIndex--;
+            }
+            $("#no").text(`${currentIndex + 1}`); 
+            carousel.prev();
+        }
+        function handleNextBtnClick() {
+            if (currentIndex === 6) {
+                currentIndex = 0;
+            } else {
+                currentIndex++;
+            }
+            $("#no").text(`${currentIndex + 1}`);
+            carousel.next();
+        }
+    </script>
+</body>
 
 </html>
