@@ -26,7 +26,7 @@ body {
   right: 26px;
   top: 26px;
   width: 24px;
-  background-image: url('../images/close@3x.png');
+  background-image: url('../images/close3x.png');
 }
 .nav_act .head_box .act_list {
   display: block;
@@ -76,7 +76,9 @@ nav .head_box .nav_box {
   background-size: contain;
   background-image: url('../images/mobile-nav-icon.png');
   z-index: 9999;
-  transition: all 0.5s;
+  /* transition: right 0.5s; */
+  /* transition: top 0.5; */
+  /* transition: width 0.5; */
 }
 nav .head_box .act_list {
   position: fixed;
