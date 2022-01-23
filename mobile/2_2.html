@@ -29,17 +29,33 @@
             align-items: center; */
         }
         .latest-project__item {
+            position: relative;
             padding: 16px;
             width: 100%;
             height: 100%;
             background-color: white;
             box-shadow: 0 30px 100px 0 rgba(122,127,131,0.10);
             border-radius: 10px;
+            overflow: hidden;
         }
-        .latest-project__item:hover {
+        /* .latest-project__item:hover {
             background-color: #9BA2A7;
             box-shadow: 0 30px 100px 0 rgba(122,127,131,0.25);
-        }
+        } */
+        .latest-project__item__hover {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: 8px;
+        background-color: #193663;
+        display: none;
+    }
+    .latest-project__item:hover > .latest-project__item__hover {
+        /* background-color: #9BA2A7; */
+        /* box-shadow: 0 30px 100px 0 rgba(122,127,131,0.25); */
+        display: block;
+    }
         .latest-project__item__title {
             margin-bottom: 8px;
             font-size: 14px;
@@ -132,6 +148,9 @@
       .swiper-3d .swiper-slide-shadow-right {
         background-image: linear-gradient(to right,rgba(255,255,255,.4),rgba(255,255,255,0));
       }
+      .swiper-pagination-bullet-active {
+          background-color: #193663;
+      }
     </style>
 </head>
 
@@ -156,16 +175,17 @@
                         <div class="project-image-container"><img style="width: 40px;" src="../img/2UDesk.png" /></div>
                         <div class="project-image-container"><img style="width: 30px;" src="../img/3knx.png" /></div>
                         <div class="project-image-container"><img style="width: 40px;" src="../img/4快运兔.png" /></div>
-                        <div class="project-image-container"><img style="width: 40px;" src="../img/5箱信.png" /></div>
-                        <div class="project-image-container"><img style="width: 26px;" src="../img/6数据.png" /></div>
-                        <div class="project-image-container"><img style="width: 40px;" src="../img/7维狮物联网.png" /></div>
                         <div class="project-image-container"><img style="width: 40px;" src="../img/8Holovis.png" /></div>
                         <div class="project-image-container"><img style="width: 40px;" src="../img/9运去哪.png" /></div>
                         <div class="project-image-container"><img style="width: 34px;" src="../img/10Honor.png" /></div>
                         <div class="project-image-container"><img style="width: 42px;" src="../img/11印象笔记.png" /></div>
-                        <div class="project-image-container"><img style="width: 50px;" src="../img/12BIPO.png" /></div>
                         <div class="project-image-container"><img style="width: 30px;" src="../img/13固安捷.png" /></div>
                         <div class="project-image-container"><img style="width: 32px;" src="../img/14云账房.png" /></div>
+                        <div class="project-image-container"><img style="width: 26px;" src="../img/6数据.png" /></div>
+                        <div class="project-image-container"><img style="width: 40px;" src="../img/7维狮物联网.png" /></div>
+                        <div class="project-image-container"><img style="width: 40px;" src="../img/5箱信.png" /></div>
+                        <div class="project-image-container"><img style="width: 50px;" src="../img/12BIPO.png" /></div>
+                        
                     </div>
                   </div>
 
@@ -178,9 +198,9 @@
                         <div class="project-image-container"><img style="width: 32px;" src="../img/rw/4anxin.png" /></div>
                         <div class="project-image-container"><img style="width: 22px;" src="../img/rw/5豌豆思维.png" /></div>
                         <div class="project-image-container"><img style="width: 48px;" src="../img/rw/6PETKIT.png" /></div>
-                        <div class="project-image-container"><img style="width: 32px;" src="../img/rw/7椿风.png" /></div>
                         <div class="project-image-container"><img style="width: 32px;" src="../img/rw/8咖啡.png" /></div>
                         <div class="project-image-container"><img style="width: 55px;" src="../img/rw/9内外.png" /></div>
+                        <div class="project-image-container"><img style="width: 32px;" src="../img/rw/7椿风.png" /></div>
                         <div class="project-image-container"><img style="width: 20px;" src="../img/rw/10万物必选.png" /></div>
                         <div class="project-image-container"><img style="width: 48px;" src="../img/rw/11小佩宠物.png" /></div>
                         <div class="project-image-container"><img style="width: 66px;" src="../img/rw/12学霸辅导.png" /></div>
@@ -217,18 +237,18 @@
                         <div class="project-image-container"><img style="width: 47px;" src="../img/fblogo/4柯渡医学.png" /></div>
                         <div class="project-image-container"><img style="width: 55px;" src="../img/fblogo/5柯林布瑞.png" /></div>
                         <div class="project-image-container"><img style="width: 53px;" src="../img/fblogo/6诺灵生物.png" /></div>
-                        <div class="project-image-container"><img style="width: 46px;" src="../img/fblogo/7妙健康.png" /></div>
                         <div class="project-image-container"><img style="width: 52px;" src="../img/fblogo/8至本医疗.png" /></div>
                         <div class="project-image-container"><img style="width: 51px;" src="../img/fblogo/9stem.png" /></div>
                         <div class="project-image-container"><img style="width: 52px;" src="../img/fblogo/10柯润xi.png" /></div>
                         <div class="project-image-container"><img style="width: 47px;" src="../img/fblogo/11医准智能.png" /></div>
+                        <div class="project-image-container"><img style="width: 46px;" src="../img/fblogo/7妙健康.png" /></div>
                     </div>
                 </div>
 
                 </div>
                 <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev" onClick="navigateLeft()" style="left: 10px; width: 32px;height: 32px;right: auto;background-image: url(../img/arrow-left-new.png);background-size: cover;"></div>
-                <div class="swiper-button-next" onClick="navigateRight()" style="right: 10px; width: 32px;height: 32px;left: auto;background-image: url(../img/arrow-right.png);background-size: cover;"></div>
+                <div class="swiper-button-prev" style="left: 10px; width: 32px;height: 32px;right: auto;background-image: url(../img/arrow-left-new.png);background-size: cover;"></div>
+                <div class="swiper-button-next" style="right: 10px; width: 32px;height: 32px;left: auto;background-image: url(../img/arrow-right.png);background-size: cover;"></div>
               </div>
               </div>
 
@@ -243,8 +263,8 @@
                     <div class="project-image-container"><img style="width: 50px;" src="../img/5image54@2x.png" /></div>
                     <div class="project-image-container"><img style="width: 50px;" src="../img/6SOURCE_HRZ_WEBSITE-HEADER_237X65v2.png" /></div>
                     <div class="project-image-container"><img style="width: 30px;" src="../img/7小小运动馆.jpg" /></div>
-                    <div class="project-image-container"><img style="width: 20px;" src="../img/8grant.jpg" /></div>
                     <div class="project-image-container"><img style="width: 40px;" src="../img/9AHAVA.jpeg" /></div>
+                    <div class="project-image-container"><img style="width: 20px;" src="../img/8grant.jpg" /></div>
                     <div class="project-image-container"><img style="width: 60px;" src="../img/10pelegdesign.png" /></div>
                 </div>
                 
@@ -264,29 +284,32 @@
             <div class="swiper mySwiper1">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide swiper-slide1">
-                    <a target="_blank" href="https://mp.weixin.qq.com/s/sfkNPLNrB3xx6H7v88gFWA" style="text-decoration: none;">
+                    <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652467425&idx=1&sn=cd3b84243381c2c956bdaedfcc3e4e9d&chksm=f3dd0f39c4aa862febad113b7ae8548e15717cec54272e8109e51f7c02299ed6488eac8fcef0&scene=178&cur_album_id=2045277272172986368#rd" style="text-decoration: none;">
                         <div class="latest-project__item" style="margin-right: 24px;">
-                            <div class="latest-project__item__title">凌空天行完成逾亿元A+轮融资，多维海拓持续担任财务顾问</div>
-                            <div class="latest-project__item__description">凌行天空是国内唯一从事商业高超音速飞行产品研发和应用的高科技企业，拥有…</div>
-                            <div class="latest-project__item__date">2021-9-14</div>
+                            <div class="latest-project__item__hover"></div>
+                            <div class="latest-project__item__title">追势科技完成超亿元A轮融资，多维资本担任独家财务顾问多维资本担任独家财务顾问</div>
+                            <div class="latest-project__item__description">2021年12月27日，领先的自动驾驶技术方案商上海追势科技有限公司（以下简称：追势科技）宣布完成超亿元A轮融资…</div>
+                            <div class="latest-project__item__date">2021-12-27</div>
                         </div>
                     </a>
                   </div>
                   <div class="swiper-slide swiper-slide1">
-                    <a target="_blank" href="https://mp.weixin.qq.com/s/7nHuhLPhvWGryph5mkVjUg" style="text-decoration: none;">
+                    <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652467422&idx=1&sn=96e8ab3a1d7029e5168dfc3c51114ffd&chksm=f3dd0f06c4aa86108599d6fcefaba08a482e204fd90d8555a7dc0343482b2db0e3775b0c252d&scene=178&cur_album_id=2045277272172986368#rd" style="text-decoration: none;">
                         <div class="latest-project__item" style="margin-right: 24px;">
-                            <div class="latest-project__item__title">小佩宠物完成5000万美元D轮融资，多维海拓持续担任独家财务顾问</div>
-                            <div class="latest-project__item__description">近日，小佩宠物宣布完成5000万美金D轮融资，本轮由Sofina、鼎晖百孚领投，现有…</div>
-                            <div class="latest-project__item__date">2021-8-13</div>
+                            <div class="latest-project__item__hover"></div>
+                            <div class="latest-project__item__title">车后汽配供应链龙头企业甲乙丙丁完成B+轮2亿元融资，多维资本担任独家财务顾问</div>
+                            <div class="latest-project__item__description">车后汽配供应链龙头企业——甲乙丙丁已完成B+轮2亿元融资。本轮融资由中金资本旗下中金汇融领投…</div>
+                            <div class="latest-project__item__date">2021-12-24</div>
                         </div>
                     </a>
                   </div>
                   <div class="swiper-slide swiper-slide1">
-                    <a target="_blank" href="https://mp.weixin.qq.com/s/QsVUBxY0ZBzsS-9SPskkqw" style="text-decoration: none;">
+                    <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzIyMjIxODkzNQ==&mid=2652467419&idx=1&sn=1342254615cf2e65d5e93b33e2275346&chksm=f3dd0f03c4aa8615496e1aa35df63e56e13b0b6cb3dad5356005cbe7eca10d56bf571edeceba&scene=178&cur_album_id=2045277272172986368#rd" style="text-decoration: none;">
                         <div class="latest-project__item">
-                            <div class="latest-project__item__title">NEIWAI内外完成1亿美元D轮融资，多维海拓担任独家财务顾问</div>
-                            <div class="latest-project__item__description">NEIWAI内外（以下简称内外），专注于内衣家居运动的贴身衣物品牌，近日完成1亿…</div>
-                            <div class="latest-project__item__date">2021-7-15</div>
+                            <div class="latest-project__item__hover"></div>
+                            <div class="latest-project__item__title">寻汇 SUNRATE 完成C轮融资，多维资本担任财务顾问</div>
+                            <div class="latest-project__item__description">数字化全球支付与财资管理企业服务公司「寻汇SUNRATE」已完成C轮融资。该轮融资由软银亚洲风险投资公司…</div>
+                            <div class="latest-project__item__date">2021-12-21</div>
                         </div>
                     </a>
                   </div>
@@ -324,6 +347,7 @@
                 centeredSlides: true,
                 pagination: {
                   el: ".swiper-pagination",
+                  type: 'bullets',
                 },
                 navigation: {
                     nextEl: '.swiper-button-next',
