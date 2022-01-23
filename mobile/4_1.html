@@ -41,6 +41,28 @@
         display: block;
         width: 100%;
       }
+      .industry {
+          flex: 1;  
+          background-color: white;
+          padding: 20px;
+          display: flex;
+          justify-content: center;
+      }
+      .industry__img {
+          margin-right: 10px;
+          height: 50px;
+      }
+      .industry__intro__name {
+          margin-bottom: 8px;
+          font-size: 14px;
+          line-height: 20px;
+          color: black;
+      }
+      .industry__intro__more {
+          font-size: 12px;
+          color: #193663;
+          line-height: 17px;
+      }
     </style>
 </head>
 
@@ -70,15 +92,49 @@
             <div style="flex: 8;background-color: #f7f9fc;
             overflow: hidden;">
                 <div style="padding: 50px 20px;">
-                    <div style="margin-bottom: 12px;display: flex;align-items: center;">
+                    <div style="margin-bottom: 20px;display: flex;align-items: center;">
                         <div style="font-weight: bold;font-size: 16px;color: #193663;line-height: 30px;">公司简介</div>
                     </div>
                     <p style="margin-bottom: 30px;font-size: 14px;color: black;letter-spacing: 1px;line-height: 24px;font-weight: bold;">多维资本是一家具有天然全球底色和并购基因的精品投资银行。多维资本成立于2016年，业务聚焦于一级市场的私募融资和兼并收购，致力于为处于不同发展阶段的公司提供资本全生命周期服务，是业内独一无二具备“买卖双方执行经验、咨询视角全面加持”方法论的投资银行。</p>
                     <p style="margin-bottom: 30px;font-size: 14px;color: black;letter-spacing: 1px;line-height: 24px;font-weight: bold;">早期丰富的跨境并购案例为多维资本积累了扎实的复杂交易操盘能力，在复星集团、晨光文具、江南布衣和Babycare等多家先锋企业海外收购布局中均担任独家财务顾问。多维资本是中国一级市场内唯一成功操盘过多次跨境并购交易的投资银行。</p>
                     <p style="margin-bottom: 40px;font-size: 14px;color: black;letter-spacing: 1px;line-height: 24px;font-weight: bold;">多维资本始终相信创新创业是这个世界不可或缺的重要力量，和具有改变世界使命感、为社会持续创造值、拥有全球视野并不断拓展边界的公司携手，一起实现从0到无限的跨越式发展，是多维资本矢志不渝的使命和愿景。</p>
 
-                    <div style="margin-bottom: 12px;display: flex;align-items: center;">
+                    <div style="margin-bottom: 20px;display: flex;align-items: center;">
                         <div style="font-weight: bold;font-size: 16px;color: #193663;line-height: 30px;">行业覆盖</div>
+                    </div>
+
+                    <div style="display: flex;margin-bottom: 16px;">
+                        <div class="industry" style="margin-right: 16px;">
+                            <img class="industry__img" src="./images/Rocket@3x.png" />
+                            <div class="industry__intro">
+                                <div class="industry__intro__name">前沿科技</div>
+                                <a class="industry__intro__more" href="#">了解更多</a>
+                            </div>
+                        </div>
+                        <div class="industry">
+                            <img class="industry__img" src="./images/headphone@3x.png" />
+                            <div class="industry__intro">
+                                <div class="industry__intro__name">消费文娱</div>
+                                <a class="industry__intro__more" href="#">了解更多</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex;">
+                        <div class="industry" style="margin-right: 16px;">
+                            <img class="industry__img" src="./images/hospital@3x.png" />
+                            <div class="industry__intro">
+                                <div class="industry__intro__name">医疗健康</div>
+                                <a class="industry__intro__more" href="#">了解更多</a>
+                            </div>
+                        </div>
+                        <div class="industry">
+                            <img class="industry__img" src="./images/deepTech@3x.png" />
+                            <div class="industry__intro">
+                                <div class="industry__intro__name">智能制造</div>
+                                <a class="industry__intro__more" href="#">了解更多</a>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -92,7 +148,7 @@
 
         <div style="padding-top: 10px;padding-bottom: 50px;background-color: #f7f9fc;">
 
-            <div style="margin-bottom: 12px;padding-left: 20px;font-weight: bold;font-size: 16px;color: #193663;line-height: 30px;">多维荣誉</div> 
+            <div style="margin-bottom: 20px;padding-left: 20px;font-weight: bold;font-size: 16px;color: #193663;line-height: 30px;">多维荣誉</div> 
 
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
