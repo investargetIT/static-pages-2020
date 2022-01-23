@@ -323,12 +323,12 @@
         </div>
     </div>
     <script>
-        var swiper = new Swiper('.swiper-container', {
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
+        // var swiper = new Swiper('.swiper-container', {
+        //     navigation: {
+        //         nextEl: '.swiper-button-next',
+        //         prevEl: '.swiper-button-prev',
+        //     },
+        // });
         function handleInternationalClick() {
             $('#international_purchase').css('display', 'block');
             $('#international-tab').addClass('tab-active');
@@ -354,6 +354,10 @@
                     prevEl: '.swiper-button-prev',
                 },
             });
+            if (window.location.hash) {
+                swiper.slideTo(window.location.hash.slice(1));
+                window.location.hash = '';
+            }
 
             var swiper1 = new Swiper(".mySwiper1", {
                 effect: "coverflow",
