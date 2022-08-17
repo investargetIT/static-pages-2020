@@ -701,7 +701,7 @@ $(function() {
     $('#layout').append(`<footer>
             <div class="fend_">
                 <p>copyright©2022 Investarget </p>
-                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备17042070号-2</a></p>
             </div>
         </footer>`)
 
@@ -770,7 +770,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>copyright©2020 Investarget </p>
-                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备17042070号-2</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -810,7 +810,7 @@ $(function() {
     $('#layout2').append(`<footer>
     <div class="fend_">
         <p>copyright©2022 Investarget </p>
-        <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
+        <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备17042070号-2</a></p>
     </div>
 </footer>`)
 
@@ -879,7 +879,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>copyright©2020 Investarget </p>
-                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备17042070号-2</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -919,7 +919,7 @@ $(function() {
     $('#layout4').append(`<footer>
     <div class="fend_">
         <p>copyright©2022 Investarget </p>
-        <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
+        <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备17042070号-2</a></p>
     </div>
 </footer>`)
 
@@ -958,7 +958,7 @@ $(function() {
     $('#layout5').append(`<footer>
     <div class="fend_">
         <p>copyright©2022 Investarget </p>
-        <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
+        <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备17042070号-2</a></p>
     </div>
 </footer>`)
 
@@ -1027,7 +1027,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>copyright©2020 Investarget </p>
-                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备17042070号-2</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
@@ -1097,7 +1097,7 @@ $(function() {
             </div>
             <div class="fend_">
                 <p>copyright©2020 Investarget </p>
-                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备15056238号-1</a></p>
+                <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备17042070号-2</a></p>
             </div>
             <div class="to_top"></div>
         </footer>`)
