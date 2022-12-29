@@ -680,6 +680,7 @@ $(function() {
                         <li><a href="4_1.html">关于我们</a></li>
                         <li><a href="3.html">多维团队</a></li>
                         <li><a href="2_2.html">多维交易</a></li> 
+                        <li><a href="join-us.html">加入我们</a></li>     
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
@@ -788,7 +789,8 @@ $(function() {
                         <li><a href="index.html">首页</a></li>
                         <li><a href="4_1.html">关于我们</a></li>
                         <li><a href="3.html">多维团队</a></li>
-                        <li class="active"><a href="2_2.html">多维交易</a></li> 
+                        <li class="active"><a href="2_2.html">多维交易</a></li>
+                        <li><a href="join-us.html">加入我们</a></li>
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
@@ -897,7 +899,8 @@ $(function() {
                         <li><a href="index.html">首页</a></li>
                         <li><a href="4_1.html">关于我们</a></li>
                         <li class="active"><a href="3.html">多维团队</a></li>
-                        <li><a href="2_2.html">多维交易</a></li> 
+                        <li><a href="2_2.html">多维交易</a></li>
+                        <li><a href="join-us.html">加入我们</a></li>
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
@@ -936,7 +939,8 @@ $(function() {
                         <li><a href="index.html">首页</a></li>
                         <li class="active"><a href="4_1.html">关于我们</a></li>
                         <li><a href="3.html">多维团队</a></li>
-                        <li><a href="2_2.html">多维交易</a></li> 
+                        <li><a href="2_2.html">多维交易</a></li>
+                        <li><a href="join-us.html">加入我们</a></li>
                     </ul>
                     <div class="lang-switch">
                         <div class="change_box">
@@ -961,6 +965,47 @@ $(function() {
         <p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备17042070号-2</a></p>
     </div>
 </footer>`)
+
+    $('#join-us').prepend(`
+<nav>
+    <div class="head_box">
+        <div class="logo_box">
+            <a href="#"><img src="images/investarget_logo_transparent.png" class="m-logo" alt=""></a>
+        </div>
+        <div class="nav_box"></div> 
+        <div class="act_list"> 
+           
+            <ul class="list_">  
+                <li><a href="index.html">首页</a></li>
+                <li><a href="4_1.html">关于我们</a></li>
+                <li><a href="3.html">多维团队</a></li>
+                <li><a href="2_2.html">多维交易</a></li> 
+                <li class="active"><a href="4_1.html">加入我们</a></li>
+            </ul>
+            <div class="lang-switch">
+                <div class="change_box">
+                    <span class="lg En active"><a href="/mobile/4_1.html">中文</a></span>
+                    <span style="opacity: 1;">/</span>
+                    <span class="lg Cn"><a href="/mobile/en/4_1.html">EN</a></span>
+                </div>
+            </div>
+            <!-- <div class="link_box"> 
+                 <a href="https://m.investarget.com" class="login_">登 录</a>
+                 <a href="contact.html" class="about_us">联系我们 ></a>
+             </div> ->
+        </div>
+    </div>
+</nav>  `)
+
+    // 打印底部
+    // 
+    $('#join-us').append(`<footer>
+<div class="fend_">
+<p>copyright©2022 Investarget </p>
+<p><a style="color: #999;" href="http://www.beian.miit.gov.cn/">沪ICP备17042070号-2</a></p>
+</div>
+</footer>`)
+
 
         $('#layout6').prepend(`
         <nav>
