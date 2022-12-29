@@ -980,7 +980,7 @@ $(function() {
                 <li><a href="4_1.html">关于我们</a></li>
                 <li><a href="3.html">多维团队</a></li>
                 <li><a href="2_2.html">多维交易</a></li> 
-                <li class="active"><a href="4_1.html">加入我们</a></li>
+                <li class="active"><a href="join-us.html">加入我们</a></li>
             </ul>
             <div class="lang-switch">
                 <div class="change_box">
