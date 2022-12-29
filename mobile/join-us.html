@@ -23,6 +23,10 @@
             margin-bottom: 40px;
             border-radius: 4px;
             box-shadow: 0 14px 40px rgba(25, 54, 99, 0.19);
+            display: none;
+        }
+        .position-container.active {
+            display: block;
         }
         .position__title {
             font-size: 18px;
@@ -104,7 +108,7 @@
         </div>
 
         <div>
-            <div id="1" class="position-container">
+            <div id="1" class="position-container active">
                 <div class="position__title">投资经理（硬科技）</div>
                 <div class="position__degree">本科以上学历 | 正式</div>
                 <div class="position__block">
@@ -246,27 +250,40 @@
                 <div class="position__description__label" style="font-size: 18px;line-height: 28px;color: #2a2a2a;">职位导航</div>
             </div>
             <div class="title-container">
-                <a class="title__name active" href="#1">投资经理（硬科技）</a>
+                <a class="title__name active" data-id="1">投资经理（硬科技）</a>
                 <div class="title__degree">本科以上学历 | 正式</div>
             </div>
             <div class="title-container">
-                <a class="title__name" href="#2">投资经理（医疗）</a>
+                <a class="title__name" data-id="2">投资经理（医疗）</a>
                 <div class="title__degree">正式</div>
             </div>
             <div class="title-container">
-                <a class="title__name" href="#3">投资总监/副总裁（智造、科技、医疗）</a>
+                <a class="title__name" data-id="3">投资总监/副总裁（智造、科技、医疗）</a>
                 <div class="title__degree">本科以上学历 | 正式</div>
             </div>
             <div class="title-container">
-                <a style="margin-left: -8px;" class="title__name" href="#4">【多维资本｜投行实习生】择优可留用</a>
+                <a style="margin-left: -8px;" class="title__name" data-id="4">【多维资本｜投行实习生】择优可留用</a>
                 <div class="title__degree">实习</div>
             </div>
         </div>
 
 
     </div>
-    <script type="text/javascript" src="js/swiper-7.0.6.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script>
+        $(".title__name").click(function () {
+            $(".position-container").removeClass('active');
+            var targetID = $(this).data("id");
+            $(`#${targetID}`).addClass("active");
+
+            $(".title__name").removeClass('active');
+            $(this).addClass("active");
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
+        });
     </script>
 </body>
 </html>
