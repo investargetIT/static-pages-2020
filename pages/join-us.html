@@ -132,6 +132,26 @@
             color: #292929;
             word-spacing: 1px;
         }
+        .title-container {
+            margin-top: 20px;
+        }
+        a.title__name {
+            text-decoration: unset;
+            font-size: 16px;
+            line-height: 30px;
+            color: #2a2a2a;
+            word-spacing: 1px;
+        }
+        a.title__name:hover, a.title__name.active {
+            color: #193663;
+            font-weight: 500;
+        }
+        .title__degree {
+            font-size: 12px;
+            line-height: 28px;
+            color: #828282;
+            word-spacing: 1px;
+        }
     </style>
 </head>
 
@@ -178,7 +198,7 @@
 
             <div style="max-width: 1280px;margin: auto;">
                 <div style="display: flex;margin-top: 40px; margin-bottom: 90px;margin-left: 90px;margin-right: 90px;">
-                    <div style="flex: 8;margin-right: 40px;">
+                    <div style="flex: 2;margin-right: 40px;">
                         <div class="position-container">
                             <div class="position__title">投资经理（硬科技）</div>
                             <div class="position__degree">本科以上学历 | 正式</div>
@@ -209,11 +229,28 @@
                             </div>
                         </div>
                     </div>
-                    <div style="padding: 40px;flex: 3;background-color: white;">
-                        <div>职位导航</div>
-                        <div>
-                            <div>投资经理（硬科技）</div>
-                            <div>本科以上学历 | 正式</div>
+                    <div style="flex: 1;">
+                        <div style="padding: 40px;background-color: white;">
+                            <div class="position__description" style="margin-bottom: 30px;">
+                                <div class="position__description__shape"></div>
+                                <div class="position__description__label" style="font-weight: normal;">职位导航</div>
+                            </div>
+                            <div class="title-container">
+                                <a class="title__name active" href="#">投资经理（硬科技）</a>
+                                <div class="title__degree">本科以上学历 | 正式</div>
+                            </div>
+                            <div class="title-container">
+                                <a class="title__name" href="#">投资经理（医疗）</a>
+                                <div class="title__degree">正式</div>
+                            </div>
+                            <div class="title-container">
+                                <a class="title__name" href="#">投资总监/副总裁（智造、科技、医疗）</a>
+                                <div class="title__degree">本科以上学历 | 正式</div>
+                            </div>
+                            <div class="title-container">
+                                <a class="title__name" href="#">【多维资本｜投行实习生】择优可留用</a>
+                                <div class="title__degree">实习</div>
+                            </div>
                         </div>
                     </div>
                 </div>
